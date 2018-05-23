@@ -45,7 +45,9 @@ path="$output/$modfolder"
 # Delete Old Folder
 if [[ "$delete" -eq 1 ]]; then
   if [ -d "$path" ]; then
+    echo "!!!"
     echo "Deleting Old Mod Folder: '$path'"
+    echo "!!!"
     rm -rf "$path"
   fi
 fi
