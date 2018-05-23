@@ -3,6 +3,7 @@
 input="C:/Program Files (x86)/Steam/steamapps/common/Judgment/judgment_Data/output_log.txt"
 verbose=0
 do_open=0
+do_code=0
 
 function usage {
   echo "
@@ -10,16 +11,18 @@ function usage {
     -f:  Log File. Default: '{PATH_TO_STEAM}/steamapps/common/Judgment/judgment_Data/output_log.txt'
     -v:  Run Verbosely
     -o:  Open File after Copying
+    -c:  If 'o' is set, open in VSCode
     -h:  Prints this help message
     "
 }
 
-while getopts :f:ov option
+while getopts :f:ocv option
 do
  case "${option}"
  in
  f) input="$option";;
  o) do_open=1;;
+ c) do_code=1;;
  v) verbose=1;;
  *) usage; exit 0;;
  esac
@@ -45,9 +48,11 @@ if [ ! -d "$output" ]; then
   mkdir "$output"
 fi
 
-timestamp=$(date +%Y-%0m-%0d_%0H-%0M-%0S)
+filemod=$(stat -c %y "$input")
+timestamp=$(date -d "$filemod" +%Y-%0m-%0d_%0H-%0M-%0S)
 filename="output_log_$timestamp.txt"
 path="$output/$filename"
+
 print_verbose "Copying To Output File: '$path'"
 cp "$input" "$path"
 
@@ -55,6 +60,12 @@ print_verbose "---"
 echo "Copied File: '$filename'"
 
 if [[ "$do_open" -eq 1 ]]; then
+    if [[ "$do_code" -eq 1 ]]; then
+        print_verbose "Opening in VSCode..."
+        code "$path"
+        exit 0
+    fi
+    print_verbose "Opening in default application..."
     case "$OSTYPE" in
         solaris*) echo "SOLARIS" ;;
         darwin*)  open "$path" ;; 
