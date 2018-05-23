@@ -41,8 +41,10 @@ professions.entity.mtc_laborer.skills.profskill.mtc_carpenter=true
 professions.entity.mtc_laborer.skills.profskill.mtc_mason=true
 professions.entity.mtc_laborer.skills.profskill.mtc_farmer=true
 professions.entity.mtc_laborer.skills.profskill.mtc_jack=true
-# professions.entity.mtc_laborer.skills.negskill.mtc_lazy=false
-# professions.entity.mtc_laborer.skills.negskill.mtc_sloth=false
+# TODO: For Debugging Only
+professions.entity.mtc_laborer.skills.general.mtc_resilient=false
+professions.entity.mtc_laborer.skills.negskill.mtc_lazy=false
+# End Debug
 professions.entity.mtc_laborer.skilllists.mtc_combat=true
 professions.entity.mtc_laborer.skilllists.mtc_survival=true
 professions.entity.mtc_laborer.preferredtasks.build=true
