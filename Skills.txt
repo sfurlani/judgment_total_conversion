@@ -104,13 +104,13 @@ skills.entity.mtc_slow.parents=skills.base.common
 skills.entity.mtc_slow.effect.walkspeed=-0.05
 
 skills.entity.mtc_lethargic=skills.base.common
-skills.entity.mtc_lethargic.effect.energy=-0.2
+skills.entity.mtc_lethargic.effect.energy=-0.05
 
 # Uncommon
 
 skills.entity.mtc_lazy=skills.base.uncommon
-skills.entity.mtc_lazy.effect.workspeed=-0.1
-skills.entity.mtc_lazy.effect.energy=-0.2
+skills.entity.mtc_lazy.effect.workspeed=-0.05
+skills.entity.mtc_lazy.effect.energy=-0.1
 
 skills.entity.mtc_anemic.parents=skills.base.uncommon
 skills.entity.mtc_anemic.effect.walkspeed=-0.05
@@ -119,8 +119,8 @@ skills.entity.mtc_anemic.effect.nutrition=-0.2
 # Rare
 
 skills.entity.mtc_sloth=skills.base.rare
-skills.entity.mtc_sloth.effect.workspeed=-0.2
-skills.entity.mtc_sloth.effect.energy=-0.4
+skills.entity.mtc_sloth.effect.workspeed=-0.1
+skills.entity.mtc_sloth.effect.energy=-0.15
 
 # -------------------------------------------------------------------
 # LEARNED Skills
