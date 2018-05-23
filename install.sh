@@ -11,6 +11,7 @@ function usage {
      -o:   Mod folder for Judgment. Default: '{PATH_TO_STEAM}/steamapps/common/Judgment/Mods'
      -m:   Mod Folder name. Default: `MTC`
      -d:   Delete old mod folder first
+     -v:   Run Verbosely
      -h:   Prints this help message
      "
 }
