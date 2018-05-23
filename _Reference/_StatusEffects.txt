@@ -1,0 +1,65 @@
+﻿
+# --------------------------------------------------------------------------------------------------------------------
+# Ultimate skills abilities effects
+# --------------------------------------------------------------------------------------------------------------------
+
+# ----------------------------------------------------------
+# Priest
+# ----------------------------------------------------------
+
+statuseffects.entity.uesultbless1.parents=statuseffects.base.negative
+statuseffects.entity.uesultbless1.effect.defense=10.0
+
+statuseffects.entity.uesultbless2.parents=statuseffects.base.negative
+statuseffects.entity.uesultbless2.effect.evade=0.3
+statuseffects.entity.uesultbless2.effect.accuracy=0.3
+statuseffects.entity.uesultbless2.effect.defense=0.3
+statuseffects.entity.uesultbless2.effect.damage=0.3
+statuseffects.entity.uesultbless2.effect.attackspeed=0.3
+statuseffects.entity.uesultbless2.effect.walkspeed=0.3
+
+
+# ----------------------------------------------------------
+# Occultist
+# ----------------------------------------------------------
+
+statuseffects.entity.uesultspellblast1.parents=statuseffects.base.negative
+statuseffects.entity.uesultspellblast1.effect.attackspeed=-0.2
+statuseffects.entity.uesultspellblast1.effect.evade=-0.2
+statuseffects.entity.uesultspellblast1.effect.walkspeed=-0.2
+statuseffects.entity.uesultspellblast1.effect.damagereceived=0.2
+
+statuseffects.entity.uesultspellblast2.parents=statuseffects.base.negative
+statuseffects.entity.uesultspellblast2.effect.attackspeed=-0.3
+statuseffects.entity.uesultspellblast2.effect.evade=-0.3
+statuseffects.entity.uesultspellblast2.effect.walkspeed=-0.3
+statuseffects.entity.uesultspellblast2.effect.damagereceived=0.3
+
+
+# ----------------------------------------------------------
+# Survivalist
+# ----------------------------------------------------------
+
+statuseffects.entity.uesultdruid1.parents=statuseffects.base.negative
+statuseffects.entity.uesultdruid1.effect.attackspeed=-0.3
+statuseffects.entity.uesultdruid1.effect.damagereceived=0.3
+
+statuseffects.entity.uesultdruid2.parents=statuseffects.base.negative
+statuseffects.entity.uesultdruid2.effect.evade=-0.5
+statuseffects.entity.uesultdruid2.effect.attackspeed=-0.1
+statuseffects.entity.uesultdruid2.effect.walkspeed=-0.5
+
+
+# ----------------------------------------------------------
+# Defender
+# ----------------------------------------------------------
+
+statuseffects.entity.uesultjuggernaught1.parents=statuseffects.base.negative
+statuseffects.entity.uesultjuggernaught1.effect.evade=0.75
+statuseffects.entity.uesultjuggernaught1.effect.walkspeed=-0.5
+
+statuseffects.entity.uesultjuggernaught2.parents=statuseffects.base.negative
+statuseffects.entity.uesultjuggernaught2.effect.evade=0.5
+statuseffects.entity.uesultjuggernaught2.effect.defense=5.0
+statuseffects.entity.uesultjuggernaught2.effect.walkspeed=-0.85
+

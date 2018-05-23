@@ -1,0 +1,94 @@
+
+# -------------------------------------------------------------------
+# Custom Text from SF
+# -------------------------------------------------------------------
+
+# Debug Names
+
+items.sfammofire.name=Fire Bullets
+items.sfammofire.description=White Phosphorous bullets set your targets on fire
+
+items.sftestflaregun.name=Test Flares
+items.sftestflaregun.description=testing on-hit status effects with low-damage weapon
+
+items.sfgun.name=Should Never See this
+
+tags.gun.name=Gun
+
+# -------------------------------------------------------------------
+# Professions
+# -------------------------------------------------------------------
+
+professions.mtc_laborer.male=Laborer
+professions.mtc_laborer.female=Laborer
+
+# -------------------------------------------------------------------
+# Professional Skills
+# -------------------------------------------------------------------
+
+# Common
+
+skills.mtc_woodworker.name=Wood Worker
+skills.mtc_stoneworker.name=Stone Worker
+skills.mtc_farmhand.name=Farmhand
+
+# Uncommon
+
+skills.mtc_carpenter.name=Carpenter
+skills.mtc_mason.name=Mason
+skills.mtc_farmer.name=Farmer
+
+# Rare
+
+skills.mtc_jack.name=Jack of all Trades
+
+# -------------------------------------------------------------------
+# Generic Skills
+# -------------------------------------------------------------------
+
+# Common
+
+skills.mtc_energetic.name=Energetic
+skills.mtc_resilient.name=Resilient
+
+# Uncommon
+
+skills.mtc_motivated.name=Motivated
+skills.mtc_tough.name=Tough as Nails
+
+# Rare
+
+skills.mtc_hardworker.name=Hard Worker
+skills.mtc_diehard.name=Die Hard
+
+# -------------------------------------------------------------------
+# Negative Skills
+# -------------------------------------------------------------------
+
+# Common
+
+skills.mtc_lethargic.name=Lethargic
+skills.mtc_slow.name=Slow
+
+# Uncommon
+
+skills.mtc_lazy.name=Lazy
+skills.mtc_anemic.name=Anemic
+
+# Rare
+
+skills.mtc_sloth.name=Sloth
+
+# -------------------------------------------------------------------
+# Skill Lists
+# -------------------------------------------------------------------
+
+skills.mtc_survival1.name=Survival I
+skills.mtc_survival2.name=Survival II
+skills.mtc_survival3.name=Survival III
+skills.mtc_survival4.name=Survival IV
+
+skills.mtc_combat1.name=Combat I
+skills.mtc_combat2.name=Combat II
+skills.mtc_combat3.name=Combat III
+skills.mtc_combat4.name=Combat IV

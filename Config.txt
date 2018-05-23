@@ -1,0 +1,120 @@
+# Starting survivors
+config.startsurvivors=6
+config.maxsurvivorsinmission=7
+config.presetsurvivorchance=0.1
+
+#Max survivors
+config.maxsurvivors=40
+
+# Silly Config Items
+
+# Ladies Only
+config.survivors.chances.female1=100 
+config.survivors.chances.male1=1
+
+# Why everything so hard
+survivors.config.hungerrate=0.1
+survivors.config.energydrain=0.075
+survivors.config.drinkrate=0.003
+survivors.config.thirstydamage=0.44
+survivors.config.hungrydamage=0.28
+survivors.config.energypersecondsleep=3
+
+# Larger base sizes may have major performance issues
+# Larger world map sizes may take longer to start a new game, and open/close world map (specially the first time after loading a game)
+config.regionsize.base.x=60
+config.regionsize.base.y=60
+
+# Add more levels for survivors
+
+# config.skilllevelcost.0=100	# +100
+# config.skilllevelcost.1=300	# +200
+# config.skilllevelcost.2=600	# +300
+# config.skilllevelcost.3=1000	# +400
+# config.skilllevelcost.4=1500	# +500
+# config.skilllevelcost.5=2000	# +500
+# config.skilllevelcost.6=2500	# +500
+# config.skilllevelcost.7=3000	# +500
+# config.skilllevelcost.8=3500	# +500
+# config.skilllevelcost.9=4500	# +500
+
+# +100 more than previous difference per level
+config.skilllevelcost.10=5100
+config.skilllevelcost.11=5800
+config.skilllevelcost.12=6600
+config.skilllevelcost.13=7500
+config.skilllevelcost.14=8500
+# 14 : +1000
+config.skilllevelcost.15=9600
+config.skilllevelcost.16=10800
+config.skilllevelcost.17=12100
+config.skilllevelcost.18=13500
+config.skilllevelcost.19=15000
+# 19 : +1500
+# config.skilllevelcost.20=16600
+# config.skilllevelcost.21=18300
+# config.skilllevelcost.22=20100
+# config.skilllevelcost.23=22000
+# config.skilllevelcost.24=24000
+# 24 : +2000
+# config.skilllevelcost.25=26100
+# config.skilllevelcost.26=28300
+# config.skilllevelcost.27=30600
+# config.skilllevelcost.28=33000
+# config.skilllevelcost.29=35500
+# 29 : +2500
+# config.skilllevelcost.30=38100
+# config.skilllevelcost.31=40700
+# config.skilllevelcost.32=43400
+# config.skilllevelcost.33=46200
+# config.skilllevelcost.34=49100
+# 34 : +3000
+# config.skilllevelcost.35=52100
+# config.skilllevelcost.36=55200
+# config.skilllevelcost.37=58400
+# config.skilllevelcost.38=61700
+# config.skilllevelcost.39=65100
+# 39 : +3500
+# config.skilllevelcost.40=68600
+
+
+# config.skillpointsperlevel.0=1
+# config.skillpointsperlevel.5=2
+# config.skillpointsperlevel.6=1
+# config.skillpointsperlevel.10=2
+
+# Every 5th level grants 2 skill points
+# config.skillpointsperlevel.11=1
+# config.skillpointsperlevel.15=2
+# config.skillpointsperlevel.16=1
+# config.skillpointsperlevel.20=2
+# config.skillpointsperlevel.21=1
+# config.skillpointsperlevel.25=2
+# config.skillpointsperlevel.26=1
+# config.skillpointsperlevel.30=2
+# config.skillpointsperlevel.40=4
+
+# Two Skill points per level
+
+config.skillpointsperlevel.0=2
+config.skillpointsperlevel.1=2
+config.skillpointsperlevel.2=2
+config.skillpointsperlevel.3=2
+config.skillpointsperlevel.4=2
+config.skillpointsperlevel.5=2
+config.skillpointsperlevel.6=2
+config.skillpointsperlevel.7=2
+config.skillpointsperlevel.8=2
+config.skillpointsperlevel.9=2
+config.skillpointsperlevel.10=2
+config.skillpointsperlevel.11=2
+config.skillpointsperlevel.12=2
+config.skillpointsperlevel.13=2
+config.skillpointsperlevel.14=2
+config.skillpointsperlevel.15=2
+config.skillpointsperlevel.16=2
+config.skillpointsperlevel.17=2
+config.skillpointsperlevel.18=2
+config.skillpointsperlevel.19=2
+config.skillpointsperlevel.20=2
+

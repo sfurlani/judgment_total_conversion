@@ -1,0 +1,311 @@
+Initialize engine version: 5.3.7f1 (c347874230fb)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6061 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\Vectrosity.dll (this message is harmless)
+Loading C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\Vectrosity.dll into Unity Child Domain
+- Completed reload, in  0.070 seconds
+Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Program Files (x86)\Steam\steamapps\common\Judgment\judgment_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 0.935163 ms
+[Steamworks.NET] SteamAPI_Init() failed. Refer to Valve's documentation or the comment above this line for more information.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.432565 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1037.
+Total: 0.262316 ms (FindLiveObjects: 0.051316 ms CreateObjectMapping: 0.071540 ms MarkObjects: 0.120140 ms  DeleteObjects: 0.006640 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.435282 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1046.
+Total: 0.243903 ms (FindLiveObjects: 0.021733 ms CreateObjectMapping: 0.030186 ms MarkObjects: 0.134327 ms  DeleteObjects: 0.057051 ms)
+
+[AVProVideo] Initialising AVPro Video (script v1.7.5 plugin v1.7.5) on NVIDIA GeForce GTX 1060 6GB/Direct3D 11.0 [level 11.0] (MT True) on WindowsPlayer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Searching for subtitles for video SuncrashLogo language 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+No mod config file found: C:\Program Files (x86)\Steam\steamapps\common\Judgment\Mods\Aliens
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Found local mod: "Maethalion's Total Conversion" with uid 0. Enabled: True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+No mod config file found: C:\Program Files (x86)\Steam\steamapps\common\Judgment\Mods\OriginalConfigs
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Steam not initialized. No workshop mods.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Searching for subtitles for video SuncrashLogo language 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+[AVProVideo] Opening C:/Program Files (x86)/Steam/steamapps/common/Judgment/judgment_Data/StreamingAssets\SuncrashLogo.mp4 (offset 0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+[AVProVideo] Using playback path: MF-MediaEngine-Hardware (1920x1080@30.00)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 16.085529 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1048.
+Total: 0.278315 ms (FindLiveObjects: 0.049505 ms CreateObjectMapping: 0.043166 ms MarkObjects: 0.178097 ms  DeleteObjects: 0.006942 ms)
+
+Searching for subtitles for video JudgmentLogo language 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Searching for subtitles for video JudgmentLogo language 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+[AVProVideo] Opening C:/Program Files (x86)/Steam/steamapps/common/Judgment/judgment_Data/StreamingAssets\JudgmentLogo.mp4 (offset 0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+[AVProVideo] Using playback path: MF-MediaEngine-Hardware (1920x1080@30.00)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.472424 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1010.
+Total: 0.327216 ms (FindLiveObjects: 0.045580 ms CreateObjectMapping: 0.043467 ms MarkObjects: 0.218546 ms  DeleteObjects: 0.019017 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1010.
+Total: 0.256581 ms (FindLiveObjects: 0.060372 ms CreateObjectMapping: 0.042562 ms MarkObjects: 0.151835 ms  DeleteObjects: 0.001509 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.441319 ms
+Initializing Google Analytics 0.1.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+mod file found: C:\Program Files (x86)\Steam\steamapps\common\Judgment\Mods\MinorExpansion\Config.txt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Active mod file found: Config
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Modded File: Config
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Achievements disabled due to modded file: Config
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+mod file found: C:\Program Files (x86)\Steam\steamapps\common\Judgment\Mods\MinorExpansion\Texts.txt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Active mod file found: Texts
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Modded File: Texts
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+mod file found: C:\Program Files (x86)\Steam\steamapps\common\Judgment\Mods\MinorExpansion\Texts.txt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+mod file found: C:\Program Files (x86)\Steam\steamapps\common\Judgment\Mods\MinorExpansion\Items.txt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Active mod file found: Items
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Modded File: Items
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+mod file found: C:\Program Files (x86)\Steam\steamapps\common\Judgment\Mods\MinorExpansion\Objects.txt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Active mod file found: Objects
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Modded File: Objects
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+mod file found: C:\Program Files (x86)\Steam\steamapps\common\Judgment\Mods\MinorExpansion\Config.txt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+D:/Users/Stephen Furlani/AppData/LocalLow/Suncrash/Judgment
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Current Resolution: 2560x1440
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Setting resolution to 2560x1440; fullscreen: True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 6228.
+Total: 12.409174 ms (FindLiveObjects: 0.206472 ms CreateObjectMapping: 0.188662 ms MarkObjects: 11.970872 ms  DeleteObjects: 0.041656 ms)
+
+Setting wason to True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+mod file found: C:\Program Files (x86)\Steam\steamapps\common\Judgment\Mods\MinorExpansion\Professions.txt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Active mod file found: Professions
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Modded File: Professions
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+mod file found: C:\Program Files (x86)\Steam\steamapps\common\Judgment\Mods\MinorExpansion\Skills.txt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Active mod file found: Skills
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Modded File: Skills
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Selecting 1 skills of type profskill for profession mtc_laborer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+No chances. Options count: 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: source
+  at System.Linq.Check.SourceAndPredicate (System.Object source, System.Object predicate) [0x00000] in <filename unknown>:0 
+  at System.Linq.Enumerable.Where[String] (IEnumerable`1 source, System.Func`2 predicate) [0x00000] in <filename unknown>:0 
+  at SurvivorGenerator.GetSkillsFromDict (System.Collections.Generic.HashSet`1 selectedSkills, IEnumerable`1 possibleSkills, Int32 count, System.Collections.Generic.Dictionary`2 cancelling, System.Collections.Generic.HashSet`1 cancelled) [0x00000] in <filename unknown>:0 
+  at SurvivorGenerator.GetRandomSkills (.ProfessionType profession) [0x00000] in <filename unknown>:0 
+  at SurvivorGenerator.CreateRegularSurvivorInternal (Vector3 worldPosition, System.String typeId, Boolean setPriorities) [0x00000] in <filename unknown>:0 
+  at SurvivorGenerator.CreateSurvivorsInternal (Int32 count) [0x00000] in <filename unknown>:0 
+  at SurvivorGenerator.CreateStartingSurvivors () [0x00000] in <filename unknown>:0 
+  at SurvivorCreationPanelScript.RandomizeSurvivors () [0x00000] in <filename unknown>:0 
+  at SurvivorCreationPanelScript.Initialize (System.Action`1 startCallback) [0x00000] in <filename unknown>:0 
+  at NewGamePanelScript+<Initialize>c__AnonStorey82.<>m__C8 () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+Selecting 1 skills of type profskill for profession mtc_laborer
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+No chances. Options count: 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+ArgumentNullException: Argument cannot be null.
+Parameter name: source
+  at System.Linq.Check.SourceAndPredicate (System.Object source, System.Object predicate) [0x00000] in <filename unknown>:0 
+  at System.Linq.Enumerable.Where[String] (IEnumerable`1 source, System.Func`2 predicate) [0x00000] in <filename unknown>:0 
+  at SurvivorGenerator.GetSkillsFromDict (System.Collections.Generic.HashSet`1 selectedSkills, IEnumerable`1 possibleSkills, Int32 count, System.Collections.Generic.Dictionary`2 cancelling, System.Collections.Generic.HashSet`1 cancelled) [0x00000] in <filename unknown>:0 
+  at SurvivorGenerator.GetRandomSkills (.ProfessionType profession) [0x00000] in <filename unknown>:0 
+  at SurvivorGenerator.CreateRegularSurvivorInternal (Vector3 worldPosition, System.String typeId, Boolean setPriorities) [0x00000] in <filename unknown>:0 
+  at SurvivorGenerator.CreateSurvivorsInternal (Int32 count) [0x00000] in <filename unknown>:0 
+  at SurvivorGenerator.CreateStartingSurvivors () [0x00000] in <filename unknown>:0 
+  at SurvivorCreationPanelScript.RandomizeSurvivors () [0x00000] in <filename unknown>:0 
+  at SurvivorCreationPanelScript.Initialize (System.Action`1 startCallback) [0x00000] in <filename unknown>:0 
+  at NewGamePanelScript+<Initialize>c__AnonStorey82.<>m__C8 () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: b74 -> priority: 1 

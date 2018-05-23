@@ -1,0 +1,152 @@
+
+# --------------------------------------------------------------------------------------------------------------------
+# Ultimate skills abilities
+# --------------------------------------------------------------------------------------------------------------------
+
+# ----------------------------------------------------------
+# Priest
+# ----------------------------------------------------------
+
+abilities.entity.uesultbless1.parents=abilities.base.skillability
+abilities.entity.uesultbless1.targetmode=Ally
+abilities.entity.uesultbless1.sprite=ability_bless
+abilities.entity.uesultbless1.performtime=0.1
+abilities.entity.uesultbless1.performanimation=Handling
+abilities.entity.uesultbless1.properties.range=200
+abilities.entity.uesultbless1.properties.healamount=1
+abilities.entity.uesultbless1.effect.uesultbless1=5
+abilities.entity.uesultbless1.effectprefabs=EffectBoostSpellPrefab
+abilities.entity.uesultbless1.effectsounds=attack_protection
+abilities.entity.uesultbless1.affects=allies
+
+abilities.entity.uesultbless2.parents=abilities.base.skillability
+abilities.entity.uesultbless2.targetmode=Ally
+abilities.entity.uesultbless2.sprite=ability_bless
+abilities.entity.uesultbless2.performtime=0.1
+abilities.entity.uesultbless2.performanimation=Handling
+abilities.entity.uesultbless2.properties.range=200
+abilities.entity.uesultbless2.properties.aoe=8
+abilities.entity.uesultbless2.effect.uesultbless2=60
+abilities.entity.uesultbless2.effectprefabs=EffectBoostSpellPrefab
+abilities.entity.uesultbless2.effectsounds=attack_protection
+abilities.entity.uesultbless2.affects=allies
+
+
+# ----------------------------------------------------------
+# Occultist
+# ----------------------------------------------------------
+
+abilities.entity.uesultspellblast1.parents=abilities.base.skillability
+abilities.entity.uesultspellblast1.name=abilities.uesultspellblast1.name
+abilities.entity.uesultspellblast1.class=GrenadeAbility
+abilities.entity.uesultspellblast1.sprite=ability_hexscroll
+abilities.entity.uesultspellblast1.targetmode=Tile
+abilities.entity.uesultspellblast1.performtime=0.1
+abilities.entity.uesultspellblast1.performanimation=Handling
+abilities.entity.uesultspellblast1.properties.range=200
+abilities.entity.uesultspellblast1.properties.aoe=2
+abilities.entity.uesultspellblast1.properties.damage=30
+abilities.entity.uesultspellblast1.effectprefabs=EffectHexProjectilePrefab,ElementalBombExplosionPrefab
+abilities.entity.uesultspellblast1.effectsounds=attack_voodoo
+abilities.entity.uesultspellblast1.effect.uesultspellblast1=60
+abilities.entity.uesultspellblast1.affects=enemies
+
+abilities.entity.uesultspellblast2.parents=abilities.base.skillability
+abilities.entity.uesultspellblast2.name=abilities.uesultspellblast2.name
+abilities.entity.uesultspellblast2.class=GrenadeAbility
+abilities.entity.uesultspellblast2.sprite=ability_hexscroll
+abilities.entity.uesultspellblast2.targetmode=Tile
+abilities.entity.uesultspellblast2.performtime=0.1
+abilities.entity.uesultspellblast2.performanimation=Handling
+abilities.entity.uesultspellblast2.properties.range=200
+abilities.entity.uesultspellblast2.properties.aoe=4
+abilities.entity.uesultspellblast2.properties.damage=150
+abilities.entity.uesultspellblast2.effectprefabs=EffectHexProjectilePrefab,ElementalBombExplosionPrefab
+abilities.entity.uesultspellblast2.effectsounds=attack_voodoo
+abilities.entity.uesultspellblast2.effect.uesultspellblast2=60
+abilities.entity.uesultspellblast2.affects=enemies
+
+
+# ----------------------------------------------------------
+# Gather
+# ----------------------------------------------------------
+
+abilities.entity.uesultdruid1.parents=abilities.base.skillability
+abilities.entity.uesultdruid1.name=abilities.uesultdruid1.name
+abilities.entity.uesultdruid1.class=GrenadeAbility
+abilities.entity.uesultdruid1.sprite=ability_weakeningrune
+abilities.entity.uesultdruid1.targetmode=Tile
+abilities.entity.uesultdruid1.performtime=0.1
+abilities.entity.uesultdruid1.performanimation=Handling
+abilities.entity.uesultdruid1.properties.range=200
+abilities.entity.uesultdruid1.properties.aoe=1
+abilities.entity.uesultdruid1.effectprefabs=EffectHexProjectilePrefab,ElementalBombExplosionPrefab
+abilities.entity.uesultdruid1.effectsounds=attack_voodoo
+abilities.entity.uesultdruid1.effect.uesultdruid1=30
+abilities.entity.uesultdruid1.affects=enemies
+
+# ----------------------------------------------------------
+# Farming
+# ----------------------------------------------------------
+
+abilities.entity.uesultdruid2.parents=abilities.base.skillability
+abilities.entity.uesultdruid2.name=abilities.uesultdruid2.name
+abilities.entity.uesultdruid2.class=GrenadeAbility
+abilities.entity.uesultdruid2.sprite=ability_entangle
+abilities.entity.uesultdruid2.targetmode=Tile
+abilities.entity.uesultdruid2.performtime=0.1
+abilities.entity.uesultdruid2.performanimation=Handling
+abilities.entity.uesultdruid2.properties.range=200
+abilities.entity.uesultdruid2.properties.aoe=4
+abilities.entity.uesultdruid2.properties.damage=10
+abilities.entity.uesultdruid2.effectprefabs=EffectHexProjectilePrefab,ElementalBombExplosionPrefab
+abilities.entity.uesultdruid2.effectsounds=attack_voodoo
+abilities.entity.uesultdruid2.effect.uesultdruid2=60
+abilities.entity.uesultdruid2.affects=enemies
+
+
+# ----------------------------------------------------------
+# Fighter
+# ----------------------------------------------------------
+
+abilities.entity.uesultexecutioner1.parents=abilities.base.weapongrenade
+abilities.entity.uesultexecutioner1.name=abilities.uesultexecutioner1.name
+abilities.entity.uesultexecutioner1.performtime=0.1
+abilities.entity.uesultexecutioner1.properties.range=9
+abilities.entity.uesultexecutioner1.properties.aoe=3
+abilities.entity.uesultexecutioner1.properties.damage=50
+
+abilities.entity.uesultexecutioner2.parents=abilities.base.snipe
+abilities.entity.uesultexecutioner2.name=abilities.uesultexecutioner2.name
+abilities.entity.uesultexecutioner2.performtime=0.1
+abilities.entity.uesultexecutioner2.properties.range=200
+abilities.entity.uesultexecutioner2.properties.damage=250
+
+
+# ----------------------------------------------------------
+# Defender
+# ----------------------------------------------------------
+
+abilities.entity.uesultjuggernaught1.parents=abilities.base.skillability
+abilities.entity.uesultjuggernaught1.class=SingleTargetAbility
+abilities.entity.uesultjuggernaught1.sprite=ability_protectionspell
+abilities.entity.uesultjuggernaught1.targetmode=Self
+abilities.entity.uesultjuggernaught1.properties.healamount=0.35
+abilities.entity.uesultjuggernaught1.performtime=0.1
+abilities.entity.uesultjuggernaught1.performanimation=Handling
+abilities.entity.uesultjuggernaught1.effect.uesultjuggernaught1=10
+abilities.entity.uesultjuggernaught1.effectprefabs=EffectBoostSpellPrefab
+abilities.entity.uesultjuggernaught1.effectsounds=attack_protection
+
+abilities.entity.uesultjuggernaught2.parents=abilities.base.skillability
+abilities.entity.uesultjuggernaught2.class=SingleTargetAbility
+abilities.entity.uesultjuggernaught2.sprite=ability_protectionspell
+abilities.entity.uesultjuggernaught2.targetmode=Self
+abilities.entity.uesultjuggernaught2.properties.healamount=1.0
+abilities.entity.uesultjuggernaught2.performtime=0.1
+abilities.entity.uesultjuggernaught2.performanimation=Handling
+abilities.entity.uesultjuggernaught2.effect.uesultjuggernaught2=20
+abilities.entity.uesultjuggernaught2.effectprefabs=EffectBoostSpellPrefab
+abilities.entity.uesultjuggernaught2.effectsounds=attack_protection
+
+

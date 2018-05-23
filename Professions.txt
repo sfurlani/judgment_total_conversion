@@ -1,0 +1,74 @@
+# BLAST 'EM
+
+professions.base.common.skills.general=~null~
+professions.base.common.skills.negskill=~null~
+professions.entity=~null~
+
+# -------------------------------------------------------------------
+# General
+# -------------------------------------------------------------------
+
+professions.base.common.skills.general.mtc_energetic=true
+professions.base.common.skills.general.mtc_motivated=true
+professions.base.common.skills.general.mtc_hardworker=true
+professions.base.common.skills.general.mtc_resilient=true 
+professions.base.common.skills.general.mtc_tough=true 
+professions.base.common.skills.general.mtc_diehard=true
+
+# -------------------------------------------------------------------
+# Negative
+# -------------------------------------------------------------------
+
+professions.base.common.skills.negskill.mtc_lethargic=true
+professions.base.common.skills.negskill.mtc_lazy=true
+professions.base.common.skills.negskill.mtc_sloth=true
+professions.base.common.skills.negskill.mtc_slow=true 
+professions.base.common.skills.negskill.mtc_anemic=true
+
+# -------------------------------------------------------------------
+# Professional
+# -------------------------------------------------------------------
+
+# Laborer
+# Combat, Survival, Farm, *Mine, *Quarry, Crafting, Gather, Construction
+
+professions.entity.mtc_laborer.parents=professions.base.common
+professions.entity.mtc_laborer.generatechance=1
+professions.entity.mtc_laborer.skills.profskill.mtc_woodworker=true
+professions.entity.mtc_laborer.skills.profskill.mtc_stoneworker=true
+professions.entity.mtc_laborer.skills.profskill.mtc_farmhand=true
+professions.entity.mtc_laborer.skills.profskill.mtc_carpenter=true
+professions.entity.mtc_laborer.skills.profskill.mtc_mason=true
+professions.entity.mtc_laborer.skills.profskill.mtc_farmer=true
+professions.entity.mtc_laborer.skills.profskill.mtc_jack=true
+# professions.entity.mtc_laborer.skills.negskill.mtc_lazy=false
+# professions.entity.mtc_laborer.skills.negskill.mtc_sloth=false
+professions.entity.mtc_laborer.skilllists.mtc_combat=true
+professions.entity.mtc_laborer.skilllists.mtc_survival=true
+professions.entity.mtc_laborer.preferredtasks.build=true
+professions.entity.mtc_laborer.preferredtasks.chop=true
+professions.entity.mtc_laborer.preferredtasks.agri=true
+professions.entity.mtc_laborer.preferredtasks.quarry=true
+professions.entity.mtc_laborer.preferredtasks.mine=true
+professions.entity.mtc_laborer.preferredtasks.craft=true
+
+# Academic
+# Combat, Survival, *Research, Crafting, Farm, Medicine
+
+# Priest
+# Combat, Survival, *Devotion, Rituals, OccultResearch, Construction
+
+# Occultist
+# Combat, Survival, *Damnation, Rituals, OccultResearch, Gather
+
+# Survivalist
+# Combat, Survival, Gather, Crafting, Farm, *Patrol
+
+# Scout
+# Combat, Survival, Gather, Crafting, *Scout, Marksman
+
+# Defender
+# Combat, Survival, Assault, Melee, *Defense, Medicine
+
+# Fighter
+# Combat, Survival, Assault, Melee, Marksman, *Tactics

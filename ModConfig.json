@@ -1,0 +1,15 @@
+{
+	title: "Maethalion's Total Conversion",
+	desc: "This is a TOTAL CONVERSION MOD and will likely BREAK all other mods.  
+	
+!!!YE BE WARNED!!!
+	
+This mod completely replaces all existing skills, items, enemies, buildings, etc.
+
+The goal is to create smoother tech trees and more sensible weapons in a post-apocalyptic world.
+	",
+	visibility: "0",
+	id: "1234567890",
+	creator: "Maethalion",
+	tags: "converstion,configuration,colony,survivors,cheat"
+}
