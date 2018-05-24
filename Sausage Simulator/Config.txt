@@ -1,0 +1,5 @@
+
+# Dudes Only
+
+config.survivors.chances.female1=1 
+config.survivors.chances.male1=1000

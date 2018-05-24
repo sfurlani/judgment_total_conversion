@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "MinorExpansion"
+		}
+	],
+	"settings": {
+		"files.watcherExclude": {
+			"**/ModConfig.json": true
+		},
+		"javascript.validate.enable": false,
+		"json.format.enable": false
+	}
+}
