@@ -8,10 +8,6 @@ config.maxsurvivors=40
 
 # Silly Config Items
 
-# Ladies Only
-config.survivors.chances.female1=100 
-config.survivors.chances.male1=1
-
 # Why everything so hard
 survivors.config.hungerrate=0.1
 survivors.config.energydrain=0.075
