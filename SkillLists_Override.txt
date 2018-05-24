@@ -1,6 +1,3 @@
-# BLAST EM
-
-skilllist.entity=~null~
 
 # Work
 # Survival, Farm, Gather, Construction, Mine, Quarry, Crafting, Rituals, OccultResearch, Research
