@@ -1,0 +1,155 @@
+skills.startingskills.profskill=1
+skills.startingskills.negskill=0
+skills.startingskills.general=1
+
+skills.categories.common=55
+skills.categories.uncommon=30
+skills.categories.rare=15
+
+skills.base.common.category=common
+skills.base.uncommon.category=uncommon
+skills.base.rare.category=rare
+
+# -------------------------------------------------------------------
+# Remove old starting Skills with \.parents=(?:.+[\n\r])+ --> =~null~ ???
+# NAH
+# BLAST `EM
+# -------------------------------------------------------------------
+
+sills.entity=~null~
+
+# -------------------------------------------------------------------
+# Professional Skills
+# -------------------------------------------------------------------
+
+# Common
+
+skills.entity.mtc_woodworker=skills.base.common
+skills.entity.mtc_woodworker.effect.actiongroup_chop=0.25
+skills.entity.mtc_woodworker.effect.actiongroup_build=0.25
+
+skills.entity.mtc_stoneworker=skills.base.common
+skills.entity.mtc_stoneworker.effect.actiongroup_quarry=0.25
+skills.entity.mtc_stoneworker.effect.actiongroup_build=0.25
+
+skills.entity.mtc_farmhand=skills.base.common
+skills.entity.mtc_farmhand.effect.actiongroup_agri=0.25
+skills.entity.mtc_farmhand.effect.actiongroup_gatherwater=0.5
+
+# Uncommon
+
+skills.entity.mtc_carpenter=skills.base.uncommon
+skills.entity.mtc_carpenter.effect.actiongroup_chop=0.5
+skills.entity.mtc_carpenter.effect.actiongroup_build=0.5
+skills.entity.mtc_carpenter.unlocks.equip.toolweapon=true
+
+skills.entity.mtc_mason=skills.base.uncommon
+skills.entity.mtc_mason.effect.actiongroup_quarry=0.5
+skills.entity.mtc_mason.effect.actiongroup_build=0.5
+skills.entity.mtc_mason.unlocks.equip.toolweapon=true
+
+skills.entity.mtc_farmer=skills.base.uncommon
+skills.entity.mtc_farmer.effect.actiongroup_agri=0.5
+skills.entity.mtc_farmer.effect.actiongroup_gatherwater=1.0
+skills.entity.mtc_farmer.unlocks.equip.toolweapon=true
+
+# Rare
+
+skills.entity.mtc_jack=skills.base.rare
+skills.entity.mtc_jack.effect.workspeed=0.25
+skills.entity.mtc_jack.unlocks.equip.toolweapon=true
+skills.entity.mtc_jack.unlocks.equip.techweapon=true
+
+
+
+# -------------------------------------------------------------------
+# General Skills
+# -------------------------------------------------------------------
+
+# Common
+
+skills.entity.mtc_energetic=skills.base.common
+skills.entity.mtc_energetic.effect.energy=0.25
+
+skills.entity.mtc_resilient=skills.base.common
+skills.entity.mtc_resilient.effect.health=0.25
+
+# Uncommon
+
+skills.entity.mtc_motivated=skills.base.uncommon
+skills.entity.mtc_motivated.effect.workspeed=0.1
+skills.entity.mtc_motivated.effect.energy=0.25
+
+skills.entity.mtc_tough=skills.base.uncommon
+skills.entity.mtc_tough.effect.health=0.25
+skills.entity.mtc_tough.effect.defense=0.25
+
+# Rare
+
+skills.entity.mtc_hardworker=skills.base.rare
+skills.entity.mtc_hardworker.effect.workspeed=0.25
+skills.entity.mtc_hardworker.effect.energy=0.5
+
+skills.entity.mtc_diehard=skills.base.rare
+skills.entity.mtc_diehard.effect.health=0.5
+skills.entity.mtc_diehard.effect.defense=0.25
+
+# -------------------------------------------------------------------
+# Negative Skills
+# -------------------------------------------------------------------
+
+# Common
+
+skills.entity.mtc_slow.parents=skills.base.common
+skills.entity.mtc_slow.effect.walkspeed=-0.05
+
+skills.entity.mtc_lethargic=skills.base.common
+skills.entity.mtc_lethargic.effect.energy=-0.05
+
+# Uncommon
+
+skills.entity.mtc_lazy=skills.base.uncommon
+skills.entity.mtc_lazy.effect.workspeed=-0.05
+skills.entity.mtc_lazy.effect.energy=-0.1
+
+skills.entity.mtc_anemic.parents=skills.base.uncommon
+skills.entity.mtc_anemic.effect.walkspeed=-0.05
+skills.entity.mtc_anemic.effect.nutrition=-0.2
+
+# Rare
+
+skills.entity.mtc_sloth=skills.base.rare
+skills.entity.mtc_sloth.effect.workspeed=-0.1
+skills.entity.mtc_sloth.effect.energy=-0.15
+
+# -------------------------------------------------------------------
+# LEARNED Skills
+# -------------------------------------------------------------------
+
+# Combat
+
+skills.entity.mtc_combat1.effect.accuracy=0.05
+skills.entity.mtc_combat1.effect.damage=0.05
+skills.entity.mtc_combat1.effect.evade=0.05
+
+skills.entity.mtc_combat2.effect.accuracy=0.05
+skills.entity.mtc_combat2.effect.damage=0.05
+skills.entity.mtc_combat2.effect.evade=0.05
+
+skills.entity.mtc_combat3.effect.accuracy=0.05
+skills.entity.mtc_combat3.effect.damage=0.05
+skills.entity.mtc_combat3.effect.evade=0.05
+
+skills.entity.mtc_combat4.effect.accuracy=0.1
+skills.entity.mtc_combat4.effect.damage=0.1
+skills.entity.mtc_combat4.effect.evade=0.1
+
+# Survival
+
+skills.entity.mtc_survival1.effect.workspeed=0.05
+
+skills.entity.mtc_survival2.effect.workspeed=0.05
+
+skills.entity.mtc_survival3.effect.workspeed=0.05
+
+skills.entity.mtc_survival4.effect.workspeed=0.1
