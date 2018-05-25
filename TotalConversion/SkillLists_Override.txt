@@ -1,9 +1,10 @@
-# BLAST EM
 
-skilllist.entity=~null~
-
+# -------------------------------------------------------------------
 # Work
 # Survival, Farm, Gather, Construction, Mine, Quarry, Crafting, Rituals, OccultResearch, Research
+# -------------------------------------------------------------------
+
+# Survival
 
 skilllist.entity.mtc_survival.parents=skilllist.base.work
 skilllist.entity.mtc_survival.ranks.1.survival1=1
@@ -11,27 +12,30 @@ skilllist.entity.mtc_survival.ranks.2.survival2=1
 skilllist.entity.mtc_survival.ranks.3.survival3=1
 skilllist.entity.mtc_survival.ranks.4.survival4=1
 
-# skilllist.entity.mtc_gather.parents=skilllist.base.work
-
 # skilllist.entity.mtc_mine.parents=skilllist.base.work
 
 # skilllist.entity.mtc_quarry.parents=skilllist.base.work
 
-# skilllist.entity.mtc_build.parents=skilllist.base.work
+# skilllist.entity.mtc_farming.parents=skilllist.base.work
+
+# skilllist.entity.mtc_gather.parents=skilllist.base.work
 
 # skilllist.entity.mtc_craft.parents=skilllist.base.work
 
-# skilllist.entity.mtc_farming.parents=skilllist.base.work
+# skilllist.entity.mtc_build.parents=skilllist.base.work
 
 # skilllist.entity.mtc_research.parents=skilllist.base.work
 
-# skilllist.entity.mtc_occultresearch.parents=skilllist.base.work
+# skilllist.entity.mtc_occult.parents=skilllist.base.work
 
 # skilllist.entity.mtc_rituals.parents=skilllist.base.work
 
-
+# -------------------------------------------------------------------
 # Combat
 # Combat, Defense, Medicine, Scout, Patrol, Damnation, Devotion, Tactics
+# -------------------------------------------------------------------
+
+# Combat
 
 skilllist.entity.mtc_combat.parents=skilllist.base.combat
 skilllist.entity.mtc_combat.ranks.1.combat1=1
@@ -39,5 +43,7 @@ skilllist.entity.mtc_combat.ranks.2.combat2=1
 skilllist.entity.mtc_combat.ranks.3.combat3=1
 skilllist.entity.mtc_combat.ranks.4.combat4=1
 
+# -------------------------------------------------------------------
 # Weapon
 # Melee, Assault, Marksman, Tools, Tech, Dark, Holy
+# -------------------------------------------------------------------

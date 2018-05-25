@@ -2,21 +2,13 @@ skills.startingskills.profskill=1
 skills.startingskills.negskill=0
 skills.startingskills.general=1
 
-skills.categories.common=55
+skills.categories.common=60
 skills.categories.uncommon=30
-skills.categories.rare=15
+skills.categories.rare=10
 
 skills.base.common.category=common
 skills.base.uncommon.category=uncommon
 skills.base.rare.category=rare
-
-# -------------------------------------------------------------------
-# Remove old starting Skills with \.parents=(?:.+[\n\r])+ --> =~null~ ???
-# NAH
-# BLAST `EM
-# -------------------------------------------------------------------
-
-sills.entity=~null~
 
 # -------------------------------------------------------------------
 # Professional Skills
@@ -123,10 +115,97 @@ skills.entity.mtc_sloth.effect.workspeed=-0.1
 skills.entity.mtc_sloth.effect.energy=-0.15
 
 # -------------------------------------------------------------------
-# LEARNED Skills
+# Work SkillsLists
+# Survival, Farm, Gather, Construction, Mine, Quarry, Crafting, Rituals, OccultResearch, Research
 # -------------------------------------------------------------------
 
-# Combat
+# Survival (Common to all)
+
+skills.entity.mtc_survival1.effect.workspeed=0.05
+skills.entity.mtc_survival2.effect.workspeed=0.05
+skills.entity.mtc_survival3.effect.workspeed=0.05
+skills.entity.mtc_survival4.effect.workspeed=0.1
+
+# Mine
+
+skills.entity.mtc_mine1.effect.actiongroup_mine=0.2
+skills.entity.mtc_mine2.effect.actiongroup_mine=0.4
+skills.entity.mtc_mine3.effect.actiongroup_mine=0.6
+skills.entity.mtc_mine4.effect.actiongroup_mine=0.8
+
+# Quarry
+
+skills.entity.mtc_quarry1.effect.actiongroup_quarry=0.2
+skills.entity.mtc_quarry2.effect.actiongroup_quarry=0.4
+skills.entity.mtc_quarry3.effect.actiongroup_quarry=0.6
+skills.entity.mtc_quarry4.effect.actiongroup_quarry=0.8
+
+# Farm
+
+skills.entity.mtc_farming1.effect.actiongroup_agri=0.2
+skills.entity.mtc_farming2.effect.actiongroup_agri=0.4
+skills.entity.mtc_farming3.effect.actiongroup_agri=0.6
+skills.entity.mtc_farming4.effect.actiongroup_agri=0.8
+
+# Gather
+
+skills.entity.mtc_gather1.effect.actiongroup_search=0.1
+skills.entity.mtc_gather1.effect.actiongroup_gatherwater=0.2
+skills.entity.mtc_gather1.effect.actiongroup_chop=0.2
+
+skills.entity.mtc_gather2.effect.actiongroup_search=0.2
+skills.entity.mtc_gather2.effect.actiongroup_gatherwater=0.4
+skills.entity.mtc_gather2.effect.actiongroup_chop=0.4
+
+skills.entity.mtc_gather3.effect.actiongroup_search=0.3
+skills.entity.mtc_gather3.effect.actiongroup_gatherwater=0.6
+skills.entity.mtc_gather3.effect.actiongroup_chop=0.6
+
+skills.entity.mtc_gather4.effect.actiongroup_search=0.4
+skills.entity.mtc_gather4.effect.actiongroup_gatherwater=0.8
+skills.entity.mtc_gather4.effect.actiongroup_chop=0.8
+
+# Crafting
+
+skills.entity.mtc_craft1.effect.actiongroup_craft=0.2
+skills.entity.mtc_craft2.effect.actiongroup_craft=0.4
+skills.entity.mtc_craft3.effect.actiongroup_craft=0.6
+skills.entity.mtc_craft4.effect.actiongroup_craft=0.8
+
+# Construction
+
+skills.entity.mtc_build1.effect.actiongroup_build=0.2
+skills.entity.mtc_build2.effect.actiongroup_build=0.4
+skills.entity.mtc_build3.effect.actiongroup_build=0.6
+skills.entity.mtc_build4.effect.actiongroup_build=0.8
+
+# Rituals
+
+skills.entity.mtc_rituals1.effect.actiongroup_rituals=0.2
+skills.entity.mtc_rituals2.effect.actiongroup_rituals=0.4
+skills.entity.mtc_rituals3.effect.actiongroup_rituals=0.6
+skills.entity.mtc_rituals4.effect.actiongroup_rituals=0.8
+
+# Research
+
+skills.entity.mtc_research1.effect.actiongroup_research=0.2
+skills.entity.mtc_research2.effect.actiongroup_research=0.4
+skills.entity.mtc_research3.effect.actiongroup_research=0.6
+skills.entity.mtc_research4.effect.actiongroup_research=0.8
+
+# OccultResearch
+
+skills.entity.mtc_occult1.effect.actiongroup_occultresearch=0.2
+skills.entity.mtc_occult2.effect.actiongroup_occultresearch=0.4
+skills.entity.mtc_occult3.effect.actiongroup_occultresearch=0.6
+skills.entity.mtc_occult4.effect.actiongroup_occultresearch=0.8
+
+# -------------------------------------------------------------------
+# Combat SkillsLists
+# Combat, Defense, Medicine, Scout, Patrol, Damnation, Devotion, Tactics
+# -------------------------------------------------------------------
+
+# Combat (Common to all)
 
 skills.entity.mtc_combat1.effect.accuracy=0.05
 skills.entity.mtc_combat1.effect.damage=0.05
@@ -144,12 +223,7 @@ skills.entity.mtc_combat4.effect.accuracy=0.1
 skills.entity.mtc_combat4.effect.damage=0.1
 skills.entity.mtc_combat4.effect.evade=0.1
 
-# Survival
-
-skills.entity.mtc_survival1.effect.workspeed=0.05
-
-skills.entity.mtc_survival2.effect.workspeed=0.05
-
-skills.entity.mtc_survival3.effect.workspeed=0.05
-
-skills.entity.mtc_survival4.effect.workspeed=0.1
+# -------------------------------------------------------------------
+# Weapon SkillsLists
+# Melee, Assault, Marksman, Tools, Tech, Dark, Holy
+# -------------------------------------------------------------------
