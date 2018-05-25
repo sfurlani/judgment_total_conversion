@@ -1,0 +1,16 @@
+{
+	title: "Fempocalypse Survival Simulation",
+	desc: "
+	This mod changes the odds of survivor's gender being female to 1000:1 instead of the default 50/50.
+	
+	Why?
+	
+	Men are useless - that's why.
+	
+	Also: doesn't change the 'special' survivor odds or gender - just the vanilla survivors.
+
+	Tacos not your thing? Try Sausages instead:
+	",
+	creator: "Phteven",
+	tags: "survivors"
+}
