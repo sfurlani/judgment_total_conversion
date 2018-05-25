@@ -7,28 +7,64 @@
 # Survival
 
 skilllist.entity.mtc_survival.parents=skilllist.base.work
-skilllist.entity.mtc_survival.ranks.1.survival1=1
-skilllist.entity.mtc_survival.ranks.2.survival2=1
-skilllist.entity.mtc_survival.ranks.3.survival3=1
-skilllist.entity.mtc_survival.ranks.4.survival4=1
+skilllist.entity.mtc_survival.ranks.1.mtc_survival1=1
+skilllist.entity.mtc_survival.ranks.2.mtc_survival2=1
+skilllist.entity.mtc_survival.ranks.3.mtc_survival3=1
+skilllist.entity.mtc_survival.ranks.4.mtc_survival4=1
 
-# skilllist.entity.mtc_mine.parents=skilllist.base.work
+skilllist.entity.mtc_mine.parents=skilllist.base.work
+skilllist.entity.mtc_mine.ranks.1.mtc_mine1=1
+skilllist.entity.mtc_mine.ranks.2.mtc_mine2=1
+skilllist.entity.mtc_mine.ranks.3.mtc_mine3=1
+skilllist.entity.mtc_mine.ranks.4.mtc_mine4=1
 
-# skilllist.entity.mtc_quarry.parents=skilllist.base.work
+skilllist.entity.mtc_quarry.parents=skilllist.base.work
+skilllist.entity.mtc_quarry.ranks.1.mtc_quarry1=1
+skilllist.entity.mtc_quarry.ranks.2.mtc_quarry2=1
+skilllist.entity.mtc_quarry.ranks.3.mtc_quarry3=1
+skilllist.entity.mtc_quarry.ranks.4.mtc_quarry4=1
 
-# skilllist.entity.mtc_farming.parents=skilllist.base.work
+skilllist.entity.mtc_farming.parents=skilllist.base.work
+skilllist.entity.mtc_farming.ranks.1.mtc_farming1=1
+skilllist.entity.mtc_farming.ranks.2.mtc_farming2=1
+skilllist.entity.mtc_farming.ranks.3.mtc_farming3=1
+skilllist.entity.mtc_farming.ranks.4.mtc_farming4=1
 
-# skilllist.entity.mtc_gather.parents=skilllist.base.work
+skilllist.entity.mtc_gather.parents=skilllist.base.work
+skilllist.entity.mtc_gather.ranks.1.mtc_gather1=1
+skilllist.entity.mtc_gather.ranks.2.mtc_gather2=1
+skilllist.entity.mtc_gather.ranks.3.mtc_gather3=1
+skilllist.entity.mtc_gather.ranks.4.mtc_gather4=1
 
-# skilllist.entity.mtc_craft.parents=skilllist.base.work
+skilllist.entity.mtc_craft.parents=skilllist.base.work
+skilllist.entity.mtc_craft.ranks.1.mtc_craft1=1
+skilllist.entity.mtc_craft.ranks.2.mtc_craft2=1
+skilllist.entity.mtc_craft.ranks.3.mtc_craft3=1
+skilllist.entity.mtc_craft.ranks.4.mtc_craft4=1
 
-# skilllist.entity.mtc_build.parents=skilllist.base.work
+skilllist.entity.mtc_build.parents=skilllist.base.work
+skilllist.entity.mtc_build.ranks.1.mtc_build1=1
+skilllist.entity.mtc_build.ranks.2.mtc_build2=1
+skilllist.entity.mtc_build.ranks.3.mtc_build3=1
+skilllist.entity.mtc_build.ranks.4.mtc_build4=1
 
-# skilllist.entity.mtc_research.parents=skilllist.base.work
+skilllist.entity.mtc_research.parents=skilllist.base.work
+skilllist.entity.mtc_research.ranks.1.mtc_research1=1
+skilllist.entity.mtc_research.ranks.2.mtc_research2=1
+skilllist.entity.mtc_research.ranks.3.mtc_research3=1
+skilllist.entity.mtc_research.ranks.4.mtc_research4=1
 
-# skilllist.entity.mtc_occult.parents=skilllist.base.work
+skilllist.entity.mtc_occult.parents=skilllist.base.work
+skilllist.entity.mtc_occult.ranks.1.mtc_occult1=1
+skilllist.entity.mtc_occult.ranks.2.mtc_occult2=1
+skilllist.entity.mtc_occult.ranks.3.mtc_occult3=1
+skilllist.entity.mtc_occult.ranks.4.mtc_occult4=1
 
-# skilllist.entity.mtc_rituals.parents=skilllist.base.work
+skilllist.entity.mtc_rituals.parents=skilllist.base.work
+skilllist.entity.mtc_rituals.ranks.1.mtc_rituals1=1
+skilllist.entity.mtc_rituals.ranks.2.mtc_rituals2=1
+skilllist.entity.mtc_rituals.ranks.3.mtc_rituals3=1
+skilllist.entity.mtc_rituals.ranks.4.mtc_rituals4=1
 
 # -------------------------------------------------------------------
 # Combat
@@ -38,12 +74,90 @@ skilllist.entity.mtc_survival.ranks.4.survival4=1
 # Combat
 
 skilllist.entity.mtc_combat.parents=skilllist.base.combat
-skilllist.entity.mtc_combat.ranks.1.combat1=1
-skilllist.entity.mtc_combat.ranks.2.combat2=1
-skilllist.entity.mtc_combat.ranks.3.combat3=1
-skilllist.entity.mtc_combat.ranks.4.combat4=1
+skilllist.entity.mtc_combat.ranks.1.mtc_combat1=1
+skilllist.entity.mtc_combat.ranks.2.mtc_combat2=1
+skilllist.entity.mtc_combat.ranks.3.mtc_combat3=1
+skilllist.entity.mtc_combat.ranks.4.mtc_combat4=1
+
+# Defense
+
+skilllist.entity.mtc_defense.parents=skilllist.base.combat
+skilllist.entity.mtc_defense.ranks.1.mtc_defense1=1
+skilllist.entity.mtc_defense.ranks.1.mtc_armormaster=1
+skilllist.entity.mtc_defense.ranks.2.mtc_defense2=1
+skilllist.entity.mtc_defense.ranks.3.mtc_defense3=1
+skilllist.entity.mtc_defense.ranks.4.mtc_defense4=1
+
+# Scout
+
+skilllist.entity.mtc_scout.parents=skilllist.base.combat
+skilllist.entity.mtc_scout.ranks.1.mtc_scout1=1
+skilllist.entity.mtc_scout.ranks.1.mtc_gaiafighter=1
+skilllist.entity.mtc_scout.ranks.2.mtc_scout2=1
+skilllist.entity.mtc_scout.ranks.3.mtc_scout3=1
+skilllist.entity.mtc_scout.ranks.4.mtc_scout4=1
+
+# Patrol
+
+skilllist.entity.mtc_patrol.parents=skilllist.base.combat
+skilllist.entity.mtc_patrol.ranks.1.mtc_patrol1=1
+skilllist.entity.mtc_patrol.ranks.1.mtc_rangefighter=1
+skilllist.entity.mtc_patrol.ranks.2.mtc_patrol2=1
+skilllist.entity.mtc_patrol.ranks.3.mtc_patrol3=1
+skilllist.entity.mtc_patrol.ranks.4.mtc_patrol4=1
 
 # -------------------------------------------------------------------
 # Weapon
 # Melee, Assault, Marksman, Tools, Tech, Dark, Holy
 # -------------------------------------------------------------------
+
+
+skilllist.entity.mtc_melee.parents=skilllist.base.combat
+skilllist.entity.mtc_melee.ranks.1.mtc_melee1=1
+skilllist.entity.mtc_melee.ranks.1.mtc_holyfighterr=1
+skilllist.entity.mtc_melee.ranks.1.mtc_darkfightert=1
+skilllist.entity.mtc_melee.ranks.2.mtc_melee2=1
+skilllist.entity.mtc_melee.ranks.3.mtc_melee3=1
+skilllist.entity.mtc_melee.ranks.4.mtc_melee4=1
+
+skilllist.entity.mtc_mark.parents=skilllist.base.combat
+skilllist.entity.mtc_mark.ranks.1.mtc_mark1=1
+skilllist.entity.mtc_mark.ranks.1.mtc_rangefighter=1
+skilllist.entity.mtc_mark.ranks.2.mtc_mark2=1
+skilllist.entity.mtc_mark.ranks.3.mtc_mark3=1
+skilllist.entity.mtc_mark.ranks.4.mtc_mark4=1
+
+skilllist.entity.mtc_assault.parents=skilllist.base.combat
+skilllist.entity.mtc_assault.ranks.1.mtc_assault1=1
+skilllist.entity.mtc_assault.ranks.1.mtc_warfighter=1
+skilllist.entity.mtc_assault.ranks.2.mtc_assault2=1
+skilllist.entity.mtc_assault.ranks.3.mtc_assault3=1
+skilllist.entity.mtc_assault.ranks.4.mtc_assault4=1
+
+skilllist.entity.mtc_tool.parents=skilllist.base.combat
+skilllist.entity.mtc_tool.ranks.1.mtc_tool1=1
+skilllist.entity.mtc_tool.ranks.1.mtc_techfighter=1
+skilllist.entity.mtc_tool.ranks.2.mtc_tool2=1
+skilllist.entity.mtc_tool.ranks.3.mtc_tool3=1
+skilllist.entity.mtc_tool.ranks.4.mtc_tool4=1
+
+skilllist.entity.mtc_tech.parents=skilllist.base.combat
+skilllist.entity.mtc_tech.ranks.1.mtc_tech1=1
+skilllist.entity.mtc_tech.ranks.1.mtc_techfighter=1
+skilllist.entity.mtc_tech.ranks.2.mtc_tech2=1
+skilllist.entity.mtc_tech.ranks.3.mtc_tech3=1
+skilllist.entity.mtc_tech.ranks.4.mtc_tech4=1
+
+skilllist.entity.mtc_holy.parents=skilllist.base.combat
+skilllist.entity.mtc_holy.ranks.1.mtc_holy1=1
+skilllist.entity.mtc_holy.ranks.1.mtc_holyfighter=1
+skilllist.entity.mtc_holy.ranks.2.mtc_holy2=1
+skilllist.entity.mtc_holy.ranks.3.mtc_holy3=1
+skilllist.entity.mtc_holy.ranks.4.mtc_holy4=1
+
+skilllist.entity.mtc_dark.parents=skilllist.base.combat
+skilllist.entity.mtc_dark.ranks.1.mtc_dark1=1
+skilllist.entity.mtc_dark.ranks.1.mtc_darkfighter=1
+skilllist.entity.mtc_dark.ranks.2.mtc_dark2=1
+skilllist.entity.mtc_dark.ranks.3.mtc_dark3=1
+skilllist.entity.mtc_dark.ranks.4.mtc_dark4=1

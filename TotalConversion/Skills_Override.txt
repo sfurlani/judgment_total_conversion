@@ -17,49 +17,54 @@ skills.base.rare.category=rare
 # Common
 
 skills.entity.mtc_apprentice.parents=skills.base.common
-skills.entity.mtc_apprentice.effect.workspeed=0.1
+skills.entity.mtc_apprentice.effect.workspeed=0.05
 
 skills.entity.mtc_woodworker.parents=skills.base.common
-skills.entity.mtc_woodworker.effect.actiongroup_chop=0.25
-skills.entity.mtc_woodworker.effect.actiongroup_build=0.25
+skills.entity.mtc_woodworker.effect.actiongroup_chop=0.1
+skills.entity.mtc_woodworker.effect.actiongroup_build=0.1
 
 skills.entity.mtc_stoneworker.parents=skills.base.common
-skills.entity.mtc_stoneworker.effect.actiongroup_quarry=0.25
-skills.entity.mtc_stoneworker.effect.actiongroup_build=0.25
+skills.entity.mtc_stoneworker.effect.actiongroup_quarry=0.1
+skills.entity.mtc_stoneworker.effect.actiongroup_build=0.1
 
 skills.entity.mtc_farmhand.parents=skills.base.common
-skills.entity.mtc_farmhand.effect.actiongroup_agri=0.25
-skills.entity.mtc_farmhand.effect.actiongroup_gatherwater=0.5
+skills.entity.mtc_farmhand.effect.actiongroup_agri=0.1
+skills.entity.mtc_farmhand.effect.actiongroup_gatherwater=0.25
 
 skills.entity.mtc_miner.parents=skills.base.common
-skills.entity.mtc_miner.effect.actiongroup_mine=0.5
+skills.entity.mtc_miner.effect.actiongroup_mine=0.25
+
+skills.entity.mtc_technician.parents=skills.base.common
+skills.entity.mtc_technician.effect.actiongroup_craft=0.25
 
 # Uncommon
 
+skills.entity.mtc_handyman.parents=skills.base.common
+skills.entity.mtc_handyman.effect.workspeed=0.1
+
 skills.entity.mtc_carpenter.parents=skills.base.uncommon
-skills.entity.mtc_carpenter.effect.actiongroup_chop=0.5
-skills.entity.mtc_carpenter.effect.actiongroup_build=0.5
+skills.entity.mtc_carpenter.effect.actiongroup_chop=0.25
+skills.entity.mtc_carpenter.effect.actiongroup_build=0.25
 skills.entity.mtc_carpenter.unlocks.equip.toolweapon=true
 
 skills.entity.mtc_mason.parents=skills.base.uncommon
-skills.entity.mtc_mason.effect.actiongroup_quarry=0.5
-skills.entity.mtc_mason.effect.actiongroup_build=0.5
+skills.entity.mtc_mason.effect.actiongroup_quarry=0.25
+skills.entity.mtc_mason.effect.actiongroup_build=0.25
 skills.entity.mtc_mason.unlocks.equip.toolweapon=true
 
 skills.entity.mtc_farmer.parents=skills.base.uncommon
-skills.entity.mtc_farmer.effect.actiongroup_agri=0.5
-skills.entity.mtc_farmer.effect.actiongroup_gatherwater=1.0
+skills.entity.mtc_farmer.effect.actiongroup_agri=0.25
+skills.entity.mtc_farmer.effect.actiongroup_gatherwater=0.5
 skills.entity.mtc_farmer.unlocks.equip.toolweapon=true
 
 skills.entity.mtc_welder.parents=skills.base.uncommon
-skills.entity.mtc_welder.effect.actiongroup_mine=0.25
 skills.entity.mtc_welder.effect.actiongroup_craft=0.25
 skills.entity.mtc_welder.effect.actiongroup_build=0.25
 skills.entity.mtc_welder.unlocks.equip.toolweapon=true
 
 skills.entity.mtc_smith.parents=skills.base.uncommon
-skills.entity.mtc_smith.effect.actiongroup_mine=0.5
-skills.entity.mtc_smith.effect.actiongroup_craft=0.5
+skills.entity.mtc_smith.effect.actiongroup_mine=0.25
+skills.entity.mtc_smith.effect.actiongroup_craft=0.25
 skills.entity.mtc_smith.unlocks.equip.toolweapon=true
 
 # Rare
@@ -77,30 +82,30 @@ skills.entity.mtc_jack.unlocks.equip.techweapon=true
 # Common
 
 skills.entity.mtc_energetic.parents=skills.base.common
-skills.entity.mtc_energetic.effect.energy=0.25
+skills.entity.mtc_energetic.effect.energy=0.1
 
 skills.entity.mtc_resilient.parents=skills.base.common
-skills.entity.mtc_resilient.effect.health=0.25
+skills.entity.mtc_resilient.effect.health=0.1
 
 # Uncommon
 
 skills.entity.mtc_motivated.parents=skills.base.uncommon
 skills.entity.mtc_motivated.effect.workspeed=0.1
-skills.entity.mtc_motivated.effect.energy=0.25
+skills.entity.mtc_motivated.effect.energy=0.1
 
 skills.entity.mtc_tough.parents=skills.base.uncommon
-skills.entity.mtc_tough.effect.health=0.25
-skills.entity.mtc_tough.effect.defense=0.25
+skills.entity.mtc_tough.effect.health=0.1
+skills.entity.mtc_tough.effect.defense=0.1
 
 # Rare
 
 skills.entity.mtc_diligence.parents=skills.base.rare
 skills.entity.mtc_diligence.effect.workspeed=0.25
-skills.entity.mtc_diligence.effect.energy=0.5
+skills.entity.mtc_diligence.effect.energy=0.25
 skills.entity.mtc_diligence.cancels.mtc_sloth=true
 
 skills.entity.mtc_diehard.parents=skills.base.rare
-skills.entity.mtc_diehard.effect.health=0.5
+skills.entity.mtc_diehard.effect.health=0.25
 skills.entity.mtc_diehard.effect.defense=0.25
 skills.entity.mtc_diehard.cancels.mtc_coward=true
 
@@ -114,19 +119,19 @@ skills.entity.mtc_charity.effect.actiongroup_search=0.5
 skills.entity.mtc_charity.cancels.mtc_greed=true
 
 skills.entity.mtc_humility.parents=skills.base.rare
-skills.entity.mtc_humility.effect.actiongroup_occultresearch=0.5
-skills.entity.mtc_humility.effect.actiongroup_research=0.5
-skills.entity.mtc_humility.effect.actiongroup_ritual=0.5
+skills.entity.mtc_humility.effect.actiongroup_occultresearch=0.25
+skills.entity.mtc_humility.effect.actiongroup_research=0.25
+skills.entity.mtc_humility.effect.actiongroup_ritual=0.25
 skills.entity.mtc_humility.cancels.mtc_pride=true
 
 skills.entity.mtc_temperance.parents=skills.base.rare
 skills.entity.mtc_temperance.effect.nutrition=0.25
-skills.entity.mtc_temperance.effect.walkspeed=0.2
+skills.entity.mtc_temperance.effect.walkspeed=0.1
 skills.entity.mtc_temperance.cancels.mtc_gluttony=true
 
 skills.entity.mtc_patience.parents=skills.base.rare
 skills.entity.mtc_patience.effect.evade=0.25
-skills.entity.mtc_patience.effect.accuracy=0.5
+skills.entity.mtc_patience.effect.accuracy=0.25
 skills.entity.mtc_patience.cancels.mtc_wrath=true
 
 
@@ -175,13 +180,13 @@ skills.entity.mtc_gluttony.effect.nutrition=-0.2
 skills.entity.mtc_gluttony.effect.walkspeed=-0.1
 
 skills.entity.mtc_wrath.parents=skills.base.rare
-skills.entity.mtc_wrath.effect.tag_melee_damage=0.4
-skills.entity.mtc_wrath.effect.tag_melee_accuracy=0.2
-skills.entity.mtc_wrath.effect.accuracy=-0.4
+skills.entity.mtc_wrath.effect.tag_melee_damage=0.2
+skills.entity.mtc_wrath.effect.tag_melee_accuracy=0.1
+skills.entity.mtc_wrath.effect.accuracy=-0.2
 
 skills.entity.mtc_pride.parents=skills.base.rare
-skills.entity.mtc_pride.effect.actiongroup_research=-0.4
-skills.entity.mtc_pride.effect.actiongroup_occultresearch=-0.4
+skills.entity.mtc_pride.effect.actiongroup_research=-0.2
+skills.entity.mtc_pride.effect.actiongroup_occultresearch=-0.2
 
 skills.entity.mtc_lust.parents=skills.base.rare
 skills.entity.mtc_lust.effect.damagereceived=0.2
@@ -256,6 +261,7 @@ skills.entity.mtc_craft4.effect.actiongroup_craft=0.8
 # Construction
 
 skills.entity.mtc_build1.effect.actiongroup_build=0.2
+skills.entity.mtc_build1.unlocks.build.defensestructure=true
 skills.entity.mtc_build2.effect.actiongroup_build=0.4
 skills.entity.mtc_build3.effect.actiongroup_build=0.6
 skills.entity.mtc_build4.effect.actiongroup_build=0.8
@@ -263,6 +269,7 @@ skills.entity.mtc_build4.effect.actiongroup_build=0.8
 # Rituals
 
 skills.entity.mtc_rituals1.effect.actiongroup_rituals=0.2
+skills.entity.mtc_rituals1.unlocks.build.consecratedstructure=true
 skills.entity.mtc_rituals2.effect.actiongroup_rituals=0.4
 skills.entity.mtc_rituals3.effect.actiongroup_rituals=0.6
 skills.entity.mtc_rituals4.effect.actiongroup_rituals=0.8
@@ -300,6 +307,64 @@ skills.entity.mtc_combat3.effect.evade=0.05
 skills.entity.mtc_combat4.effect.accuracy=0.1
 skills.entity.mtc_combat4.effect.evade=0.1
 
+# Defense
+
+skills.entity.mtc_defense1.effect.damagereceived=-0.05
+skills.entity.mtc_defense1.effect.coverefficiency=0.2
+
+skills.entity.mtc_defense2.effect.damagereceived=-0.1
+skills.entity.mtc_defense2.effect.coverefficiency=0.4
+
+skills.entity.mtc_defense3.effect.damagereceived=-0.15
+skills.entity.mtc_defense3.effect.coverefficiency=0.6
+
+skills.entity.mtc_defense4.effect.damagereceived=-0.25
+skills.entity.mtc_defense4.effect.coverefficiency=0.8
+
+# Scout
+
+skills.entity.mtc_scout1.effect.scoutrange=1
+skills.entity.mtc_scout1.effect.taskforcespeed=0.05
+skills.entity.mtc_scout1.effect.extrascavenge=0.05
+skills.entity.mtc_scout1.effect.actiongroup_search=0.1
+
+skills.entity.mtc_scout2.effect.scoutrange=1
+skills.entity.mtc_scout2.effect.taskforcespeed=0.1
+skills.entity.mtc_scout2.effect.extrascavenge=0.1
+skills.entity.mtc_scout2.effect.actiongroup_search=0.2
+
+skills.entity.mtc_scout3.effect.scoutrange=1
+skills.entity.mtc_scout3.effect.taskforcespeed=0.15
+skills.entity.mtc_scout3.effect.extrascavenge=0.15
+skills.entity.mtc_scout3.effect.actiongroup_search=0.3
+
+skills.entity.mtc_scout4.effect.scoutrange=1
+skills.entity.mtc_scout4.effect.taskforcespeed=0.25
+skills.entity.mtc_scout4.effect.extrascavenge=0.25
+skills.entity.mtc_scout4.effect.actiongroup_search=0.5
+
+# Patrol
+
+skills.entity.mtc_patrol1.effect.vision=1
+skills.entity.mtc_patrol1.effect.actiongroup_patrol=0.1
+skills.entity.mtc_patrol1.effect.awarenessadd=-0.05
+skills.entity.mtc_patrol1.effect.actiongroup_search=0.1
+
+skills.entity.mtc_patrol2.effect.vision=1
+skills.entity.mtc_patrol2.effect.actiongroup_patrol=0.2
+skills.entity.mtc_patrol2.effect.awarenessadd=-0.05
+skills.entity.mtc_patrol2.effect.actiongroup_search=0.2
+
+skills.entity.mtc_patrol3.effect.vision=1
+skills.entity.mtc_patrol3.effect.actiongroup_patrol=0.3
+skills.entity.mtc_patrol3.effect.awarenessadd=-0.05
+skills.entity.mtc_patrol3.effect.actiongroup_search=0.3
+
+skills.entity.mtc_patrol4.effect.vision=1
+skills.entity.mtc_patrol4.effect.actiongroup_patrol=0.5
+skills.entity.mtc_patrol4.effect.awarenessadd=-0.1
+skills.entity.mtc_patrol4.effect.actiongroup_search=0.5
+
 # -------------------------------------------------------------------
 # Weapon SkillsLists
 # Melee, Assault, Marksman, Tools, Tech, Dark, Holy
@@ -324,14 +389,30 @@ skills.entity.mtc_firearm_unlock.unlocks.equip.firearm=true
 skills.entity.mtc_tech_unlock.unlocks.equip.techweapon=true
 skills.entity.mtc_tool_unlock.unlocks.equip.toolweapon=true
 
-skills.entity.mtc_crusader.unlocks.equip.occultweapon=true
-skills.entity.mtc_crusader.unlocks.equip.holyarmor=true
+skills.entity.mtc_holyfighter.unlocks.equip.occultweapon=true
+skills.entity.mtc_holyfighter.unlocks.equip.holyarmor=true
 
-skills.entity.mtc_zealot.unlocks.equip.occultweapon=true
-skills.entity.mtc_zealot.unlocks.equip.darkarmor=true
+skills.entity.mtc_darkfighter.unlocks.equip.occultweapon=true
+skills.entity.mtc_darkfighter.unlocks.equip.darkarmor=true
 
-skills.entity.mtc_warfighter.unlocks.equip.techtweapon=true
+skills.entity.mtc_gaiafighter.unlocks.equip.occultweapon=true
+skills.entity.mtc_gaiafighter.unlocks.equip.naturearmor=true
+
+skills.entity.mtc_warfighter.unlocks.equip.techweapon=true
+skills.entity.mtc_warfighter.unlocks.equip.firearm=true
 skills.entity.mtc_warfighter.unlocks.equip.techarmor=true
+
+skills.entity.mtc_techfighter.unlocks.equip.techweapon=true
+skills.entity.mtc_techfighter.unlocks.equip.toolweapon=true
+skills.entity.mtc_techfighter.unlocks.equip.techarmor=true
+
+skills.entity.mtc_rangefighter.unlocks.equip.sniper=true
+skills.entity.mtc_rangefighter.unlocks.equip.naturearmor=true
+
+skills.entity.mtc_armormaster.unlocks.equip.darkarmor=true
+skills.entity.mtc_armormaster.unlocks.equip.holyarmor=true
+skills.entity.mtc_armormaster.unlocks.equip.naturearmor=true
+skills.entity.mtc_armormaster.unlocks.equip.techarmor=true
 
 # Melee
 
@@ -398,3 +479,75 @@ skills.entity.mtc_assault4.effect.tag_assault_accuracy=0.25
 skills.entity.mtc_assault4.effect.tag_assault_damage=0.25
 skills.entity.mtc_assault4.effect.tag_assault_attackspeed=0.25
 skills.entity.mtc_assault4.effect.tag_assault_evade=0.25
+
+# Tool
+
+skills.entity.mtc_tool1.effect.tag_tool_accuracy=0.05
+skills.entity.mtc_tool1.effect.tag_tool_damage=0.05
+skills.entity.mtc_tool1.effect.tag_tool_evade=0.05
+
+skills.entity.mtc_tool2.effect.tag_tool_accuracy=0.1
+skills.entity.mtc_tool2.effect.tag_tool_damage=0.1
+skills.entity.mtc_tool2.effect.tag_tool_evade=0.1
+
+skills.entity.mtc_tool3.effect.tag_tool_accuracy=0.15
+skills.entity.mtc_tool3.effect.tag_tool_damage=0.15
+skills.entity.mtc_tool3.effect.tag_tool_evade=0.15
+
+skills.entity.mtc_tool4.effect.tag_tool_accuracy=0.25
+skills.entity.mtc_tool4.effect.tag_tool_damage=0.25
+skills.entity.mtc_tool4.effect.tag_tool_evade=0.25
+
+# Tech
+
+skills.entity.mtc_tech1.effect.tag_tech_accuracy=0.05
+skills.entity.mtc_tech1.effect.tag_tech_damage=0.05
+skills.entity.mtc_tech1.effect.tag_tech_evade=0.05
+
+skills.entity.mtc_tech2.effect.tag_tech_accuracy=0.1
+skills.entity.mtc_tech2.effect.tag_tech_damage=0.1
+skills.entity.mtc_tech2.effect.tag_tech_evade=0.1
+
+skills.entity.mtc_tech3.effect.tag_tech_accuracy=0.15
+skills.entity.mtc_tech3.effect.tag_tech_damage=0.15
+skills.entity.mtc_tech3.effect.tag_tech_evade=0.15
+
+skills.entity.mtc_tech4.effect.tag_tech_accuracy=0.25
+skills.entity.mtc_tech4.effect.tag_tech_damage=0.25
+skills.entity.mtc_tech4.effect.tag_tech_evade=0.25
+
+# Holy
+
+skills.entity.mtc_holy1.effect.tag_holy_accuracy=0.05
+skills.entity.mtc_holy1.effect.tag_holy_damage=0.05
+skills.entity.mtc_holy1.effect.tag_holy_evade=0.05
+
+skills.entity.mtc_holy2.effect.tag_holy_accuracy=0.1
+skills.entity.mtc_holy2.effect.tag_holy_damage=0.1
+skills.entity.mtc_holy2.effect.tag_holy_evade=0.1
+
+skills.entity.mtc_holy3.effect.tag_holy_accuracy=0.15
+skills.entity.mtc_holy3.effect.tag_holy_damage=0.15
+skills.entity.mtc_holy3.effect.tag_holy_evade=0.15
+
+skills.entity.mtc_holy4.effect.tag_holy_accuracy=0.25
+skills.entity.mtc_holy4.effect.tag_holy_damage=0.25
+skills.entity.mtc_holy4.effect.tag_holy_evade=0.25
+
+# Dark
+
+skills.entity.mtc_dark1.effect.tag_dark_accuracy=0.05
+skills.entity.mtc_dark1.effect.tag_dark_damage=0.05
+skills.entity.mtc_dark1.effect.tag_dark_evade=0.05
+
+skills.entity.mtc_dark2.effect.tag_dark_accuracy=0.1
+skills.entity.mtc_dark2.effect.tag_dark_damage=0.1
+skills.entity.mtc_dark2.effect.tag_dark_evade=0.1
+
+skills.entity.mtc_dark3.effect.tag_dark_accuracy=0.15
+skills.entity.mtc_dark3.effect.tag_dark_damage=0.15
+skills.entity.mtc_dark3.effect.tag_dark_evade=0.15
+
+skills.entity.mtc_dark4.effect.tag_dark_accuracy=0.25
+skills.entity.mtc_dark4.effect.tag_dark_damage=0.25
+skills.entity.mtc_dark4.effect.tag_dark_evade=0.25
