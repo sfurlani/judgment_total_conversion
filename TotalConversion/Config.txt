@@ -10,4 +10,17 @@ survivors.config.thirstydamage=0.44
 survivors.config.hungrydamage=0.28
 survivors.config.energypersecondsleep=3
 
+# Original
 
+# survivors.config.hungerrate=0.2
+# survivors.config.energydrain=0.15
+# survivors.config.drinkrate=0.005
+# survivors.config.thirstydamage=0.44
+# survivors.config.hungrydamage=0.28
+# survivors.config.energypersecondsleep=1.5
+
+# healing rates relative to max health, per game minute. 0.0002 equals 1.2% per game hour, 28.8% per game day
+# survivors.config.healrate=0
+# survivors.config.healpersecondsleep=0.003
+# survivors.config.healpermedicine=0.075
+# survivors.config.healpersecondmedicine=0.05
