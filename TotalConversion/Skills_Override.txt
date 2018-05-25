@@ -17,7 +17,7 @@ skills.base.rare.category=rare
 # Common
 
 skills.entity.mtc_apprentice.parents=skills.base.common
-skills.entity.mtc_apprentice.effect.workspeed=0.05
+skills.entity.mtc_apprentice.effect.workspeed=0.1
 
 skills.entity.mtc_woodworker.parents=skills.base.common
 skills.entity.mtc_woodworker.effect.actiongroup_chop=0.1
@@ -37,10 +37,33 @@ skills.entity.mtc_miner.effect.actiongroup_mine=0.25
 skills.entity.mtc_technician.parents=skills.base.common
 skills.entity.mtc_technician.effect.actiongroup_craft=0.25
 
+skills.entity.mtc_labassistant.parents=skills.base.common
+skills.entity.mtc_labassistant.effect.actiongroup_research=0.25
+
+skills.entity.mtc_emt.parents=skills.base.common
+skills.entity.mtc_emt.effect.abilities.skillheal=2
+
+skills.entity.mtc_student.parents=skills.base.common
+skills.entity.mtc_student.effect.energy=0.1
+skills.entity.mtc_student.effect.actiongroup_research=0.1
+
+skills.entity.mtc_runner.parents.skills.base.common
+skills.entity.mtc_runner.effect.energy=0.1
+skills.entity.mtc_runner.effect.walkspeed=0.1
+
+skills.entity.mtc_cyclist.parents.skills.base.common
+skills.entity.mtc_cyclist.effect.taskforcespeed=0.2
+
+skills.entity.mtc_pickpocket.parents.skills.base.common
+skills.entity.mtc_pickpocket.effect.actiongroup_search=0.25
+
+skills.entity.mtc_pickpocket.parents.skills.base.common
+skills.entity.mtc_pickpocket.effect.actiongroup_search=0.25
+
 # Uncommon
 
 skills.entity.mtc_handyman.parents=skills.base.common
-skills.entity.mtc_handyman.effect.workspeed=0.1
+skills.entity.mtc_handyman.effect.workspeed=0.2
 
 skills.entity.mtc_carpenter.parents=skills.base.uncommon
 skills.entity.mtc_carpenter.effect.actiongroup_chop=0.25
@@ -67,19 +90,84 @@ skills.entity.mtc_smith.effect.actiongroup_mine=0.25
 skills.entity.mtc_smith.effect.actiongroup_craft=0.25
 skills.entity.mtc_smith.unlocks.equip.toolweapon=true
 
+skills.entity.mtc_physicist.parents=skills.base.uncommon
+skills.entity.mtc_physicist.effect.actiongroup_research=0.5
+skills.entity.mtc_physicist.unlocks.equip.techweapon=true
+
+skills.entity.mtc_botanist.parents=skills.base.uncommon
+skills.entity.mtc_botanist.effect.actiongroup_research=0.25
+skills.entity.mtc_botanist.effect.actiongroup_agri=0.5
+
+skills.entity.mtc_metallurgist.parents=skills.base.uncommon
+skills.entity.mtc_metallurgist.effect.actiongroup_research=0.25
+skills.entity.mtc_metallurgist.effect.actiongroup_mine=0.5
+
+skills.entity.mtc_chemist.parents=skills.base.uncommon
+skills.entity.mtc_chemist.effect.actiongroup_research=0.25
+skills.entity.mtc_chemist.effect.actiongroup_craft=0.5
+
+skills.entity.mtc_geologist.parents=skills.base.uncommon
+skills.entity.mtc_geologist.effect.actiongroup_research=0.25
+skills.entity.mtc_geologist.effect.actiongroup_quarry=0.5
+
+skills.entity.mtc_architect.parents=skills.base.uncommon
+skills.entity.mtc_architect.effect.actiongroup_research=0.25
+skills.entity.mtc_architect.effect.actiongroup_build=0.25
+skills.entity.mtc_architect.unlocks.build.defensestructure=true
+
+skills.entity.mtc_physician.parents=skills.base.uncommon
+skills.entity.mtc_physician.effect.actiongroup_research=0.25
+skills.entity.mtc_physician.effect.abilities.skillhealarea=2
+
+skills.entity.mtc_athlete.parents=skills.base.uncommon
+skills.entity.mtc_athlete.effect.energy=0.1
+skills.entity.mtc_athlete.effect.health=0.1
+skills.entity.mtc_athlete.effect.walkspeed=0.1
+
+skills.entity.mtc_burglar.parents=skills.base.uncommon
+skills.entity.mtc_burglar.effect.extrascavenge=0.1
+skills.entity.mtc_burglar.effect.actiongroup_search=0.5
+
+skills.entity.mtc_hunter.parents=skills.base.uncommon
+skills.entity.mtc_hunter.effect.tag_mark_accuracy=0.1
+skills.entity.mtc_hunter.effect.tag_mark_attackspeed=0.1
+skills.entity.mtc_hunter.unlocks.equip.sniper=true
+
 # Rare
 
+skills.entity.mtc_macscience.parents=skills.base.rare
+skills.entity.mtc_macscience.effect.actiongroup_research=0.5
+skills.entity.mtc_macscience.effect.tag_tech_accuracy=0.2
+skills.entity.mtc_macscience.effect.tag_tech_damage=0.2
+skills.entity.mtc_macscience.unlocks.equip.techweapon=true
+skills.entity.mtc_macscience.unlocks.equip.techarmor=true
+
 skills.entity.mtc_jack.parents=skills.base.rare
-skills.entity.mtc_jack.effect.workspeed=0.25
+skills.entity.mtc_jack.effect.workspeed=0.4
+skills.entity.mtc_jack.effect.tag_tool_accuracy=0.2
+skills.entity.mtc_jack.effect.tag_tool_damage=0.2
 skills.entity.mtc_jack.unlocks.equip.toolweapon=true
-skills.entity.mtc_jack.unlocks.equip.techweapon=true
+
+skills.entity.mtc_olympian.parents=skills.base.rare
+skills.entity.mtc_olympian.effect.energy=0.2
+skills.entity.mtc_olympian.effect.health=0.1
+skills.entity.mtc_olympian.effect.walkspeed=0.2
+skills.entity.mtc_olympian.effect.taskforcespeed=0.2
+
+skills.entity.mtc_pioneer.parents=skills.base.rare
+skills.entity.mtc_pioneer.effect.actiongroup_chop=0.25
+skills.entity.mtc_pioneer.effect.actiongroup_agri=0.25
+skills.entity.mtc_pioneer.effect.actiongroup_gatherwater=0.5
+skills.entity.mtc_pioneer.effect.tag_mark_accuracy=0.2
+skills.entity.mtc_pioneer.effect.tag_mark_attackspeed=0.2
+skills.entity.mtc_pioneer.unlocks.equip.sniper=true
 
 
 # -------------------------------------------------------------------
 # General Skills
 # -------------------------------------------------------------------
 
-# Common
+# Common (0.1)
 
 skills.entity.mtc_energetic.parents=skills.base.common
 skills.entity.mtc_energetic.effect.energy=0.1
@@ -87,7 +175,22 @@ skills.entity.mtc_energetic.effect.energy=0.1
 skills.entity.mtc_resilient.parents=skills.base.common
 skills.entity.mtc_resilient.effect.health=0.1
 
-# Uncommon
+skills.entity.mtc_jogger.parents=skills.base.common
+skills.entity.mtc_jogger.effect.walkspeed=0.1
+
+skills.entity.mtc_hawkeyed.parents=skills.base.common
+skills.entity.mtc_hawkeyed.effect.vision=2
+
+skills.entity.mtc_busybody.parents=skills.base.common
+skills.entity.mtc_busybody.effect.workspeed=0.1
+
+skills.entity.mtc_brute.parents=skills.base.common
+skills.entity.mtc_brute.effect.tag_melee_damage=0.25
+
+skills.entity.mtc_quick.parents=skills.base.common
+skills.entity.mtc_quick.effect.attackspeed=0.1
+
+# Uncommon (0.1,0.1) (0.25)
 
 skills.entity.mtc_motivated.parents=skills.base.uncommon
 skills.entity.mtc_motivated.effect.workspeed=0.1
@@ -97,7 +200,7 @@ skills.entity.mtc_tough.parents=skills.base.uncommon
 skills.entity.mtc_tough.effect.health=0.1
 skills.entity.mtc_tough.effect.defense=0.1
 
-# Rare
+# Rare / Virtues  (0.15,0.15) (0.25, 0.25) (0.5)
 
 skills.entity.mtc_diligence.parents=skills.base.rare
 skills.entity.mtc_diligence.effect.workspeed=0.25
@@ -169,7 +272,7 @@ skills.entity.mtc_anemic.parents=skills.base.uncommon
 skills.entity.mtc_anemic.effect.walkspeed=-0.05
 skills.entity.mtc_anemic.effect.nutrition=-0.2
 
-# Rare
+# Rare / Vices
 
 skills.entity.mtc_sloth.parents=skills.base.rare
 skills.entity.mtc_sloth.effect.workspeed=-0.1
@@ -364,6 +467,20 @@ skills.entity.mtc_patrol4.effect.vision=1
 skills.entity.mtc_patrol4.effect.actiongroup_patrol=0.5
 skills.entity.mtc_patrol4.effect.awarenessadd=-0.1
 skills.entity.mtc_patrol4.effect.actiongroup_search=0.5
+
+# Medicine
+
+skills.entity.mtc_medicine1.effect.health=0.05
+skills.entity.mtc_medicine1.abilities.skillheal=1
+
+skills.entity.mtc_medicine2.effect.health=0.05
+skills.entity.mtc_medicine2.abilities.skillhealarea=1
+
+skills.entity.mtc_medicine3.effect.health=0.05
+skills.entity.mtc_medicine3.abilities.skillheal=1
+
+skills.entity.mtc_medicine4.effect.health=0.1
+skills.entity.mtc_medicine4.abilities.skillhealarea=1
 
 # -------------------------------------------------------------------
 # Weapon SkillsLists

@@ -106,11 +106,18 @@ skilllist.entity.mtc_patrol.ranks.2.mtc_patrol2=1
 skilllist.entity.mtc_patrol.ranks.3.mtc_patrol3=1
 skilllist.entity.mtc_patrol.ranks.4.mtc_patrol4=1
 
+# Medicine
+
+skilllist.entity.mtc_medicine.parents=skilllist.base.combat
+skilllist.entity.mtc_medicine.ranks.1.mtc_medicine1=1
+skilllist.entity.mtc_medicine.ranks.2.mtc_medicine2=1
+skilllist.entity.mtc_medicine.ranks.3.mtc_medicine3=1
+skilllist.entity.mtc_medicine.ranks.4.mtc_medicine4=1
+
 # -------------------------------------------------------------------
 # Weapon
 # Melee, Assault, Marksman, Tools, Tech, Dark, Holy
 # -------------------------------------------------------------------
-
 
 skilllist.entity.mtc_melee.parents=skilllist.base.combat
 skilllist.entity.mtc_melee.ranks.1.mtc_melee1=1
