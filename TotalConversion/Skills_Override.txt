@@ -41,24 +41,45 @@ skills.entity.mtc_labassistant.parents=skills.base.common
 skills.entity.mtc_labassistant.effect.actiongroup_research=0.25
 
 skills.entity.mtc_emt.parents=skills.base.common
-skills.entity.mtc_emt.effect.abilities.skillheal=2
+skills.entity.mtc_emt.abilities.skillheal=2
 
 skills.entity.mtc_student.parents=skills.base.common
 skills.entity.mtc_student.effect.energy=0.1
 skills.entity.mtc_student.effect.actiongroup_research=0.1
 
-skills.entity.mtc_runner.parents.skills.base.common
+skills.entity.mtc_runner.parents=skills.base.common
 skills.entity.mtc_runner.effect.energy=0.1
 skills.entity.mtc_runner.effect.walkspeed=0.1
 
-skills.entity.mtc_cyclist.parents.skills.base.common
+skills.entity.mtc_cyclist.parents=skills.base.common
 skills.entity.mtc_cyclist.effect.taskforcespeed=0.2
 
-skills.entity.mtc_pickpocket.parents.skills.base.common
+skills.entity.mtc_pickpocket.parents=skills.base.common
 skills.entity.mtc_pickpocket.effect.actiongroup_search=0.25
 
-skills.entity.mtc_pickpocket.parents.skills.base.common
-skills.entity.mtc_pickpocket.effect.actiongroup_search=0.25
+skills.entity.mtc_initiate.parents=skills.base.common
+skills.entity.mtc_initiate.effect.actiongroup_rituals=0.2
+
+skills.entity.mtc_neophyte.parents=skills.base.common
+skills.entity.mtc_neophyte.effect.actiongroup_occultresearch=0.2
+
+skills.entity.mtc_missionary.parents=skills.base.common
+skills.entity.mtc_missionary.effect.actiongroup_build=0.2
+
+skills.entity.mtc_follower.parents=skills.base.common
+skills.entity.mtc_follower.effect.actiongroup_chop=0.1
+skills.entity.mtc_follower.effect.actiongroup_gatherwater=0.25
+
+skills.entity.mtc_gangster.parents=skills.base.common
+skills.entity.mtc_gangster.effect.damage=0.2
+
+skills.entity.mtc_rentacop.parents=skills.base.common
+skills.entity.mtc_rentacop.effect.actiongroup_patrol=0.25
+skills.entity.mtc_rentacop.effect.nutrition=0.1
+
+skills.entity.mtc_firefighter.parents=skills.base.common
+skills.entity.mtc_firefighter.effect.actiongroup_chop=0.1
+skills.entity.mtc_firefighter.effect.actiongroup_gatherwater=0.25
 
 # Uncommon
 
@@ -117,7 +138,7 @@ skills.entity.mtc_architect.unlocks.build.defensestructure=true
 
 skills.entity.mtc_physician.parents=skills.base.uncommon
 skills.entity.mtc_physician.effect.actiongroup_research=0.25
-skills.entity.mtc_physician.effect.abilities.skillhealarea=2
+skills.entity.mtc_physician.abilities.skillhealarea=2
 
 skills.entity.mtc_athlete.parents=skills.base.uncommon
 skills.entity.mtc_athlete.effect.energy=0.1
@@ -132,6 +153,33 @@ skills.entity.mtc_hunter.parents=skills.base.uncommon
 skills.entity.mtc_hunter.effect.tag_mark_accuracy=0.1
 skills.entity.mtc_hunter.effect.tag_mark_attackspeed=0.1
 skills.entity.mtc_hunter.unlocks.equip.sniper=true
+
+skills.entity.mtc_cultist.parents=skills.base.uncommon
+skills.entity.mtc_cultist.effect.tag_dark_damage=0.2
+skills.entity.mtc_cultist.unlocks.equip.occultweapon=true
+skills.entity.mtc_cultist.unlocks.equip.darkarmor=true
+
+skills.entity.mtc_monk.parents=skills.base.uncommon
+skills.entity.mtc_monk.effect.tag_holy_accuracy=0.2
+skills.entity.mtc_monk.unlocks.equip.occultweapon=true
+skills.entity.mtc_monk.unlocks.equip.holyarmor=true
+
+skills.entity.mtc_ascetic.parents=skills.base.uncommon
+skills.entity.mtc_ascetic.effect.actiongroup_rituals=0.5
+skills.entity.mtc_ascetic.effect.actiongroup_occultresearch=0.5
+skills.entity.mtc_ascetic.effect.damage=-0.2
+
+skills.entity.mtc_acolyte.parents=skills.base.uncommon
+skills.entity.mtc_acolyte.effect.actiongroup_rituals=0.2
+skills.entity.mtc_acolyte.effect.actiongroup_occultresearch=0.2
+
+skills.entity.mtc_firefighter.parents=skills.base.uncommon
+
+skills.entity.mtc_officer.parents=skills.base.uncommon
+
+skills.entity.mtc_soldier.parents=skills.base.uncommon
+
+skills.entity.mtc_thug.parents=skills.base.uncommon
 
 # Rare
 
@@ -162,6 +210,31 @@ skills.entity.mtc_pioneer.effect.tag_mark_accuracy=0.2
 skills.entity.mtc_pioneer.effect.tag_mark_attackspeed=0.2
 skills.entity.mtc_pioneer.unlocks.equip.sniper=true
 
+skills.entity.mtc_druid.parents=skills.base.rare
+skills.entity.mtc_druid.effect.actiongroup_rituals=0.5
+skills.entity.mtc_druid.effect.actiongroup_agri=0.5
+skills.entity.mtc_druid.abilities.entangle=1
+skills.entity.mtc_druid.unlocks.equip.naturearmor=true
+
+skills.entity.mtc_crusader.parents=skills.base.rare
+skills.entity.mtc_crusader.effect.tag_holy_accuracy=0.25
+skills.entity.mtc_crusader.effect.tag_holy_damage=0.25
+skills.entity.mtc_crusader.effect.tag_holy_evade=0.25
+skills.entity.mtc_crusader.unlocks.equip.occultweapon=true
+skills.entity.mtc_crusader.unlocks.equip.holyarmor=true
+
+skills.entity.mtc_zealot.parents=skills.base.rare
+skills.entity.mtc_zealot.effect.tag_dark_accuracy=0.25
+skills.entity.mtc_zealot.effect.tag_dark_damage=0.25
+skills.entity.mtc_zealot.effect.tag_dark_evade=0.25
+skills.entity.mtc_zealot.unlocks.equip.occultweapon=true
+skills.entity.mtc_zealot.unlocks.equip.darkarmor=true
+
+skills.entity.mtc_specialforces.parents=skills.base.rare
+
+skills.entity.mtc_swat.parents=skills.base.rare
+
+skills.entity.mtc_martialartist.parents=skills.base.rare
 
 # -------------------------------------------------------------------
 # General Skills
@@ -224,7 +297,7 @@ skills.entity.mtc_charity.cancels.mtc_greed=true
 skills.entity.mtc_humility.parents=skills.base.rare
 skills.entity.mtc_humility.effect.actiongroup_occultresearch=0.25
 skills.entity.mtc_humility.effect.actiongroup_research=0.25
-skills.entity.mtc_humility.effect.actiongroup_ritual=0.25
+skills.entity.mtc_humility.effect.actiongroup_rituals=0.25
 skills.entity.mtc_humility.cancels.mtc_pride=true
 
 skills.entity.mtc_temperance.parents=skills.base.rare

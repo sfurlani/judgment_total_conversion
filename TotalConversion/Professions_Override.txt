@@ -17,12 +17,10 @@ professions.base.common.skills.general.mtc_quick=true
 
 professions.base.common.skills.general.mtc_motivated=true
 professions.base.common.skills.general.mtc_tough=true 
-professions.base.common.skills.general.=true
-professions.base.common.skills.general.=true
 
 # Rare/Virtue
 
-professions.base.common.skills.general.mtc_hardworker=true
+professions.base.common.skills.general.mtc_diligence=true
 professions.base.common.skills.general.mtc_diehard=true
 professions.base.common.skills.general.mtc_chastity=true
 professions.base.common.skills.general.mtc_charity=true
@@ -130,7 +128,13 @@ professions.entity.mtc_academic.preferredtasks.craft=true
 
 professions.entity.mtc_priest.parents=professions.base.common
 professions.entity.mtc_priest.generatechance=0.5
-professions.entity.mtc_priest.skills.profskill.mtc_jack=true
+professions.entity.mtc_priest.skills.profskill.mtc_initiate=true
+professions.entity.mtc_priest.skills.profskill.mtc_neophtye=true
+professions.entity.mtc_priest.skills.profskill.mtc_missionary=true
+professions.entity.mtc_priest.skills.profskill.mtc_acoltye=true
+professions.entity.mtc_priest.skills.profskill.mtc_ascetic=true
+professions.entity.mtc_priest.skills.profskill.mtc_monk=true
+professions.entity.mtc_priest.skills.profskill.mtc_crusader=true
 professions.entity.mtc_priest.skilllists.mtc_combat=true
 professions.entity.mtc_priest.skilllists.mtc_holy=true
 # professions.entity.mtc_priest.skilllists.mtc_devotion=true
@@ -138,6 +142,10 @@ professions.entity.mtc_priest.skilllists.mtc_survival=true
 professions.entity.mtc_priest.skilllists.mtc_build=true
 professions.entity.mtc_priest.skilllists.mtc_occult=true
 professions.entity.mtc_priest.skilllists.mtc_rituals=true
+professions.entity.mtc_priest.preferredtasks.occultresearch=true
+professions.entity.mtc_priest.preferredtasks.rituals=true
+professions.entity.mtc_priest.preferredtasks.build=true
+
 
 # Occultist
 # Combat, Survival, *Damnation, Rituals, OccultResearch, Gather, Dark
@@ -145,7 +153,14 @@ professions.entity.mtc_priest.skilllists.mtc_rituals=true
 
 professions.entity.mtc_occultist.parents=professions.base.common
 professions.entity.mtc_occultist.generatechance=0.5
-professions.entity.mtc_occultist.skills.profskill.mtc_jack=true
+professions.entity.mtc_occultist.skills.profskill.mtc_initiate=true
+professions.entity.mtc_occultist.skills.profskill.mtc_neophtye=true
+professions.entity.mtc_occultist.skills.profskill.mtc_follower=true
+professions.entity.mtc_occultist.skills.profskill.mtc_acoltye=true
+professions.entity.mtc_occultist.skills.profskill.mtc_ascetic=true
+professions.entity.mtc_occultist.skills.profskill.mtc_cultist=true
+professions.entity.mtc_occultist.skills.profskill.mtc_zealot=true
+professions.entity.mtc_occultist.skills.profskill.mtc_druid=true
 professions.entity.mtc_occultist.skilllists.mtc_combat=true
 professions.entity.mtc_occultist.skilllists.mtc_dark=true
 # professions.entity.mtc_occultist.skilllists.mtc_damnation=true
@@ -153,6 +168,10 @@ professions.entity.mtc_occultist.skilllists.mtc_survival=true
 professions.entity.mtc_occultist.skilllists.mtc_gather=true
 professions.entity.mtc_occultist.skilllists.mtc_occult=true
 professions.entity.mtc_occultist.skilllists.mtc_rituals=true
+professions.entity.mtc_occultist.preferredtasks.occultresearch=true
+professions.entity.mtc_occultist.preferredtasks.rituals=true
+professions.entity.mtc_occultist.preferredtasks.gatherwater=true
+professions.entity.mtc_occultist.preferredtasks.chop=true
 
 # Survivalist
 # Combat, Survival, Gather, Crafting, Farm, *Patrol, Melee
@@ -162,15 +181,7 @@ professions.entity.mtc_survivalist.generatechance=1
 professions.entity.mtc_survivalist.skills.profskill.mtc_student=true
 professions.entity.mtc_survivalist.skills.profskill.mtc_athlete=true
 professions.entity.mtc_survivalist.skills.profskill.mtc_hunter=true
-professions.entity.mtc_survivalist.skills.profskill.=true
-professions.entity.mtc_survivalist.skills.profskill.=true
-professions.entity.mtc_survivalist.skills.profskill.=true
-professions.entity.mtc_survivalist.skills.profskill.=true
-professions.entity.mtc_survivalist.skills.profskill.=true
-professions.entity.mtc_survivalist.skills.profskill.=true
-professions.entity.mtc_survivalist.skills.profskill.=true
-professions.entity.mtc_survivalist.skills.profskill.=true
-professions.entity.mtc_survivalist.skills.profskill.=true
+
 professions.entity.mtc_survivalist.skills.profskill.mtc_pioneer=true
 professions.entity.mtc_survivalist.skilllists.mtc_combat=true
 professions.entity.mtc_survivalist.skilllists.mtc_melee=true
@@ -179,6 +190,11 @@ professions.entity.mtc_survivalist.skilllists.mtc_survival=true
 professions.entity.mtc_survivalist.skilllists.mtc_gather=true
 professions.entity.mtc_survivalist.skilllists.mtc_craft=true
 professions.entity.mtc_survivalist.skilllists.mtc_farming=true
+professions.entity.mtc_survivalist.preferredtasks.patrol=true
+professions.entity.mtc_survivalist.preferredtasks.gatherwater=true
+professions.entity.mtc_survivalist.preferredtasks.chop=true
+professions.entity.mtc_survivalist.preferredtasks.agri=true
+
 
 # Scout
 # Combat, Survival, Gather, Crafting, *Scout, Marksman, Medicine
@@ -191,10 +207,7 @@ professions.entity.mtc_scout.skills.profskill.mtc_pickpocket=true
 professions.entity.mtc_scout.skills.profskill.mtc_burglar=true
 professions.entity.mtc_scout.skills.profskill.mtc_runner=true
 professions.entity.mtc_scout.skills.profskill.mtc_hunter=true
-professions.entity.mtc_scout.skills.profskill.=true
-professions.entity.mtc_scout.skills.profskill.=true
-professions.entity.mtc_scout.skills.profskill.=true
-professions.entity.mtc_scout.skills.profskill.=true
+ 
 professions.entity.mtc_scout.skills.profskill.mtc_olympian=true
 professions.entity.mtc_scout.skilllists.mtc_combat=true
 professions.entity.mtc_scout.skilllists.mtc_mark=true
@@ -203,6 +216,10 @@ professions.entity.mtc_scout.skilllists.mtc_scout=true
 professions.entity.mtc_scout.skilllists.mtc_survival=true
 professions.entity.mtc_scout.skilllists.mtc_gather=true
 professions.entity.mtc_scout.skilllists.mtc_craft=true
+professions.entity.mtc_scout.preferredtasks.gatherwater=true
+professions.entity.mtc_scout.preferredtasks.chop=true
+professions.entity.mtc_scout.preferredtasks.craft=true
+professions.entity.mtc_scout.preferredtasks.search=true
 
 
 # Defender
@@ -210,7 +227,17 @@ professions.entity.mtc_scout.skilllists.mtc_craft=true
 
 professions.entity.mtc_defender.parents=professions.base.common
 professions.entity.mtc_defender.generatechance=1
-professions.entity.mtc_defender.skills.profskill.mtc_jack=true
+professions.entity.mtc_defender.skills.profskill.mtc_gangster=true
+professions.entity.mtc_defender.skills.profskill.mtc_rentacop=true
+
+professions.entity.mtc_defender.skills.profskill.mtc_emt=true
+professions.entity.mtc_defender.skills.profskill.mtc_officer=true
+professions.entity.mtc_defender.skills.profskill.mtc_firefighter=true
+professions.entity.mtc_defender.skills.profskill.mtc_monk=true
+
+professions.entity.mtc_defender.skills.profskill.mtc_martialartist=true
+professions.entity.mtc_defender.skills.profskill.mtc_swat=true
+professions.entity.mtc_defender.skills.profskill.mtc_crusader=true
 professions.entity.mtc_defender.skilllists.mtc_combat=true
 professions.entity.mtc_defender.skilllists.mtc_melee=true
 professions.entity.mtc_defender.skilllists.mtc_assault=true
@@ -218,13 +245,25 @@ professions.entity.mtc_defender.skilllists.mtc_defender=true
 professions.entity.mtc_defender.skilllists.mtc_medicine=true
 professions.entity.mtc_defender.skilllists.mtc_holy=true
 professions.entity.mtc_defender.skilllists.mtc_survival=true
+professions.entity.mtc_defender.preferredtasks.combat=true
+professions.entity.mtc_defender.preferredtasks.train=true
+professions.entity.mtc_defender.preferredtasks.patrol=true
 
 # Fighter
 # Combat, Survival, Assault, Melee, Marksman, *Tactics, Dark
 
 professions.entity.mtc_fighter.parents=professions.base.common
 professions.entity.mtc_fighter.generatechance=1
-professions.entity.mtc_fighter.skills.profskill.mtc_jack=true
+professions.entity.mtc_fighter.skills.profskill.mtc_gangster=true
+professions.entity.mtc_fighter.skills.profskill.mtc_rentacop=true
+
+professions.entity.mtc_fighter.skills.profskill.mtc_soldier=true
+professions.entity.mtc_fighter.skills.profskill.mtc_thug=true
+professions.entity.mtc_fighter.skills.profskill.mtc_cultist=true
+
+professions.entity.mtc_fighter.skills.profskill.mtc_martialartist=true
+professions.entity.mtc_fighter.skills.profskill.mtc_specialforces=true
+professions.entity.mtc_fighter.skills.profskill.mtc_zealot=true
 professions.entity.mtc_fighter.skilllists.mtc_combat=true
 professions.entity.mtc_fighter.skilllists.mtc_melee=true
 professions.entity.mtc_fighter.skilllists.mtc_assault=true
@@ -232,3 +271,6 @@ professions.entity.mtc_fighter.skilllists.mtc_marksman=true
 # professions.entity.mtc_fighter.skilllists.mtc_tactics=true
 professions.entity.mtc_fighter.skilllists.mtc_dark=true
 professions.entity.mtc_fighter.skilllists.mtc_survival=true
+professions.entity.mtc_fighter.preferredtasks.combat=true
+professions.entity.mtc_fighter.preferredtasks.train=true
+professions.entity.mtc_fighter.preferredtasks.patrol=true
