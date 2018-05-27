@@ -183,12 +183,12 @@ skills.entity.mtc_thug.parents=skills.base.uncommon
 
 # Rare
 
-skills.entity.mtc_macscience.parents=skills.base.rare
-skills.entity.mtc_macscience.effect.actiongroup_research=0.5
-skills.entity.mtc_macscience.effect.tag_tech_accuracy=0.2
-skills.entity.mtc_macscience.effect.tag_tech_damage=0.2
-skills.entity.mtc_macscience.unlocks.equip.techweapon=true
-skills.entity.mtc_macscience.unlocks.equip.techarmor=true
+skills.entity.mtc_madscience.parents=skills.base.rare
+skills.entity.mtc_madscience.effect.actiongroup_research=0.5
+skills.entity.mtc_madscience.effect.tag_tech_accuracy=0.2
+skills.entity.mtc_madscience.effect.tag_tech_damage=0.2
+skills.entity.mtc_madscience.unlocks.equip.techweapon=true
+skills.entity.mtc_madscience.unlocks.equip.techarmor=true
 
 skills.entity.mtc_jack.parents=skills.base.rare
 skills.entity.mtc_jack.effect.workspeed=0.4
