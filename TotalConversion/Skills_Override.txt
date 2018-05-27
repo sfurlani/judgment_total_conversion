@@ -155,12 +155,12 @@ skills.entity.mtchunter.effect.tag_mark_attackspeed=0.1
 skills.entity.mtchunter.unlocks.equip.sniper=true
 
 skills.entity.mtccultist.parents=skills.base.uncommon
-skills.entity.mtccultist.effect.tag_dark_damage=0.2
+skills.entity.mtccultist.effect.tag_darkweapon_damage=0.2
 skills.entity.mtccultist.unlocks.equip.occultweapon=true
 skills.entity.mtccultist.unlocks.equip.darkarmor=true
 
 skills.entity.mtcmonk.parents=skills.base.uncommon
-skills.entity.mtcmonk.effect.tag_holy_accuracy=0.2
+skills.entity.mtcmonk.effect.tag_holyweapon_accuracy=0.2
 skills.entity.mtcmonk.unlocks.equip.occultweapon=true
 skills.entity.mtcmonk.unlocks.equip.holyarmor=true
 
@@ -217,16 +217,16 @@ skills.entity.mtcdruid.abilities.entangle=1
 skills.entity.mtcdruid.unlocks.equip.naturearmor=true
 
 skills.entity.mtccrusader.parents=skills.base.rare
-skills.entity.mtccrusader.effect.tag_holy_accuracy=0.25
-skills.entity.mtccrusader.effect.tag_holy_damage=0.25
-skills.entity.mtccrusader.effect.tag_holy_evade=0.25
+skills.entity.mtccrusader.effect.tag_holyweapon_accuracy=0.25
+skills.entity.mtccrusader.effect.tag_holyweapon_damage=0.25
+skills.entity.mtccrusader.effect.tag_holyweapon_evade=0.25
 skills.entity.mtccrusader.unlocks.equip.occultweapon=true
 skills.entity.mtccrusader.unlocks.equip.holyarmor=true
 
 skills.entity.mtczealot.parents=skills.base.rare
-skills.entity.mtczealot.effect.tag_dark_accuracy=0.25
-skills.entity.mtczealot.effect.tag_dark_damage=0.25
-skills.entity.mtczealot.effect.tag_dark_evade=0.25
+skills.entity.mtczealot.effect.tag_darkweapon_accuracy=0.25
+skills.entity.mtczealot.effect.tag_darkweapon_damage=0.25
+skills.entity.mtczealot.effect.tag_darkweapon_evade=0.25
 skills.entity.mtczealot.unlocks.equip.occultweapon=true
 skills.entity.mtczealot.unlocks.equip.darkarmor=true
 
@@ -708,36 +708,36 @@ skills.entity.mtctech4.effect.tag_tech_evade=0.25
 
 # Holy
 
-skills.entity.mtcholy1.effect.tag_holy_accuracy=0.05
-skills.entity.mtcholy1.effect.tag_holy_damage=0.05
-skills.entity.mtcholy1.effect.tag_holy_evade=0.05
+skills.entity.mtcholy1.effect.tag_holyweapon_accuracy=0.05
+skills.entity.mtcholy1.effect.tag_holyweapon_damage=0.05
+skills.entity.mtcholy1.effect.tag_holyweapon_evade=0.05
 
-skills.entity.mtcholy2.effect.tag_holy_accuracy=0.1
-skills.entity.mtcholy2.effect.tag_holy_damage=0.1
-skills.entity.mtcholy2.effect.tag_holy_evade=0.1
+skills.entity.mtcholy2.effect.tag_holyweapon_accuracy=0.1
+skills.entity.mtcholy2.effect.tag_holyweapon_damage=0.1
+skills.entity.mtcholy2.effect.tag_holyweapon_evade=0.1
 
-skills.entity.mtcholy3.effect.tag_holy_accuracy=0.15
-skills.entity.mtcholy3.effect.tag_holy_damage=0.15
-skills.entity.mtcholy3.effect.tag_holy_evade=0.15
+skills.entity.mtcholy3.effect.tag_holyweapon_accuracy=0.15
+skills.entity.mtcholy3.effect.tag_holyweapon_damage=0.15
+skills.entity.mtcholy3.effect.tag_holyweapon_evade=0.15
 
-skills.entity.mtcholy4.effect.tag_holy_accuracy=0.25
-skills.entity.mtcholy4.effect.tag_holy_damage=0.25
-skills.entity.mtcholy4.effect.tag_holy_evade=0.25
+skills.entity.mtcholy4.effect.tag_holyweapon_accuracy=0.25
+skills.entity.mtcholy4.effect.tag_holyweapon_damage=0.25
+skills.entity.mtcholy4.effect.tag_holyweapon_evade=0.25
 
 # Dark
 
-skills.entity.mtcdark1.effect.tag_dark_accuracy=0.05
-skills.entity.mtcdark1.effect.tag_dark_damage=0.05
-skills.entity.mtcdark1.effect.tag_dark_evade=0.05
+skills.entity.mtcdark1.effect.tag_darkweapon_accuracy=0.05
+skills.entity.mtcdark1.effect.tag_darkweapon_damage=0.05
+skills.entity.mtcdark1.effect.tag_darkweapon_evade=0.05
 
-skills.entity.mtcdark2.effect.tag_dark_accuracy=0.1
-skills.entity.mtcdark2.effect.tag_dark_damage=0.1
-skills.entity.mtcdark2.effect.tag_dark_evade=0.1
+skills.entity.mtcdark2.effect.tag_darkweapon_accuracy=0.1
+skills.entity.mtcdark2.effect.tag_darkweapon_damage=0.1
+skills.entity.mtcdark2.effect.tag_darkweapon_evade=0.1
 
-skills.entity.mtcdark3.effect.tag_dark_accuracy=0.15
-skills.entity.mtcdark3.effect.tag_dark_damage=0.15
-skills.entity.mtcdark3.effect.tag_dark_evade=0.15
+skills.entity.mtcdark3.effect.tag_darkweapon_accuracy=0.15
+skills.entity.mtcdark3.effect.tag_darkweapon_damage=0.15
+skills.entity.mtcdark3.effect.tag_darkweapon_evade=0.15
 
-skills.entity.mtcdark4.effect.tag_dark_accuracy=0.25
-skills.entity.mtcdark4.effect.tag_dark_damage=0.25
-skills.entity.mtcdark4.effect.tag_dark_evade=0.25
+skills.entity.mtcdark4.effect.tag_darkweapon_accuracy=0.25
+skills.entity.mtcdark4.effect.tag_darkweapon_damage=0.25
+skills.entity.mtcdark4.effect.tag_darkweapon_evade=0.25
