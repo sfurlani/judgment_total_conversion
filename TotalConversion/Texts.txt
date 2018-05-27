@@ -1,94 +1,230 @@
 
-# -------------------------------------------------------------------
-# Custom Text from SF
-# -------------------------------------------------------------------
+# ==============================
+# items
+# ==============================
+items.sfammofire.description=BOOM BOOM
+items.sfammofire.name=Incendiary Rounds
+items.sftestflaregun.description=For Testing
+items.sftestflaregun.name=TestFlare
 
-# Debug Names
+# ==============================
+# professions
+# ==============================
+professions.mtcacademic.name=academic
+professions.mtcdefender.name=defender
+professions.mtcfighter.name=fighter
+professions.mtclaborer.name=laborer
+professions.mtcoccultist.name=occultist
+professions.mtcpriest.name=priest
+professions.mtcscout.name=scout
+professions.mtcsurvivalist.name=survivalist
 
-items.sfammofire.name=Fire Bullets
-items.sfammofire.description=White Phosphorous bullets set your targets on fire
+# ==============================
+# skilllist
+# ==============================
+skilllist.mtcassault.name=assault
+skilllist.mtcbuild.name=build
+skilllist.mtccombat.name=combat
+skilllist.mtccraft.name=craft
+skilllist.mtcdark.name=dark
+skilllist.mtcdefense.name=defense
+skilllist.mtcfarming.name=farming
+skilllist.mtcgather.name=gather
+skilllist.mtcholy.name=holy
+skilllist.mtcmark.name=mark
+skilllist.mtcmedicine.name=medicine
+skilllist.mtcmelee.name=melee
+skilllist.mtcmine.name=mine
+skilllist.mtcoccult.name=occult
+skilllist.mtcpatrol.name=patrol
+skilllist.mtcquarry.name=quarry
+skilllist.mtcresearch.name=research
+skilllist.mtcrituals.name=rituals
+skilllist.mtcscout.name=scout
+skilllist.mtcsurvival.name=survival
+skilllist.mtctech.name=tech
+skilllist.mtctool.name=tool
 
-items.sftestflaregun.name=Test Flares
-items.sftestflaregun.description=testing on-hit status effects with low-damage weapon
+# ==============================
+# skills
+# ==============================
+skills.mtcacolyte.name=acolyte
+skills.mtcanemic.name=anemic
+skills.mtcapprentice.name=apprentice
+skills.mtcarchitect.name=architect
+skills.mtcarmormaster.name=armormaster
+skills.mtcascetic.name=ascetic
+skills.mtcassault1.name=assault1
+skills.mtcassault2.name=assault2
+skills.mtcassault3.name=assault3
+skills.mtcassault4.name=assault4
+skills.mtcathlete.name=athlete
+skills.mtcbotanist.name=botanist
+skills.mtcbrute.name=brute
+skills.mtcbuild1.name=build1
+skills.mtcbuild2.name=build2
+skills.mtcbuild3.name=build3
+skills.mtcbuild4.name=build4
+skills.mtcburglar.name=burglar
+skills.mtcbusybody.name=busybody
+skills.mtccarpenter.name=carpenter
+skills.mtccharity.name=charity
+skills.mtcchastity.name=chastity
+skills.mtcchemist.name=chemist
+skills.mtccombat1.name=combat1
+skills.mtccombat2.name=combat2
+skills.mtccombat3.name=combat3
+skills.mtccombat4.name=combat4
+skills.mtccoward.name=coward
+skills.mtccraft1.name=craft1
+skills.mtccraft2.name=craft2
+skills.mtccraft3.name=craft3
+skills.mtccraft4.name=craft4
+skills.mtccrusader.name=crusader
+skills.mtccultist.name=cultist
+skills.mtccyclist.name=cyclist
+skills.mtcdark1.name=dark1
+skills.mtcdark2.name=dark2
+skills.mtcdark3.name=dark3
+skills.mtcdark4.name=dark4
+skills.mtcdarkfighter.name=darkfighter
+skills.mtcdefense1.name=defense1
+skills.mtcdefense2.name=defense2
+skills.mtcdefense3.name=defense3
+skills.mtcdefense4.name=defense4
+skills.mtcdiehard.name=diehard
+skills.mtcdiligence.name=diligence
+skills.mtcdruid.name=druid
+skills.mtcemt.name=emt
+skills.mtcenergetic.name=energetic
+skills.mtcfarmer.name=farmer
+skills.mtcfarmhand.name=farmhand
+skills.mtcfarming1.name=farming1
+skills.mtcfarming2.name=farming2
+skills.mtcfarming3.name=farming3
+skills.mtcfarming4.name=farming4
+skills.mtcfirearm.unlock_name=firearm_unlock
+skills.mtcfirefighter.name=firefighter
+skills.mtcfollower.name=follower
+skills.mtcgaiafighter.name=gaiafighter
+skills.mtcgangster.name=gangster
+skills.mtcgather1.name=gather1
+skills.mtcgather2.name=gather2
+skills.mtcgather3.name=gather3
+skills.mtcgather4.name=gather4
+skills.mtcgeologist.name=geologist
+skills.mtcgluttony.name=gluttony
+skills.mtcgreed.name=greed
+skills.mtchandyman.name=handyman
+skills.mtchawkeyed.name=hawkeyed
+skills.mtcholy1.name=holy1
+skills.mtcholy2.name=holy2
+skills.mtcholy3.name=holy3
+skills.mtcholy4.name=holy4
+skills.mtcholyfighter.name=holyfighter
+skills.mtchumility.name=humility
+skills.mtchunter.name=hunter
+skills.mtcinitiate.name=initiate
+skills.mtcjack.name=jack
+skills.mtcjogger.name=jogger
+skills.mtclabassistant.name=labassistant
+skills.mtclazy.name=lazy
+skills.mtclethargic.name=lethargic
+skills.mtclust.name=lust
+skills.mtcmadscience.name=madscience
+skills.mtcmark1.name=mark1
+skills.mtcmark2.name=mark2
+skills.mtcmark3.name=mark3
+skills.mtcmark4.name=mark4
+skills.mtcmartialartist.name=martialartist
+skills.mtcmason.name=mason
+skills.mtcmedicine1.name=medicine1
+skills.mtcmedicine2.name=medicine2
+skills.mtcmedicine3.name=medicine3
+skills.mtcmedicine4.name=medicine4
+skills.mtcmelee1.name=melee1
+skills.mtcmelee2.name=melee2
+skills.mtcmelee3.name=melee3
+skills.mtcmelee4.name=melee4
+skills.mtcmetallurgist.name=metallurgist
+skills.mtcmine1.name=mine1
+skills.mtcmine2.name=mine2
+skills.mtcmine3.name=mine3
+skills.mtcmine4.name=mine4
+skills.mtcminer.name=miner
+skills.mtcmissionary.name=missionary
+skills.mtcmonk.name=monk
+skills.mtcmotivated.name=motivated
+skills.mtcneophyte.name=neophyte
+skills.mtcoccult.unlock_name=occult_unlock
+skills.mtcoccult1.name=occult1
+skills.mtcoccult2.name=occult2
+skills.mtcoccult3.name=occult3
+skills.mtcoccult4.name=occult4
+skills.mtcofficer.name=officer
+skills.mtcolympian.name=olympian
+skills.mtcpatience.name=patience
+skills.mtcpatrol1.name=patrol1
+skills.mtcpatrol2.name=patrol2
+skills.mtcpatrol3.name=patrol3
+skills.mtcpatrol4.name=patrol4
+skills.mtcphysician.name=physician
+skills.mtcphysicist.name=physicist
+skills.mtcpickpocket.name=pickpocket
+skills.mtcpioneer.name=pioneer
+skills.mtcpride.name=pride
+skills.mtcquarry1.name=quarry1
+skills.mtcquarry2.name=quarry2
+skills.mtcquarry3.name=quarry3
+skills.mtcquarry4.name=quarry4
+skills.mtcquick.name=quick
+skills.mtcrangefighter.name=rangefighter
+skills.mtcrentacop.name=rentacop
+skills.mtcresearch1.name=research1
+skills.mtcresearch2.name=research2
+skills.mtcresearch3.name=research3
+skills.mtcresearch4.name=research4
+skills.mtcresilient.name=resilient
+skills.mtcrituals1.name=rituals1
+skills.mtcrituals2.name=rituals2
+skills.mtcrituals3.name=rituals3
+skills.mtcrituals4.name=rituals4
+skills.mtcrunner.name=runner
+skills.mtcscout1.name=scout1
+skills.mtcscout2.name=scout2
+skills.mtcscout3.name=scout3
+skills.mtcscout4.name=scout4
+skills.mtcsloth.name=sloth
+skills.mtcslow.name=slow
+skills.mtcsmith.name=smith
+skills.mtcsniper.unlock_name=sniper_unlock
+skills.mtcsoldier.name=soldier
+skills.mtcspecialforces.name=specialforces
+skills.mtcstoneworker.name=stoneworker
+skills.mtcstudent.name=student
+skills.mtcsurvival1.name=survival1
+skills.mtcsurvival2.name=survival2
+skills.mtcsurvival3.name=survival3
+skills.mtcsurvival4.name=survival4
+skills.mtcswat.name=swat
+skills.mtctech.unlock_name=tech_unlock
+skills.mtctech1.name=tech1
+skills.mtctech2.name=tech2
+skills.mtctech3.name=tech3
+skills.mtctech4.name=tech4
+skills.mtctechfighter.name=techfighter
+skills.mtctechnician.name=technician
+skills.mtctemperance.name=temperance
+skills.mtcthug.name=thug
+skills.mtctool.unlock_name=tool_unlock
+skills.mtctool1.name=tool1
+skills.mtctool2.name=tool2
+skills.mtctool3.name=tool3
+skills.mtctool4.name=tool4
+skills.mtctough.name=tough
+skills.mtcwarfighter.name=warfighter
+skills.mtcwelder.name=welder
+skills.mtcwoodworker.name=woodworker
+skills.mtcwrath.name=wrath
+skills.mtczealot.name=zealot
 
-items.sfgun.name=Should Never See this
-
-tags.gun.name=Gun
-
-# -------------------------------------------------------------------
-# Professions
-# -------------------------------------------------------------------
-
-professions.mtc_laborer.male=Laborer
-professions.mtc_laborer.female=Laborer
-
-# -------------------------------------------------------------------
-# Professional Skills
-# -------------------------------------------------------------------
-
-# Common
-
-skills.mtc_woodworker.name=Wood Worker
-skills.mtc_stoneworker.name=Stone Worker
-skills.mtc_farmhand.name=Farmhand
-
-# Uncommon
-
-skills.mtc_carpenter.name=Carpenter
-skills.mtc_mason.name=Mason
-skills.mtc_farmer.name=Farmer
-
-# Rare
-
-skills.mtc_jack.name=Jack of all Trades
-
-# -------------------------------------------------------------------
-# Generic Skills
-# -------------------------------------------------------------------
-
-# Common
-
-skills.mtc_energetic.name=Energetic
-skills.mtc_resilient.name=Resilient
-
-# Uncommon
-
-skills.mtc_motivated.name=Motivated
-skills.mtc_tough.name=Tough as Nails
-
-# Rare
-
-skills.mtc_hardworker.name=Hard Worker
-skills.mtc_diehard.name=Die Hard
-
-# -------------------------------------------------------------------
-# Negative Skills
-# -------------------------------------------------------------------
-
-# Common
-
-skills.mtc_lethargic.name=Lethargic
-skills.mtc_slow.name=Slow
-
-# Uncommon
-
-skills.mtc_lazy.name=Lazy
-skills.mtc_anemic.name=Anemic
-
-# Rare
-
-skills.mtc_sloth.name=Sloth
-
-# -------------------------------------------------------------------
-# Skill Lists
-# -------------------------------------------------------------------
-
-skills.mtc_survival1.name=Survival I
-skills.mtc_survival2.name=Survival II
-skills.mtc_survival3.name=Survival III
-skills.mtc_survival4.name=Survival IV
-
-skills.mtc_combat1.name=Combat I
-skills.mtc_combat2.name=Combat II
-skills.mtc_combat3.name=Combat III
-skills.mtc_combat4.name=Combat IV
