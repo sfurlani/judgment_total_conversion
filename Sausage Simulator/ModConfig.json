@@ -1,16 +1,13 @@
 {
 	title: "Apocalypse Sausage Simulation",
-	desc: "
-	This mod changes the odds of survivor's gender being male to 1000:1 instead of the default 50/50.
-	
-	Why?
-	
-	There aren't any kitchens in the apocalypse.
-	
-	Also: doesn't change the 'special' survivor odds or gender - just the vanilla survivors.
+	desc: "This mod changes the odds of survivor's gender being male to 1000:1 instead of the default 50/50.
 
-	Sausages not your thing? Try Tacos instead:
+Also: doesn't change the 'special' survivor odds or gender - just the vanilla survivors.
+
+Alternate mod for just Ladies: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1394561506] Fempocalypse Survival Simulation[/url]
 	",
+	uid: "1394562472",
+	visibility: "0",
 	creator: "Phteven",
-	tags: "survivors"
+	tags: "survivors",
 }

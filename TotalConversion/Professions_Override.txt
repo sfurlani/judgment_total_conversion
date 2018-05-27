@@ -3,22 +3,57 @@
 # General
 # -------------------------------------------------------------------
 
+# Common
+
 professions.base.common.skills.general.mtc_energetic=true
-professions.base.common.skills.general.mtc_motivated=true
-professions.base.common.skills.general.mtc_hardworker=true
 professions.base.common.skills.general.mtc_resilient=true 
+professions.base.common.skills.general.mtc_jogger=true
+professions.base.common.skills.general.mtc_hawkeyed=true
+professions.base.common.skills.general.mtc_busybody=true
+professions.base.common.skills.general.mtc_brute=true
+professions.base.common.skills.general.mtc_quick=true
+
+# Uncommon
+
+professions.base.common.skills.general.mtc_motivated=true
 professions.base.common.skills.general.mtc_tough=true 
+professions.base.common.skills.general.=true
+professions.base.common.skills.general.=true
+
+# Rare/Virtue
+
+professions.base.common.skills.general.mtc_hardworker=true
 professions.base.common.skills.general.mtc_diehard=true
+professions.base.common.skills.general.mtc_chastity=true
+professions.base.common.skills.general.mtc_charity=true
+professions.base.common.skills.general.mtc_humility=true
+professions.base.common.skills.general.mtc_temperance=true
+professions.base.common.skills.general.mtc_patience=true
 
 # -------------------------------------------------------------------
 # Negative
 # -------------------------------------------------------------------
 
-professions.base.common.skills.negskill.mtc_lethargic=true
-professions.base.common.skills.negskill.mtc_lazy=true
-professions.base.common.skills.negskill.mtc_sloth=true
+# Common
+
 professions.base.common.skills.negskill.mtc_slow=true 
+professions.base.common.skills.negskill.mtc_lethargic=true
+
+# Uncommon
+
+professions.base.common.skills.negskill.mtc_lazy=true
 professions.base.common.skills.negskill.mtc_anemic=true
+
+
+# Rare/Vice
+
+professions.base.common.skills.negskill.mtc_sloth=true
+professions.base.common.skills.negskill.mtc_gluttony=true
+professions.base.common.skills.negskill.mtc_wrath=true
+professions.base.common.skills.negskill.mtc_pride=true
+professions.base.common.skills.negskill.mtc_lust=true
+professions.base.common.skills.negskill.mtc_greed=true
+professions.base.common.skills.negskill.mtc_coward=true
 
 # -------------------------------------------------------------------
 # Professional
