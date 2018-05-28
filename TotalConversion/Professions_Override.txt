@@ -218,7 +218,7 @@ professions.entity.mtcscout.skills.profskill.mtchunter=true
  
 professions.entity.mtcscout.skills.profskill.mtcolympian=true
 professions.entity.mtcscout.skilllists.mtccombat=true
-professions.entity.mtcscout.skilllists.mtcmark=true
+professions.entity.mtcscout.skilllists.mtcmarksman=true
 professions.entity.mtcscout.skilllists.mtcmedicine=true
 professions.entity.mtcscout.skilllists.mtcscout=true
 professions.entity.mtcscout.skilllists.mtcsurvival=true
