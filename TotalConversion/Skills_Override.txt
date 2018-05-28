@@ -1,6 +1,6 @@
 skills.startingskills.profskill=1
-skills.startingskills.negskill=0
-skills.startingskills.general=1
+skills.startingskills.negskill=-2-1
+skills.startingskills.general=0-1
 
 skills.categories.common=60
 skills.categories.uncommon=30

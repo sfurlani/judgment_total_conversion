@@ -1,14 +1,35 @@
 # -------------------------------------------------------------------
+# Game Config
+# -------------------------------------------------------------------
+
+# config.coverangle=30
+# config.coverevadeeffect=0.7
+# config.coveraimeffect=0.35
+# config.moveevademultiplier=0.2
+# config.hitchancemin=0.2
+# config.hitchancemax=1
+# config.flankangle=85
+# config.initialscout=4
+config.tilescout=3
+# config.maxpatrolspeed=0.8
+# I always felt this was so high, but might need to increase regular damage before decreasing this.
+# config.permanentdamagepercent=0.4
+# config.rescuespeedup=15
+# config.minrescuespawndistance=10
+# config.maxautosaves=5
+# config.maxsurvivors=35
+
+# -------------------------------------------------------------------
 # DEBUG
 # -------------------------------------------------------------------
 
 # Why everything so hard
-survivors.config.hungerrate=0.1
-survivors.config.energydrain=0.075
-survivors.config.drinkrate=0.003
+survivors.config.hungerrate=0.2
+survivors.config.energydrain=0.1
+survivors.config.drinkrate=0.005
 survivors.config.thirstydamage=0.44
 survivors.config.hungrydamage=0.28
-survivors.config.energypersecondsleep=3
+survivors.config.energypersecondsleep=1.0
 
 # Original
 
@@ -21,6 +42,6 @@ survivors.config.energypersecondsleep=3
 
 # healing rates relative to max health, per game minute. 0.0002 equals 1.2% per game hour, 28.8% per game day
 # survivors.config.healrate=0
-# survivors.config.healpersecondsleep=0.003
+survivors.config.healpersecondsleep=0.005
 # survivors.config.healpermedicine=0.075
 # survivors.config.healpersecondmedicine=0.05
