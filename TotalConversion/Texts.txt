@@ -10,14 +10,23 @@ items.sftestflaregun.name=TestFlare
 # ==============================
 # professions
 # ==============================
-professions.mtcacademic.name=academic
-professions.mtcdefender.name=defender
-professions.mtcfighter.name=fighter
-professions.mtclaborer.name=laborer
-professions.mtcoccultist.name=occultist
-professions.mtcpriest.name=priest
-professions.mtcscout.name=scout
-professions.mtcsurvivalist.name=survivalist
+professions.mtcacademic.male=academic
+professions.mtcdefender.male=defender
+professions.mtcfighter.male=fighter
+professions.mtclaborer.male=laborer
+professions.mtcoccultist.male=occultist
+professions.mtcpriest.male=priest
+professions.mtcscout.male=scout
+professions.mtcsurvivalist.male=survivalist
+
+professions.mtcacademic.female=academic
+professions.mtcdefender.female=defender
+professions.mtcfighter.female=fighter
+professions.mtclaborer.female=laborer
+professions.mtcoccultist.female=occultist
+professions.mtcpriest.female=priest
+professions.mtcscout.female=scout
+professions.mtcsurvivalist.female=survivalist
 
 # ==============================
 # skilllist

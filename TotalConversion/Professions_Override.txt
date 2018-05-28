@@ -62,7 +62,8 @@ professions.base.common.skills.negskill.mtccoward=true
 # Increase Spawn Chance a bit to compensate Engineer/Artisan loss
 
 professions.entity.mtclaborer.parents=professions.base.common
-professions.entity.mtclaborer.generatechance=1.5
+professions.entity.mtclaborer.generatechance=2
+professions.entity.mtclaborer.sprite=profession_engineer
 professions.entity.mtclaborer.skills.profskill.mtcapprentice=true
 professions.entity.mtclaborer.skills.profskill.mtcwoodworker=true
 professions.entity.mtclaborer.skills.profskill.mtcstoneworker=true
@@ -96,9 +97,11 @@ professions.entity.mtclaborer.preferredtasks.craft=true
 
 # Academic
 # Combat, Survival, *Research, Crafting, Farm, Medicine, Tech
+# Increase Spawn Chance a bit to compensate Engineer loss
 
 professions.entity.mtcacademic.parents=professions.base.common
-professions.entity.mtcacademic.generatechance=1
+professions.entity.mtcacademic.generatechance=1.5
+professions.entity.mtcacademic.sprite=profession_academic
 professions.entity.mtcacademic.skills.profskill.mtclabassistant=true
 professions.entity.mtcacademic.skills.profskill.mtcphysicist=true
 professions.entity.mtcacademic.skills.profskill.mtcbotanist=true
@@ -128,6 +131,7 @@ professions.entity.mtcacademic.preferredtasks.craft=true
 
 professions.entity.mtcpriest.parents=professions.base.common
 professions.entity.mtcpriest.generatechance=0.5
+professions.entity.mtcpriest.sprite=profession_priest
 professions.entity.mtcpriest.skills.profskill.mtcinitiate=true
 professions.entity.mtcpriest.skills.profskill.mtcneophyte=true
 professions.entity.mtcpriest.skills.profskill.mtcmissionary=true
@@ -153,6 +157,7 @@ professions.entity.mtcpriest.preferredtasks.build=true
 
 professions.entity.mtcoccultist.parents=professions.base.common
 professions.entity.mtcoccultist.generatechance=0.5
+professions.entity.mtcoccultist.sprite=profession_occultist
 professions.entity.mtcoccultist.skills.profskill.mtcinitiate=true
 professions.entity.mtcoccultist.skills.profskill.mtcneophyte=true
 professions.entity.mtcoccultist.skills.profskill.mtcfollower=true
@@ -178,6 +183,7 @@ professions.entity.mtcoccultist.preferredtasks.chop=true
 
 professions.entity.mtcsurvivalist.parents=professions.base.common
 professions.entity.mtcsurvivalist.generatechance=1
+professions.entity.mtcsurvivalist.sprite=profession_survivalist
 professions.entity.mtcsurvivalist.skills.profskill.mtcstudent=true
 professions.entity.mtcsurvivalist.skills.profskill.mtcathlete=true
 professions.entity.mtcsurvivalist.skills.profskill.mtchunter=true
@@ -201,6 +207,7 @@ professions.entity.mtcsurvivalist.preferredtasks.agri=true
 
 professions.entity.mtcscout.parents=professions.base.common
 professions.entity.mtcscout.generatechance=1
+professions.entity.mtcscout.sprite=profession_scout
 professions.entity.mtcscout.skills.profskill.mtcathlete=true
 professions.entity.mtcscout.skills.profskill.mtccyclist=true
 professions.entity.mtcscout.skills.profskill.mtcpickpocket=true
@@ -227,6 +234,7 @@ professions.entity.mtcscout.preferredtasks.search=true
 
 professions.entity.mtcdefender.parents=professions.base.common
 professions.entity.mtcdefender.generatechance=1
+professions.entity.mtcdefender.sprite=profession_defender
 professions.entity.mtcdefender.skills.profskill.mtcgangster=true
 professions.entity.mtcdefender.skills.profskill.mtcrentacop=true
 
@@ -254,6 +262,7 @@ professions.entity.mtcdefender.preferredtasks.patrol=true
 
 professions.entity.mtcfighter.parents=professions.base.common
 professions.entity.mtcfighter.generatechance=1
+professions.entity.mtcfighter.sprite=profession_fighter
 professions.entity.mtcfighter.skills.profskill.mtcgangster=true
 professions.entity.mtcfighter.skills.profskill.mtcrentacop=true
 

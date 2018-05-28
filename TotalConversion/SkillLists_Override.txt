@@ -121,18 +121,18 @@ skilllist.entity.mtcmedicine.ranks.4.mtcmedicine4=1
 
 skilllist.entity.mtcmelee.parents=skilllist.base.combat
 skilllist.entity.mtcmelee.ranks.1.mtcmelee1=1
-skilllist.entity.mtcmelee.ranks.1.mtcholyfighterr=1
-skilllist.entity.mtcmelee.ranks.1.mtcdarkfightert=1
+skilllist.entity.mtcmelee.ranks.1.mtcholyfighter=1
+skilllist.entity.mtcmelee.ranks.1.mtcdarkfighter=1
 skilllist.entity.mtcmelee.ranks.2.mtcmelee2=1
 skilllist.entity.mtcmelee.ranks.3.mtcmelee3=1
 skilllist.entity.mtcmelee.ranks.4.mtcmelee4=1
 
-skilllist.entity.mtcmark.parents=skilllist.base.combat
-skilllist.entity.mtcmark.ranks.1.mtcmark1=1
-skilllist.entity.mtcmark.ranks.1.mtcrangefighter=1
-skilllist.entity.mtcmark.ranks.2.mtcmark2=1
-skilllist.entity.mtcmark.ranks.3.mtcmark3=1
-skilllist.entity.mtcmark.ranks.4.mtcmark4=1
+skilllist.entity.mtcmarksman.parents=skilllist.base.combat
+skilllist.entity.mtcmarksman.ranks.1.mtcmark1=1
+skilllist.entity.mtcmarksman.ranks.1.mtcrangefighter=1
+skilllist.entity.mtcmarksman.ranks.2.mtcmark2=1
+skilllist.entity.mtcmarksman.ranks.3.mtcmark3=1
+skilllist.entity.mtcmarksman.ranks.4.mtcmark4=1
 
 skilllist.entity.mtcassault.parents=skilllist.base.combat
 skilllist.entity.mtcassault.ranks.1.mtcassault1=1
