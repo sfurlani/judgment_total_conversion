@@ -185,15 +185,15 @@ skills.entity.mtcthug.parents=skills.base.uncommon
 
 skills.entity.mtcmadscience.parents=skills.base.rare
 skills.entity.mtcmadscience.effect.actiongroup_research=0.5
-skills.entity.mtcmadscience.effect.tag_tech_accuracy=0.2
-skills.entity.mtcmadscience.effect.tag_tech_damage=0.2
+skills.entity.mtcmadscience.effect.tag_techweapon_accuracy=0.2
+skills.entity.mtcmadscience.effect.tag_techweapon_damage=0.2
 skills.entity.mtcmadscience.unlocks.equip.techweapon=true
 skills.entity.mtcmadscience.unlocks.equip.techarmor=true
 
 skills.entity.mtcjack.parents=skills.base.rare
 skills.entity.mtcjack.effect.workspeed=0.4
-skills.entity.mtcjack.effect.tag_tool_accuracy=0.2
-skills.entity.mtcjack.effect.tag_tool_damage=0.2
+skills.entity.mtcjack.effect.tag_toolweapon_accuracy=0.2
+skills.entity.mtcjack.effect.tag_toolweapon_damage=0.2
 skills.entity.mtcjack.unlocks.equip.toolweapon=true
 
 skills.entity.mtcolympian.parents=skills.base.rare
@@ -609,22 +609,22 @@ skills.entity.mtcarmormaster.unlocks.equip.techarmor=true
 skills.entity.mtcmelee1.effect.tag_melee_accuracy=0.05
 skills.entity.mtcmelee1.effect.tag_melee_damage=0.05
 skills.entity.mtcmelee1.effect.tag_melee_evade=0.05
-skills.entity.mtcmelee1.effect.tag_melee_armor=0.05
+skills.entity.mtcmelee1.effect.tag_melee_defense=0.05
 
 skills.entity.mtcmelee2.effect.tag_melee_accuracy=0.1
 skills.entity.mtcmelee2.effect.tag_melee_damage=0.1
 skills.entity.mtcmelee2.effect.tag_melee_evade=0.1
-skills.entity.mtcmelee2.effect.tag_melee_armor=0.1
+skills.entity.mtcmelee2.effect.tag_melee_defense=0.1
 
 skills.entity.mtcmelee3.effect.tag_melee_accuracy=0.15
 skills.entity.mtcmelee3.effect.tag_melee_damage=0.15
 skills.entity.mtcmelee3.effect.tag_melee_evade=0.15
-skills.entity.mtcmelee3.effect.tag_melee_armor=0.15
+skills.entity.mtcmelee3.effect.tag_melee_defense=0.15
 
 skills.entity.mtcmelee4.effect.tag_melee_accuracy=0.25
 skills.entity.mtcmelee4.effect.tag_melee_damage=0.25
 skills.entity.mtcmelee4.effect.tag_melee_evade=0.25
-skills.entity.mtcmelee4.effect.tag_melee_armor=0.25
+skills.entity.mtcmelee4.effect.tag_melee_defense=0.25
 
 # Marksmanship
 
@@ -672,39 +672,39 @@ skills.entity.mtcassault4.effect.tag_assault_evade=0.25
 
 # Tool
 
-skills.entity.mtctool1.effect.tag_tool_accuracy=0.05
-skills.entity.mtctool1.effect.tag_tool_damage=0.05
-skills.entity.mtctool1.effect.tag_tool_evade=0.05
+skills.entity.mtctool1.effect.tag_toolweapon_accuracy=0.05
+skills.entity.mtctool1.effect.tag_toolweapon_damage=0.05
+skills.entity.mtctool1.effect.tag_toolweapon_evade=0.05
 
-skills.entity.mtctool2.effect.tag_tool_accuracy=0.1
-skills.entity.mtctool2.effect.tag_tool_damage=0.1
-skills.entity.mtctool2.effect.tag_tool_evade=0.1
+skills.entity.mtctool2.effect.tag_toolweapon_accuracy=0.1
+skills.entity.mtctool2.effect.tag_toolweapon_damage=0.1
+skills.entity.mtctool2.effect.tag_toolweapon_evade=0.1
 
-skills.entity.mtctool3.effect.tag_tool_accuracy=0.15
-skills.entity.mtctool3.effect.tag_tool_damage=0.15
-skills.entity.mtctool3.effect.tag_tool_evade=0.15
+skills.entity.mtctool3.effect.tag_toolweapon_accuracy=0.15
+skills.entity.mtctool3.effect.tag_toolweapon_damage=0.15
+skills.entity.mtctool3.effect.tag_toolweapon_evade=0.15
 
-skills.entity.mtctool4.effect.tag_tool_accuracy=0.25
-skills.entity.mtctool4.effect.tag_tool_damage=0.25
-skills.entity.mtctool4.effect.tag_tool_evade=0.25
+skills.entity.mtctool4.effect.tag_toolweapon_accuracy=0.25
+skills.entity.mtctool4.effect.tag_toolweapon_damage=0.25
+skills.entity.mtctool4.effect.tag_toolweapon_evade=0.25
 
 # Tech
 
-skills.entity.mtctech1.effect.tag_tech_accuracy=0.05
-skills.entity.mtctech1.effect.tag_tech_damage=0.05
-skills.entity.mtctech1.effect.tag_tech_evade=0.05
+skills.entity.mtctech1.effect.tag_techweapon_accuracy=0.05
+skills.entity.mtctech1.effect.tag_techweapon_damage=0.05
+skills.entity.mtctech1.effect.tag_techweapon_evade=0.05
 
-skills.entity.mtctech2.effect.tag_tech_accuracy=0.1
-skills.entity.mtctech2.effect.tag_tech_damage=0.1
-skills.entity.mtctech2.effect.tag_tech_evade=0.1
+skills.entity.mtctech2.effect.tag_techweapon_accuracy=0.1
+skills.entity.mtctech2.effect.tag_techweapon_damage=0.1
+skills.entity.mtctech2.effect.tag_techweapon_evade=0.1
 
-skills.entity.mtctech3.effect.tag_tech_accuracy=0.15
-skills.entity.mtctech3.effect.tag_tech_damage=0.15
-skills.entity.mtctech3.effect.tag_tech_evade=0.15
+skills.entity.mtctech3.effect.tag_techweapon_accuracy=0.15
+skills.entity.mtctech3.effect.tag_techweapon_damage=0.15
+skills.entity.mtctech3.effect.tag_techweapon_evade=0.15
 
-skills.entity.mtctech4.effect.tag_tech_accuracy=0.25
-skills.entity.mtctech4.effect.tag_tech_damage=0.25
-skills.entity.mtctech4.effect.tag_tech_evade=0.25
+skills.entity.mtctech4.effect.tag_techweapon_accuracy=0.25
+skills.entity.mtctech4.effect.tag_techweapon_damage=0.25
+skills.entity.mtctech4.effect.tag_techweapon_evade=0.25
 
 # Holy
 
