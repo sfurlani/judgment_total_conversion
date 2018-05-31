@@ -14,7 +14,7 @@ enemies.base.ranged.parents=enemies.base.default
 enemies.base.ranged.properties.attacksound=ranged_magic_attack
 
 enemies.base.swarm.tags.swarm=true
-enemies.base.swarm.amount=4
+enemies.base.swarm.amount=6
 
 enemies.base.ranged.tags.ranged=true
 enemies.base.ranged.amount=2
@@ -178,7 +178,7 @@ enemies.entity.werewolf.loot.fur=2
 # TODO: Add More Loot
 enemies.entity.werewolf.walkanimationspeed=1.8
 
-enemies.entity.belial.parents=enemies.base.demon,enemies.base.meleeattack,enemeis.base.brute
+enemies.entity.belial.parents=enemies.base.demon,enemies.base.meleeattack,enemies.base.brute
 enemies.entity.belial.level=3
 enemies.entity.belial.damage=60
 enemies.entity.belial.attackspeed=2
@@ -186,7 +186,6 @@ enemies.entity.belial.accuracy=100
 enemies.entity.belial.health=250
 enemies.entity.belial.evade=30
 enemies.entity.belial.defense=12
-enemies.entity.belial.amount=1
 enemies.entity.belial.loot.demonite=1
 enemies.entity.belial.loot.demonscales=1
 #enemies.entity.belial.properties.attacksound=bow_attack
@@ -225,7 +224,7 @@ enemies.entity.cerberus.splash.range=1
 enemies.entity.cerberus.splash.damage=0.5
 enemies.entity.cerberus.walkanimationspeed=0.9
 
-enemies.entity.legion.parents=enemies.base.demon,enemies.base.meleeattack,enemeis.base.brute
+enemies.entity.legion.parents=enemies.base.demon,enemies.base.meleeattack,enemies.base.brute
 enemies.entity.legion.level=4
 enemies.entity.legion.damage=100
 enemies.entity.legion.attackspeed=2
