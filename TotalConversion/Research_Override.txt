@@ -1,0 +1,340 @@
+# ==================================================
+#  BASE science
+# ==================================================
+research.base.level0.level=0
+research.base.level1.level=1
+research.base.level2.level=2
+research.base.level3.level=3
+research.base.level4.level=4
+research.base.level5.level=5
+research.base.level6.level=6
+
+# ==================================================
+# Science Based Research
+research.base.science.sprite=research_farming
+
+research.base.farming.parent=research.base.science
+research.base.farming.sprite=research_farming
+research.base.farming.category=farming
+
+research.base.firearms.parent=research.base.science
+research.base.firearms.sprite=research_guns
+research.base.firearms.category=firearms
+
+research.base.crafting.parent=research.base.science
+research.base.crafting.sprite=research_crafting
+research.base.crafting.category=craft
+
+research.base.melee.parent=research.base.science
+research.base.melee.sprite=research_melee
+research.base.melee.category=craft
+
+research.base.tech.parent=research.base.science
+research.base.tech.sprite=research_machines
+research.base.tech.category=craft
+
+research.base.science0.parent=research.base.level0
+research.base.science0.costs.physics1=10
+research.base.science1.parent=research.base.level1
+research.base.science1.costs.physics1=30
+research.base.science2.parent=research.base.level2
+research.base.science2.costs.physics1=100
+research.base.science3.parent=research.base.level3
+research.base.science3.costs.physics1=300
+research.base.science4.parent=research.base.level4
+research.base.science4.costs.physics1=1000
+research.base.science5.parent=research.base.level5
+research.base.science5.costs.physics1=3000
+research.base.science6.parent=research.base.level6
+research.base.science6.costs.physics1=10000
+
+research.base.science0b.parent=research.base.level0
+research.base.science0b.costs.physics1=15
+research.base.science1b.parent=research.base.level1
+research.base.science1b.costs.physics1=45
+research.base.science2b.parent=research.base.level2
+research.base.science2b.costs.physics1=150
+research.base.science3b.parent=research.base.level3
+research.base.science3b.costs.physics1=450
+research.base.science4b.parent=research.base.level4
+research.base.science4b.costs.physics1=1500
+research.base.science5b.parent=research.base.level5
+research.base.science5b.costs.physics1=4500
+research.base.science6b.parent=research.base.level6
+research.base.science6b.costs.physics1=15000
+
+# ==================================================
+# Occult Based Research
+research.base.occult.sprite=research_occult
+
+research.base.rituals.parent=research.base.occult
+research.base.rituals.sprite=research_occult
+research.base.rituals.category=rituals
+
+research.base.magic.parent=research.base.occult
+research.base.magic.sprite=research_holy
+research.base.magic.category=magic
+
+research.base.alchemy.parent=research.base.occult
+research.base.alchemy.sprite=research_alchemy
+research.base.alchemy.category=alchemy
+
+research.base.occult0.parent=research.base.level0
+research.base.occult0.costs.occult1=10
+research.base.occult1.parent=research.base.level1
+research.base.occult1.costs.occult1=30
+research.base.occult2.parent=research.base.level2
+research.base.occult2.costs.occult1=100
+research.base.occult3.parent=research.base.level3
+research.base.occult3.costs.occult1=300
+research.base.occult4.parent=research.base.level4
+research.base.occult4.costs.occult1=1000
+research.base.occult5.parent=research.base.level5
+research.base.occult5.costs.occult1=3000
+research.base.occult6.parent=research.base.level6
+research.base.occult6.costs.occult1=10000
+
+research.base.occult0b.parent=research.base.level0
+research.base.occult0b.costs.occult1=15
+research.base.occult1b.parent=research.base.level1
+research.base.occult1b.costs.occult1=45
+research.base.occult2b.parent=research.base.level2
+research.base.occult2b.costs.occult1=150
+research.base.occult3b.parent=research.base.level3
+research.base.occult3b.costs.occult1=450
+research.base.occult4b.parent=research.base.level4
+research.base.occult4b.costs.occult1=1500
+research.base.occult5b.parent=research.base.level5
+research.base.occult5b.costs.occult1=4500
+research.base.occult6b.parent=research.base.level6
+research.base.occult6b.costs.occult1=15000
+
+# ==================================================
+research.base.comingsoon.comingsoon=true
+
+research.base.unlock.mainnode=true
+
+research.base.hidden.category=hidden
+
+
+# ==================================================
+# Green Harvesting
+research.category.farming.color=71,167,71
+research.category.farming.tabcolor=202,245,202
+# Orange Crafting
+research.category.craft.color=214,103,4
+research.category.craft.tabcolor=255,157,69
+# Red Firearms
+research.category.firearms.color=153,34,34
+research.category.firearms.tabcolor=223,146,146
+# Purple Magic
+research.category.magic.color=73,36,102
+research.category.magic.tabcolor=177,168,207
+# Blue Occult
+research.category.rituals.color=71,118,162
+research.category.rituals.tabcolor=187,203,210
+# Pink Alchemy
+research.category.other.color=170,20,170
+research.category.other.tabcolor=240,180,240
+# Grey
+research.category.other.color=180,180,180
+research.category.other.tabcolor=240,240,240
+# Hidden
+research.category.hidden.hidden=true
+
+
+# ==================================================
+# Base / Harvesting
+# ==================================================
+
+# Trunk
+research.entity.mtcfarming.parents=research.base.farming,research.base.science0,research.base.unlock
+
+research.entity.mtcbaking.parents=research.base.farming,research.base.science1,research.base.unlock
+research.entity.mtcbaking.research=mtcfarming
+
+research.entity.mtcherbology.parents=research.base.farming,research.base.science2,research.base.unlock
+research.entity.mtcherbology.research=mtcbaking
+
+research.entity.mtcagriculture.parents=research.base.farming,research.base.science3,research.base.unlock
+research.entity.mtcagriculture.research=mtcherbology
+
+research.entity.mtcapothecary.parents=research.base.farming,research.base.science4,research.base.unlock
+research.entity.mtcapothecary.research=mtcagriculture
+
+research.entity.mtcscientificmethod.parents=research.base.farming,research.base.science5,research.base.unlock
+research.entity.mtcscientificmethod.research=mtcapothecary
+
+# Branches
+research.entity.mtchusbandry.parents=research.base.farming,research.base.science0b
+research.entity.mtchusbandry.research=mtcfarming
+
+research.entity.mtcpreservation.parents=research.base.farming,research.base.science1b
+research.entity.mtcpreservation.research=mtcbaking
+
+research.entity.mtcsanitation.parents=research.base.farming,research.base.science1b
+research.entity.mtcsanitation.research=mtcpreservation
+
+research.entity.mtcherbalmeds.parents=research.base.farming,research.base.science2b
+research.entity.mtcherbalmeds.research=mtcherbology
+
+
+# ==================================================
+# Crafting
+# ==================================================
+
+# Trunk
+research.entity.mtcwoodworking.parents=research.base.crafting,research.base.science1,research.base.unlock
+
+research.entity.mtcmining.parents=research.base.crafting,research.base.science2,research.base.unlock
+research.entity.mtcmining.research=mtcwoodworking
+
+research.entity.mtcgeology.parents=research.base.crafting,research.base.science2b,research.base.unlock
+research.entity.mtcgeology.research=mtcmining
+
+research.entity.mtcmetallurgy.parents=research.base.crafting,research.base.science3,research.base.unlock
+research.entity.mtcmetallurgy.research=mtcgeology
+
+research.entity.mtcelectronics.parents=research.base.tech,research.base.science4,research.base.unlock
+research.entity.mtcelectronics.research=mtcmetallurgy
+
+research.entity.mtccomputers.parents=research.base.tech,research.base.science5,research.base.unlock
+research.entity.mtccomputers.research=mtcelectronics
+
+research.entity.mtcmetaphysics.parents=research.base.tech,research.base.science6,research.base.unlock
+research.entity.mtcmetaphysics.research=mtccomputers
+
+# Branches
+research.entity.mtcpottery.parents=research.base.crafting,research.base.science1b
+research.entity.mtcpottery.research=mtcwoodworking
+
+research.entity.mtcglassmaking.parents=research.base.crafting,research.base.science1b
+research.entity.mtcglassmaking.research=mtcpottery
+
+research.entity.mtccarpentry.parents=research.base.melee,research.base.science1b
+research.entity.mtccarpentry.research=mtcwoodworking
+
+research.entity.mtcsmithing.parents=research.base.melee,research.base.science2b
+research.entity.mtcsmithing.research=mtcmining
+
+research.entity.mtcmasonry.parents=research.base.crafting,research.base.science3
+research.entity.mtcmasonry.research=mtcgeology
+
+research.entity.mtcforging.parents=research.base.melee,research.base.science3b
+research.entity.mtcforging.research=mtcmetallurgy
+
+research.entity.mtcemf.parents=research.base.tech,research.base.science3b
+research.entity.mtcemf.research=mtccomputers
+
+# ==================================================
+# Firearms
+# ==================================================
+
+# Trunk
+research.entity.mtcbowmaking.parents=research.base.firearms,research.base.science0,research.base.unlock
+
+research.entity.mtcgunpowder.parents=research.base.firearms,research.base.science1,research.base.unlock
+research.entity.mtcgunpowder.research=mtcbowmaking
+
+research.entity.mtcrifling.parents=research.base.firearms,research.base.science2,research.base.unlock
+research.entity.mtcrifling.research=mtcgunpowder
+
+research.entity.mtcautomatic.parents=research.base.firearms,research.base.science3,research.base.unlock
+research.entity.mtcautomatic.research=mtcrifling
+
+research.entity.mtcsmartweapons.parents=research.base.firearms,research.base.science4,research.base.unlock
+research.entity.mtcsmartweapons.research=mtcautomatic
+
+research.entity.mtcmagnetic.parents=research.base.firearms,research.base.science5,research.base.unlock
+research.entity.mtcmagnetic.research=mtcsmartweapons
+
+research.entity.mtcenergy.parents=research.base.firearms,research.base.science6,research.base.unlock
+research.entity.mtcenergy.research=mtcmagnetic
+
+# Branch rifling
+research.entity.mtcgunpowdermark.parents=research.base.firearms,research.base.science1b
+research.entity.mtcgunpowdermark.research=mtcgunpowder
+
+research.entity.mtcriflingmark.parents=research.base.firearms,research.base.science2b
+research.entity.mtcriflingmark.research=mtcrifling
+
+research.entity.mtcautomaticmark.parents=research.base.firearms,research.base.science3b
+research.entity.mtcautomaticmark.research=mtcautomatic
+
+research.entity.mtcsmartweaponsmark.parents=research.base.firearms,research.base.science4b
+research.entity.mtcsmartweaponsmark.research=mtcsmartweapons
+
+research.entity.mtcmagneticmark.parents=research.base.firearms,research.base.science5b
+research.entity.mtcmagneticmark.research=mtcmagnetic
+
+research.entity.mtcenergymark.parents=research.base.firearms,research.base.science6b
+research.entity.mtcenergymark.research=mtcenergy
+
+# Branch assault
+research.entity.mtcgunpowderasslt.parents=research.base.firearms,research.base.science1b
+research.entity.mtcgunpowderasslt.research=mtcgunpowder
+
+research.entity.mtcriflingasslt.parents=research.base.firearms,research.base.science2b
+research.entity.mtcriflingasslt.research=mtcrifling
+
+research.entity.mtcautomaticasslt.parents=research.base.firearms,research.base.science3b
+research.entity.mtcautomaticasslt.research=mtcautomatic
+
+research.entity.mtcsmartweaponsasslt.parents=research.base.firearms,research.base.science4b
+research.entity.mtcsmartweaponsasslt.research=mtcsmartweapons
+
+research.entity.mtcmagneticasslt.parents=research.base.firearms,research.base.science5b
+research.entity.mtcmagneticasslt.research=mtcmagnetic
+
+research.entity.mtcenergyasslt.parents=research.base.firearms,research.base.science6b
+research.entity.mtcenergyasslt.research=mtcenergy
+
+# ==================================================
+# Alchemy
+# ==================================================
+
+
+# Trunk
+research.entity.mtcalchemy.parents=research.base.alchemy,research.base.occult2,research.base.unlock
+
+research.entity.mtcspiritual.parents=research.base.alchemy,research.base.occult1,research.base.unlock
+research.entity.mtcspiritual.research=mtcalchemy
+
+research.entity.mtchenchanting.parents=research.base.alchemy,research.base.occult2,research.base.unlock
+research.entity.mtchenchanting.research=mtcspiritual
+
+research.entity.mtctransmutation.parents=research.base.alchemy,research.base.occult3,research.base.unlock
+research.entity.mtctransmutation.research=mtchenchanting
+
+research.entity.mtcelemental.parents=research.base.alchemy,research.base.occult4,research.base.unlock
+research.entity.mtcelemental.research=mtctransmutation
+
+# Branch Dark
+research.entity.mtcalchemydark.parents=research.base.alchemy,research.base.occult2b
+research.entity.mtcalchemydark.research=mtcalchemy
+
+research.entity.mtcspiritualdark.parents=research.base.alchemy,research.base.occult3b
+research.entity.mtcspiritualdark.research=mtcspiritual
+
+research.entity.mtchenchantingdark.parents=research.base.alchemy,research.base.occult4b
+research.entity.mtchenchantingdark.research=mtchenchanting
+
+research.entity.mtctransmutationdark.parents=research.base.alchemy,research.base.occult5b
+research.entity.mtctransmutationdark.research=mtctransmutation
+
+research.entity.mtcelementaldark.parents=research.base.alchemy,research.base.occult6b
+research.entity.mtcelementaldark.research=mtcelemental
+
+# Branch Holy
+
+research.entity.mtcspiritualholy.parents=research.base.alchemy,research.base.occult3b
+research.entity.mtcspiritualholy.research=mtcspiritual
+
+research.entity.mtchenchantingholy.parents=research.base.alchemy,research.base.occult4b
+research.entity.mtchenchantingholy.research=mtchenchanting
+
+research.entity.mtctransmutationholy.parents=research.base.alchemy,research.base.occult5b
+research.entity.mtctransmutationholy.research=mtctransmutation
+
+research.entity.mtcelementalholy.parents=research.base.alchemy,research.base.occult6b
+research.entity.mtcelementalholy.research=mtcelemental

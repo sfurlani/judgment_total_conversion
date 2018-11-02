@@ -36,12 +36,15 @@ professions.base.common.skills.general.mtcpatience=true
 
 professions.base.common.skills.negskill.mtcslow=true 
 professions.base.common.skills.negskill.mtclethargic=true
+professions.base.common.skills.negskill.mtcclumsy=true
+professions.base.common.skills.negskill.mtcmoodeater=true
 
 # Uncommon
 
 professions.base.common.skills.negskill.mtclazy=true
 professions.base.common.skills.negskill.mtcanemic=true
-
+professions.base.common.skills.negskill.mtcweak=true
+professions.base.common.skills.negskill.mtcinsomniac=true
 
 # Rare/Vice
 

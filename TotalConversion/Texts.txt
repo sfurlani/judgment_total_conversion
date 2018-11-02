@@ -1,8 +1,16 @@
+
 # ==============================
-# tags
+# equipskill
 # ==============================
-tags.mark.name=Marksman
-tags.assault.name=Assault
+equipskill.darkarmor.name=Dark Armor
+equipskill.firearm.name=Exotic Firearms
+equipskill.holyarmor.name=Holy Armor
+equipskill.naturearmor.name=Nature Armor
+equipskill.occultweapon.name=Occult Weapons
+equipskill.sniper.name=Sniper Rifles
+equipskill.techarmor.name=Tech Armor
+equipskill.techweapon.name=Tech Weapons
+equipskill.toolweapon.name=Tool Weapons
 
 # ==============================
 # items
@@ -15,23 +23,30 @@ items.sftestflaregun.name=TestFlare
 # ==============================
 # professions
 # ==============================
-professions.mtcacademic.male=Academic
-professions.mtcdefender.male=Defender
-professions.mtcfighter.male=Fighter
-professions.mtclaborer.male=Laborer
-professions.mtcoccultist.male=Occultist
-professions.mtcpriest.male=Priest
-professions.mtcscout.male=Scout
-professions.mtcsurvivalist.male=Survivalist
-
 professions.mtcacademic.female=Academic
+professions.mtcacademic.male=Academic
+professions.mtcacademic.name=mtcacademic temp
 professions.mtcdefender.female=Defender
+professions.mtcdefender.male=Defender
+professions.mtcdefender.name=mtcdefender temp
 professions.mtcfighter.female=Fighter
+professions.mtcfighter.male=Fighter
+professions.mtcfighter.name=mtcfighter temp
 professions.mtclaborer.female=Laborer
+professions.mtclaborer.male=Laborer
+professions.mtclaborer.name=mtclaborer temp
 professions.mtcoccultist.female=Occultist
+professions.mtcoccultist.male=Occultist
+professions.mtcoccultist.name=mtcoccultist temp
 professions.mtcpriest.female=Priest
+professions.mtcpriest.male=Priest
+professions.mtcpriest.name=mtcpriest temp
 professions.mtcscout.female=Scout
+professions.mtcscout.male=Scout
+professions.mtcscout.name=mtcscout temp
 professions.mtcsurvivalist.female=Survivalist
+professions.mtcsurvivalist.male=Survivalist
+professions.mtcsurvivalist.name=mtcsurvivalist temp
 
 # ==============================
 # skilllist
@@ -85,6 +100,7 @@ skills.mtccarpenter.name=Carpenter
 skills.mtccharity.name=Charity
 skills.mtcchastity.name=Chastity
 skills.mtcchemist.name=Chemist
+skills.mtcclumsy.name=Clumsy
 skills.mtccombat1.name=Combat I
 skills.mtccombat2.name=Combat II
 skills.mtccombat3.name=Combat III
@@ -117,7 +133,7 @@ skills.mtcfarming1.name=Farming I
 skills.mtcfarming2.name=Farming II
 skills.mtcfarming3.name=Farming III
 skills.mtcfarming4.name=Farming IV
-skills.mtcfirearm.unlock_name=Firearm_unlock
+skills.mtcfirearmunlock.name=Firearm Unlock
 skills.mtcfirefighter.name=Firefighter
 skills.mtcfollower.name=Follower
 skills.mtcgaiafighter.name=Gaiafighter
@@ -141,7 +157,7 @@ skills.mtchunter.name=Hunter
 skills.mtcinitiate.name=Initiate
 skills.mtcjack.name=Jack
 skills.mtcjogger.name=Jogger
-skills.mtclabassistant.name=Labassistant
+skills.mtclabassistant.name=Lab Assistant
 skills.mtclazy.name=Lazy
 skills.mtclethargic.name=Lethargic
 skills.mtclust.name=Lust
@@ -150,7 +166,7 @@ skills.mtcmark1.name=Mark I
 skills.mtcmark2.name=Mark II
 skills.mtcmark3.name=Mark III
 skills.mtcmark4.name=Mark IV
-skills.mtcmartialartist.name=Martialartist
+skills.mtcmartialartist.name=Martial Artist
 skills.mtcmason.name=Mason
 skills.mtcmedicine1.name=Medicine I
 skills.mtcmedicine2.name=Medicine II
@@ -168,13 +184,14 @@ skills.mtcmine4.name=Mine IV
 skills.mtcminer.name=Miner
 skills.mtcmissionary.name=Missionary
 skills.mtcmonk.name=Monk
+skills.mtcmoodeater.name=Mood Eater
 skills.mtcmotivated.name=Motivated
 skills.mtcneophyte.name=Neophyte
-skills.mtcoccult.unlock_name=Occult_unlock
 skills.mtcoccult1.name=Occult I
 skills.mtcoccult2.name=Occult II
 skills.mtcoccult3.name=Occult III
 skills.mtcoccult4.name=Occult IV
+skills.mtcoccultunlock.name=Occult Unlock
 skills.mtcofficer.name=Officer
 skills.mtcolympian.name=Olympian
 skills.mtcpatience.name=Patience
@@ -211,7 +228,7 @@ skills.mtcscout4.name=Scout IV
 skills.mtcsloth.name=Sloth
 skills.mtcslow.name=Slow
 skills.mtcsmith.name=Smith
-skills.mtcsniper.unlock_name=Sniper_unlock
+skills.mtcsniperunlock.name=Sniper Unlock
 skills.mtcsoldier.name=Soldier
 skills.mtcspecialforces.name=Specialforces
 skills.mtcstoneworker.name=Stoneworker
@@ -221,24 +238,56 @@ skills.mtcsurvival2.name=Survival II
 skills.mtcsurvival3.name=Survival III
 skills.mtcsurvival4.name=Survival IV
 skills.mtcswat.name=Swat
-skills.mtctech.unlock_name=Tech_unlock
 skills.mtctech1.name=Tech I
 skills.mtctech2.name=Tech II
 skills.mtctech3.name=Tech III
 skills.mtctech4.name=Tech IV
 skills.mtctechfighter.name=Techfighter
 skills.mtctechnician.name=Technician
+skills.mtctechunlock.name=Tech Unlock
 skills.mtctemperance.name=Temperance
 skills.mtcthug.name=Thug
-skills.mtctool.unlock_name=Tool_unlock
 skills.mtctool1.name=Tool I
 skills.mtctool2.name=Tool II
 skills.mtctool3.name=Tool III
 skills.mtctool4.name=Tool IV
+skills.mtctoolunlock.name=Tool Unlock
 skills.mtctough.name=Tough
 skills.mtcwarfighter.name=Warfighter
 skills.mtcwelder.name=Welder
 skills.mtcwoodworker.name=Woodworker
 skills.mtcwrath.name=Wrath
 skills.mtczealot.name=Zealot
+skills.mtcinsomniac.name=Insomniac
+skills.mtcweak.name=Weak
+
+# ==============================
+# tags
+# ==============================
+tags.advfirearms.name=Adv. Firearms
+tags.assault.name=Assault
+tags.automaticweapon.name=Automatic Weapons
+tags.blunt.name=Blunt
+tags.bow.name=Bows
+tags.consecratedstructure.name=Consecrated
+tags.darkcrafting.name=Dark Items
+tags.darkcrafting2.name=Dark Artifacts
+tags.darkweapon.name=Dark Weapons
+tags.defensestructure.name=Def. Structures
+tags.farm.name=Farms
+tags.firearm.name=Firearms
+tags.holycrafting.name=Holy Items
+tags.holycrafting2.name=Holy Artifacts
+tags.holyweapon.name=Holy Weapons
+tags.mark.name=Marksman
+tags.medicinecrafting.name=Medicine
+tags.melee.name=Melee
+tags.occultweapon.name=Occult Weapons
+tags.pistol.name=Pistols
+tags.rifle.name=Rifles
+tags.sharp.name=Sharp
+tags.sniper.name=Sniper Weapons
+tags.techweapon.name=Tech Weapons
+tags.toolweapon.name=Tools
+tags.wardscrafting.name=Wards
 

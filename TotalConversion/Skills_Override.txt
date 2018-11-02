@@ -335,6 +335,12 @@ skills.entity.mtcslow.effect.walkspeed=-0.05
 skills.entity.mtclethargic.parents=skills.base.common
 skills.entity.mtclethargic.effect.energy=-0.05
 
+skills.entity.mtcclumsy.parents=skills.base.common
+skills.entity.mtcclumsy.effect.workspeed=-0.05
+
+skills.entity.mtcmoodeater.parents=skills.base.common
+skills.entity.mtcmoodeater.effect.nutrition=-0.2
+
 # Uncommon
 
 skills.entity.mtclazy.parents=skills.base.uncommon
@@ -344,6 +350,15 @@ skills.entity.mtclazy.effect.energy=-0.1
 skills.entity.mtcanemic.parents=skills.base.uncommon
 skills.entity.mtcanemic.effect.walkspeed=-0.05
 skills.entity.mtcanemic.effect.nutrition=-0.2
+
+skills.entity.mtcweak.parents=skills.base.uncommon
+skills.entity.mtcweak.effect.workspeed=-0.05
+skills.entity.mtcweak.effect.damage=-0.05
+skills.entity.mtcweak.effect.accuracy=-0.05
+
+skills.entity.mtcinsomniac.parents=skills.base.uncommon
+skills.entity.mtcinsomniac.effect.workspeed=0.05
+skills.entity.mtcinsomniac.effect.energy=-0.2
 
 # Rare / Vices
 
@@ -555,6 +570,10 @@ skills.entity.mtcmedicine3.abilities.skillheal=1
 skills.entity.mtcmedicine4.effect.health=0.1
 skills.entity.mtcmedicine4.abilities.skillhealarea=1
 
+# Damnation
+
+# Devotion
+
 # -------------------------------------------------------------------
 # Weapon SkillsLists
 # Melee, Assault, Marksman, Tools, Tech, Dark, Holy
@@ -573,11 +592,11 @@ skills.entity.mtcmedicine4.abilities.skillhealarea=1
 # equipskill.sniper.name=Sniper Rifles
 # equipskill.occultweapon.name=Rare Occult Weapons
 
-skills.entity.mtcoccult_unlock.unlocks.equip.occultweapon=true
-skills.entity.mtcsniper_unlock.unlocks.equip.sniper=true
-skills.entity.mtcfirearm_unlock.unlocks.equip.firearm=true
-skills.entity.mtctech_unlock.unlocks.equip.techweapon=true
-skills.entity.mtctool_unlock.unlocks.equip.toolweapon=true
+skills.entity.mtcoccultunlock.unlocks.equip.occultweapon=true
+skills.entity.mtcsniperunlock.unlocks.equip.sniper=true
+skills.entity.mtcfirearmunlock.unlocks.equip.firearm=true
+skills.entity.mtctechunlock.unlocks.equip.techweapon=true
+skills.entity.mtctoolunlock.unlocks.equip.toolweapon=true
 
 skills.entity.mtcholyfighter.unlocks.equip.occultweapon=true
 skills.entity.mtcholyfighter.unlocks.equip.holyarmor=true

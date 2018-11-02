@@ -14,7 +14,7 @@ function getval {
     retval=$(printf '%s' "${!retname}")
 }
 
-filenames=("Skills_Override.txt" "Professions_Override.txt" "SkillLists_Override.txt" "Items.txt")
+filenames=("Skills_Override.txt" "Professions_Override.txt" "SkillLists_Override.txt" "Research_Override.txt" "Items.txt")
 # "Objects.txt" "Enemies.txt"
 
 valuenames=()
