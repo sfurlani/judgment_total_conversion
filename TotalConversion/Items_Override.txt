@@ -75,7 +75,6 @@ items.base.consumable.scrapsellmul.equipment=0.15
 items.base.weapon.parents=items.base.hidden
 items.base.weapon.class=EquippableItemType
 items.base.weapon.equipable.slots.weapon=true
-items.base.weapon.achievements.warmonger=1
 items.base.weapon.canscrap=true
 
 items.base.firearm.parents=items.base.weapon
@@ -83,7 +82,6 @@ items.base.firearm.parents=items.base.weapon
 items.base.armor.parents=items.base.hidden
 items.base.armor.class=EquippableItemType
 items.base.armor.equipable.slots.armor=true
-items.base.armor.achievements.armorer=1
 items.base.armor.canscrap=true
 
 items.base.usable.parents=items.base.hidden
@@ -121,6 +119,15 @@ items.entity.none.scrapbase=0
 
 items.entity.hidden.showininventory=false
 items.entity.hidden.scrapbase=0
+
+# ==========================================================
+# Crafting Time
+# 1 work = 30sec game-time @ 100% efficiency
+# 1 week = 20,160
+# 1 day = 2,880
+# 1 hour = 120
+# 1 minute = 2
+# ==========================================================
 
 # ==========================================================
 # Resources
@@ -182,6 +189,7 @@ items.entity.tomato.gatherlimits=true
 
 # Loot 0
 items.entity.sulfur.parents=items.base.level0,items.base.common
+items.entity.demonite.parents=items.base.level0,items.base.uncommon
 
 # Scavenge 0
 
@@ -203,6 +211,7 @@ items.entity.wool.gatherlimits=true
 
 # Loot 1
 items.entity.fur.parents=items.base.level1,items.base.common
+
 items.entity.ectoplasm.parents=items.base.level1,items.base.uncommon
 
 # Scavenge 1
@@ -210,24 +219,12 @@ items.entity.resin.parents=items.base.level1,items.base.common
 
 # Crafted 1
 items.entity.boards.parents=items.base.level1,items.base.common,items.base.craftedresource
-crafting.entity.boards.amount=1
-crafting.entity.boards.work=20
-crafting.entity.boards.research=woodworking
-crafting.entity.boards.station.sawmill=1
-crafting.entity.boards.priority=15
-crafting.entity.boards.costs.wood=2
 
 items.entity.bricks.parents=items.base.level1,items.base.rare,items.base.craftedresource
-crafting.entity.bricks.amount=1
-crafting.entity.bricks.work=60
-crafting.entity.bricks.research=brickmaking
-crafting.entity.bricks.station.furnace=1
-crafting.entity.bricks.properties.sound=cook
-crafting.entity.bricks.parents=crafting.base.handling
-crafting.entity.bricks.priority=15
-crafting.entity.bricks.costs.wood=2
-crafting.entity.bricks.costs.stone=2
-crafting.entity.bricks.costs.clay=2
+
+items.entity.cloth.parents=items.base.level1,items.base.uncommon,items.base.craftedresource
+
+items.entity.gunpowder.parents=items.base.level1,items.base.uncommon,items.base.craftedresource
 
 # ==========================================================
 # Raw 2
@@ -238,243 +235,106 @@ items.entity.herbs.parents=items.base.level2,items.base.abundant
 items.entity.herbs.gatherlimits=true
 
 # Loot 2
-items.entity.demonite.parents=items.base.level2,items.base.uncommon
+items.entity.demoneyes.parents=items.base.level2,items.base.uncommon
 
 # Scavenge 2
-items.entity.copper.parents=items.base.level2,items.base.common
-
 items.entity.mysticvines.parents=items.base.level2,items.base.uncommon
 
-items.entity.researchmaterials.parents=items.base.level2,items.base.rare,items.base.researchmat
-
 # Crafted 2
-items.entity.weaponparts.parents=items.base.level2,items.base.uncommon,items.base.craftedresource
-crafting.entity.weaponparts.amount=1
-crafting.entity.weaponparts.work=80
-crafting.entity.weaponparts.research=firearms
-crafting.entity.weaponparts.station.weaponsworkshop=1
-crafting.entity.weaponparts.costs.metals=1
-crafting.entity.weaponparts.costs.copper=1
-
-items.entity.cloth.parents=items.base.level2,items.base.common,items.base.craftedresource
-crafting.entity.cloth.amount=1
-crafting.entity.cloth.work=32
-crafting.entity.cloth.research=weaving
-crafting.entity.cloth.station.workbench=1
-crafting.entity.cloth.costs.wool=2
-
-items.entity.holywater.parents=items.base.level2,items.base.rare,items.base.craftedresource
-crafting.entity.holywater.amount=1
-crafting.entity.holywater.work=60
-crafting.entity.holywater.research=holymagic
-crafting.entity.holywater.station.stove=1
-crafting.entity.holywater.properties.sound=cook
-crafting.entity.holywater.parents=crafting.base.handling
-crafting.entity.holywater.costs.alcohol=1
-crafting.entity.holywater.costs.water=1
-crafting.entity.holywater.costs.cloth=2
-
 items.entity.alcohol.parents=items.base.level2,items.base.common,items.base.craftedresource
-crafting.entity.alcohol.amount=1
-crafting.entity.alcohol.work=36
-crafting.entity.alcohol.research=distilling
-crafting.entity.alcohol.station.stove=1
-crafting.entity.alcohol.properties.sound=research
-crafting.entity.alcohol.parents=crafting.base.handling
-crafting.entity.alcohol.costs.wheat=2
-crafting.entity.alcohol.costs.water=1
 
-items.entity.gunpowder.parents=items.base.level2,items.base.common,items.base.craftedresource
-crafting.entity.gunpowder.amount=1
-crafting.entity.gunpowder.work=40
-crafting.entity.gunpowder.research=metalworking
-crafting.entity.gunpowder.station.furnace=1
-crafting.entity.gunpowder.properties.sound=cook
-crafting.entity.gunpowder.parents=crafting.base.handling
-crafting.entity.gunpowder.costs.sulfur=3
-crafting.entity.gunpowder.costs.wood=1
+items.entity.oil.parents=items.base.level2,items.base.common,items.base.craftedresource
+
+items.entity.glass.parents=items.base.level2,items.base.uncommon,items.base.craftedresource
 
 # ==========================================================
 # Raw 3
 items.entity.minerals.parents=items.base.level3,items.base.common
 items.entity.minerals.gatherlimits=true
 
+items.entity.aloe.parents=items.base.level3,items.base.common
+items.entity.aloe.gatherlimits=true
+
 # Loot 3
-items.entity.aether.parents=items.base.level3,items.base.uncommon
+items.entity.deathnectar.parents=items.base.level3,items.base.uncommon
 
 # Scavenge 3
 items.entity.obsidian.parents=items.base.level3,items.base.uncommon
 
-items.entity.holywords.parents=items.base.level3,items.base.rare
-
-items.entity.researchkit.parents=items.base.level3,items.base.rare,items.base.researchmat
-
 # Crafted 3
-
-items.entity.oil.parents=items.base.level3,items.base.common,items.base.craftedresource
-crafting.entity.oil.amount=1
-crafting.entity.oil.work=64
-crafting.entity.oil.research=oilpressing
-crafting.entity.oil.station.stove=1
-crafting.entity.oil.properties.sound=cook
-crafting.entity.oil.parents=crafting.base.handling
-crafting.entity.oil.costs.herbs=3
-crafting.entity.oil.costs.wheat=3
-
 items.entity.composites.parents=items.base.level3,items.base.uncommon,items.base.craftedresource
-items.entity.composites.achievements.alchemist=1
-crafting.entity.composites.amount=1
-crafting.entity.composites.work=100
-crafting.entity.composites.research=composites
-crafting.entity.composites.station.furnace=1
-crafting.entity.composites.properties.sound=cook
-crafting.entity.composites.parents=crafting.base.handling
-crafting.entity.composites.costs.metals=3
-crafting.entity.composites.costs.minerals=1
-crafting.entity.composites.costs.resin=1
 
-items.entity.arcanescrolls.parents=items.base.level3,items.base.uncommon,items.base.craftedresource
-crafting.entity.arcanescrolls.amount=1
-crafting.entity.arcanescrolls.work=80
-crafting.entity.arcanescrolls.research=extremecrafting
-crafting.entity.arcanescrolls.station.alchemytable=1
-crafting.entity.arcanescrolls.properties.sound=cook
-crafting.entity.arcanescrolls.parents=crafting.base.handling
-crafting.entity.arcanescrolls.costs.minerals=1
-crafting.entity.arcanescrolls.costs.aether=1
+items.entity.acid.parents=items.base.level3,items.base.common,items.base.craftedresource
 
-items.entity.primamateria.parents=items.base.level3,items.base.rare,items.base.craftedresource
-crafting.entity.primamateria.amount=1
-crafting.entity.primamateria.work=200
-crafting.entity.primamateria.research=mercurialmastery
-crafting.entity.primamateria.station.alchemytable=1
-crafting.entity.primamateria.properties.sound=cook
-crafting.entity.primamateria.parents=crafting.base.handling
-crafting.entity.primamateria.costs.water=2
-crafting.entity.primamateria.costs.wood=8
-crafting.entity.primamateria.costs.stone=4
-crafting.entity.primamateria.costs.clay=4
-crafting.entity.primamateria.costs.metals=2
-crafting.entity.primamateria.costs.minerals=1
+items.entity.weaponparts.parents=items.base.level3,items.base.uncommon,items.base.craftedresource
+
+items.entity.aquavitae.parents=items.base.level3,items.base.uncommon,items.base.craftedresource
 
 # ==========================================================
 # Raw 4
 items.entity.aluminum.parents=items.base.level4,items.base.common
 items.entity.aluminum.gatherlimits=true
 
-items.entity.diamonds.parents=items.base.level4,items.base.rare
-items.entity.diamonds.gatherlimits=true
-
-items.entity.aloe.parents=items.base.level4,items.base.common
-items.entity.aloe.gatherlimits=true
+items.entity.cotton.parents=items.base.level4,items.base.common
+items.entity.cotton.gatherlimits=true
 
 # Loot 4
 items.entity.demonscales.parents=items.base.level4,items.base.uncommon
 
 # Scavenge 4
-items.entity.quartz.parents=items.base.level4,items.base.uncommon
+items.entity.crystal.parents=items.base.level4,items.base.uncommon
 
 items.entity.researchdata.parents=items.base.level4,items.base.rare,items.base.researchmat
 
 # Crafted 4
-
-items.entity.acid.parents=items.base.level4,items.base.common,items.base.craftedresource
-crafting.entity.acid.amount=1
-crafting.entity.acid.work=20
-crafting.entity.acid.research=acidextraction
-crafting.entity.acid.station.alchemytable=1
-crafting.entity.acid.properties.sound=cook
-crafting.entity.acid.parents=crafting.base.handling
-crafting.entity.acid.costs.oil=1
-crafting.entity.acid.costs.aloe=1
-
 items.entity.titanium.parents=items.base.level4,items.base.uncommon,items.base.craftedresource
-crafting.entity.titanium.amount=1
-crafting.entity.titanium.work=100
-crafting.entity.titanium.research=titaniumproduction
-crafting.entity.titanium.station.furnace=1
-crafting.entity.titanium.properties.sound=cook
-crafting.entity.titanium.parents=crafting.base.handling
-crafting.entity.titanium.costs.aloe=1
-crafting.entity.titanium.costs.metals=2
-crafting.entity.titanium.costs.aluminum=2
 
-items.entity.glass.parents=items.base.level4,items.base.uncommon,items.base.craftedresource
-crafting.entity.glass.amount=2
-crafting.entity.glass.work=160
-crafting.entity.glass.research=glassworking
-crafting.entity.glass.station.furnace=1
-crafting.entity.glass.properties.sound=cook
-crafting.entity.glass.parents=crafting.base.handling
-crafting.entity.glass.costs.quartz=1
-crafting.entity.glass.costs.diamonds=2
-crafting.entity.glass.costs.minerals=1
+items.entity.aquaregis.parents=items.base.level4,items.base.rare,items.base.craftedresource
 
-items.entity.batteries.parents=items.base.level4,items.base.rare,items.base.craftedresource
-crafting.entity.batteries.amount=1
-crafting.entity.batteries.work=320
-crafting.entity.batteries.research=machines
-crafting.entity.batteries.station.workbench=1
-crafting.entity.batteries.costs.aluminum=4
-crafting.entity.batteries.costs.alcohol=2
+items.entity.aquafortis.parents=items.base.level4,items.base.rare,items.base.craftedresource
+
+items.entity.aquasanctus.parents=items.base.level4,items.base.rare,items.base.craftedresource
+
+items.entity.smartchip.parents=items.base.level4,items.base.rare,items.base.craftedresource
+
 
 # ==========================================================
 # Raw 5
 items.entity.phosphorus.parents=items.base.level5,items.base.common
 items.entity.phosphorus.gatherlimits=true
 
-items.entity.bloodruby.parents=items.base.level5,items.base.uncommon
-items.entity.bloodruby.gatherlimits=true
-
-items.entity.cotton.parents=items.base.level5,items.base.common
-items.entity.cotton.gatherlimits=true
-
 # Loot 5
 items.entity.permafrost.parents=items.base.level5,items.base.uncommon
 
-items.entity.hellsessence.parents=items.base.level5,items.base.rare
+items.entity.demonblood.parents=items.base.level5,items.base.rare
 
 # Scavenge 5
-items.entity.researchchip.parents=items.base.level5,items.base.rare,items.base.researchmat
-
-items.entity.plasmapack.parents=items.base.level5,items.base.rare
+items.entity.bloodruby.parents=items.base.level5,items.base.uncommon
 
 # Crafted 5
-
-items.entity.opticscable.parents=items.base.level5,items.base.common,items.base.craftedresource
-crafting.entity.opticscable.amount=3
-crafting.entity.opticscable.work=160
-crafting.entity.opticscable.research=optics
-crafting.entity.opticscable.station.techworkshop=1
-crafting.entity.opticscable.costs.aluminum=2
-crafting.entity.opticscable.costs.glass=1
-crafting.entity.opticscable.costs.cotton=1
-
 items.entity.silicon.parents=items.base.level5,items.base.uncommon,items.base.craftedresource
-crafting.entity.silicon.amount=1
-crafting.entity.silicon.work=80
-crafting.entity.silicon.research=semiconductors
-crafting.entity.silicon.station.furnace=1
-crafting.entity.silicon.costs.quartz=1
-crafting.entity.silicon.costs.phosphorus=2
+
+items.entity.computers.parents=items.base.level5,items.base.rare,items.base.craftedresource
 
 items.entity.nitro.parents=items.base.level5,items.base.rare,items.base.craftedresource
-crafting.entity.nitro.amount=1
-crafting.entity.nitro.work=320
-crafting.entity.nitro.research=flamables
-crafting.entity.nitro.station.alchemytable=1
-crafting.entity.nitro.costs.cotton=4
-crafting.entity.nitro.costs.phosphorus=4
 
+items.entity.batteries.parents=items.base.level5,items.base.uncommon,items.base.craftedresource
+
+items.entity.coils.parents=items.base.level5,items.base.uncommon,items.base.craftedresource
 
 # ==========================================================
 # Raw 6
 
 # Loot 6
+items.entity.hellsessence.parents=items.base.level6,items.base.rare
 
 # Scavenge 6
+items.entity.diamonds.parents=items.base.level6,items.base.rare
+
+items.entity.plasmapack.parents=items.base.level5,items.base.rare
 
 # Crafted 6
+items.entity.opticscable.parents=items.base.level6,items.base.rare,items.base.craftedresource
 
 # ==========================================================
 # FOOD
@@ -570,6 +430,92 @@ crafting.entity.pasta.costs.wheat=3
 crafting.entity.pasta.costs.tomato=3
 crafting.entity.pasta.costs.herbs=2
 crafting.entity.pasta.costs.oil=1
+
+# ==========================================================
+# Equipment 0
+# ==========================================================
+
+items.entity.spikedclub.parents=items.base.level0,items.base.abundant
+items.entity.reinforcedoutfit.parents=items.base.level0,items.base.common
+
+# ==========================================================
+# Equipment 1
+# ==========================================================
+
+items.entity.bat.parents=items.base.level1,items.base.common
+items.entity.staff.parents=items.base.level1,items.base.common
+items.entity.scraparmor.parents=items.base.level1,items.base.common
+items.entity.leathervest.parents=items.base.level1,items.base.common
+items.entity.woodshield.parents=items.base.level1,items.base.common
+
+# ==========================================================
+# Equipment 2
+# ==========================================================
+
+items.entity.ironsword.parents=items.base.level2,items.base.common
+items.entity.dagger.parents=items.base.level2,items.base.common
+items.entity.rustyarmor.parents=items.base.level2,items.base.common
+items.entity.rustyshield.parents=items.base.level2,items.base.common
+
+items.entity.demonitearmor.parents=items.base.level2,items.base.uncommon
+items.entity.vinearmor.parents=items.base.level2,items.base.uncommon
+items.entity.camovest.parents=items.base.level2,items.base.uncommon
+
+items.entity.leatherjacket.parents=items.base.level2,items.base.uncommon
+
+# ==========================================================
+# Equipment 3
+# ==========================================================
+
+items.entity.claymore.parents=items.base.level3,items.base.common
+items.entity.metalarmor.parents=items.base.level3,items.base.common
+items.entity.heavyarmor.parents=items.base.level3,items.base.common
+items.entity.metalshield.parents=items.base.level3,items.base.common
+
+items.entity.reddevil.parents=items.base.level3,items.base.rare
+items.entity.gaiaarmor.parents=items.base.level3,items.base.rare
+items.entity.huntergear.parents=items.base.level3,items.base.rare
+
+items.entity.kevlarvest.parents=items.base.level3,items.base.uncommon
+
+# ==========================================================
+# Equipment 4
+# ==========================================================
+
+items.entity.combatsuit.parents=items.base.level4,items.base.common
+items.entity.riotshield.parents=items.base.level4,items.base.common
+
+items.entity.demonblight.parents=items.base.level4,items.base.rare
+items.entity.boulderarmor.parents=items.base.level4,items.base.rare
+items.entity.saintarmor.parents=items.base.level4,items.base.uncommon
+items.entity.ghilliesuit.parents=items.base.level4,items.base.rare
+
+items.entity.mercurialarmor.parents=items.base.level4,items.base.uncommon
+
+# ==========================================================
+# Equipment 5
+# ==========================================================
+
+items.entity.titaniumarmor.parents=items.base.level5,items.base.common
+items.entity.chargedeflector.parents=items.base.level5,items.base.common
+
+items.entity.armorofnight.parents=items.base.level5,items.base.rare
+items.entity.celestialarmor.parents=items.base.level5,items.base.rare
+items.entity.crystalarmor.parents=items.base.level5,items.base.rare
+items.entity.druidarmor.parents=items.base.level5,items.base.rare
+
+# ==========================================================
+# Equipment 6
+# ==========================================================
+
+items.entity.mechplates.parents=items.base.level6,items.base.common
+items.entity.rocketarmor.parents=items.base.level6,items.base.common
+items.entity.forcefield.parents=items.base.level6,items.base.common
+
+items.entity.invisibilitycloak.parents=items.base.level6,items.base.uncommon
+items.entity.elementalarmor.parents=items.base.level6,items.base.rare
+items.entity.paladinsarmor.parents=items.base.level6,items.base.rare
+items.entity.armorofsouls.parents=items.base.level6,items.base.rare
 
 # ==========================================================
 # Item Tests

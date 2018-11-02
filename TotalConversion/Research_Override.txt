@@ -9,6 +9,10 @@ research.base.level4.level=4
 research.base.level5.level=5
 research.base.level6.level=6
 
+research.base.comingsoon.comingsoon=true
+research.base.trunk.mainnode=true
+research.base.hidden.category=hidden
+
 # ==================================================
 # Science Based Research
 research.base.science.sprite=research_farming
@@ -63,6 +67,12 @@ research.base.science5b.costs.physics1=4500
 research.base.science6b.parent=research.base.level6
 research.base.science6b.costs.physics1=15000
 
+#   10  30  100 300 1000 3000  10000
+#   15  45  150 450 1500 4500  15000
+
+#   10  30  80  210 550  1440  3770
+#   20  50  130 340 890  2330  6100
+
 # ==================================================
 # Occult Based Research
 research.base.occult.sprite=research_occult
@@ -109,13 +119,6 @@ research.base.occult5b.costs.occult1=4500
 research.base.occult6b.parent=research.base.level6
 research.base.occult6b.costs.occult1=15000
 
-# ==================================================
-research.base.comingsoon.comingsoon=true
-
-research.base.unlock.mainnode=true
-
-research.base.hidden.category=hidden
-
 
 # ==================================================
 # Green Harvesting
@@ -148,21 +151,21 @@ research.category.hidden.hidden=true
 # ==================================================
 
 # Trunk
-research.entity.mtcfarming.parents=research.base.farming,research.base.science0,research.base.unlock
+research.entity.mtcfarming.parents=research.base.farming,research.base.science0,research.base.trunk
 
-research.entity.mtcbaking.parents=research.base.farming,research.base.science1,research.base.unlock
+research.entity.mtcbaking.parents=research.base.farming,research.base.science1,research.base.trunk
 research.entity.mtcbaking.research=mtcfarming
 
-research.entity.mtcherbology.parents=research.base.farming,research.base.science2,research.base.unlock
+research.entity.mtcherbology.parents=research.base.farming,research.base.science2,research.base.trunk
 research.entity.mtcherbology.research=mtcbaking
 
-research.entity.mtcagriculture.parents=research.base.farming,research.base.science3,research.base.unlock
+research.entity.mtcagriculture.parents=research.base.farming,research.base.science3,research.base.trunk
 research.entity.mtcagriculture.research=mtcherbology
 
-research.entity.mtcapothecary.parents=research.base.farming,research.base.science4,research.base.unlock
+research.entity.mtcapothecary.parents=research.base.farming,research.base.science4,research.base.trunk
 research.entity.mtcapothecary.research=mtcagriculture
 
-research.entity.mtcscientificmethod.parents=research.base.farming,research.base.science5,research.base.unlock
+research.entity.mtcscientificmethod.parents=research.base.farming,research.base.science5,research.base.trunk
 research.entity.mtcscientificmethod.research=mtcapothecary
 
 # Branches
@@ -184,24 +187,24 @@ research.entity.mtcherbalmeds.research=mtcherbology
 # ==================================================
 
 # Trunk
-research.entity.mtcwoodworking.parents=research.base.crafting,research.base.science1,research.base.unlock
+research.entity.mtcwoodworking.parents=research.base.crafting,research.base.science1,research.base.trunk
 
-research.entity.mtcmining.parents=research.base.crafting,research.base.science2,research.base.unlock
+research.entity.mtcmining.parents=research.base.crafting,research.base.science2,research.base.trunk
 research.entity.mtcmining.research=mtcwoodworking
 
-research.entity.mtcgeology.parents=research.base.crafting,research.base.science2b,research.base.unlock
+research.entity.mtcgeology.parents=research.base.crafting,research.base.science2b,research.base.trunk
 research.entity.mtcgeology.research=mtcmining
 
-research.entity.mtcmetallurgy.parents=research.base.crafting,research.base.science3,research.base.unlock
+research.entity.mtcmetallurgy.parents=research.base.crafting,research.base.science3,research.base.trunk
 research.entity.mtcmetallurgy.research=mtcgeology
 
-research.entity.mtcelectronics.parents=research.base.tech,research.base.science4,research.base.unlock
+research.entity.mtcelectronics.parents=research.base.tech,research.base.science4,research.base.trunk
 research.entity.mtcelectronics.research=mtcmetallurgy
 
-research.entity.mtccomputers.parents=research.base.tech,research.base.science5,research.base.unlock
+research.entity.mtccomputers.parents=research.base.tech,research.base.science5,research.base.trunk
 research.entity.mtccomputers.research=mtcelectronics
 
-research.entity.mtcmetaphysics.parents=research.base.tech,research.base.science6,research.base.unlock
+research.entity.mtcmetaphysics.parents=research.base.tech,research.base.science6,research.base.trunk
 research.entity.mtcmetaphysics.research=mtccomputers
 
 # Branches
@@ -231,24 +234,24 @@ research.entity.mtcemf.research=mtccomputers
 # ==================================================
 
 # Trunk
-research.entity.mtcbowmaking.parents=research.base.firearms,research.base.science0,research.base.unlock
+research.entity.mtcbowmaking.parents=research.base.firearms,research.base.science0,research.base.trunk
 
-research.entity.mtcgunpowder.parents=research.base.firearms,research.base.science1,research.base.unlock
+research.entity.mtcgunpowder.parents=research.base.firearms,research.base.science1,research.base.trunk
 research.entity.mtcgunpowder.research=mtcbowmaking
 
-research.entity.mtcrifling.parents=research.base.firearms,research.base.science2,research.base.unlock
+research.entity.mtcrifling.parents=research.base.firearms,research.base.science2,research.base.trunk
 research.entity.mtcrifling.research=mtcgunpowder
 
-research.entity.mtcautomatic.parents=research.base.firearms,research.base.science3,research.base.unlock
+research.entity.mtcautomatic.parents=research.base.firearms,research.base.science3,research.base.trunk
 research.entity.mtcautomatic.research=mtcrifling
 
-research.entity.mtcsmartweapons.parents=research.base.firearms,research.base.science4,research.base.unlock
+research.entity.mtcsmartweapons.parents=research.base.firearms,research.base.science4,research.base.trunk
 research.entity.mtcsmartweapons.research=mtcautomatic
 
-research.entity.mtcmagnetic.parents=research.base.firearms,research.base.science5,research.base.unlock
+research.entity.mtcmagnetic.parents=research.base.firearms,research.base.science5,research.base.trunk
 research.entity.mtcmagnetic.research=mtcsmartweapons
 
-research.entity.mtcenergy.parents=research.base.firearms,research.base.science6,research.base.unlock
+research.entity.mtcenergy.parents=research.base.firearms,research.base.science6,research.base.trunk
 research.entity.mtcenergy.research=mtcmagnetic
 
 # Branch rifling
@@ -293,20 +296,19 @@ research.entity.mtcenergyasslt.research=mtcenergy
 # Alchemy
 # ==================================================
 
-
 # Trunk
-research.entity.mtcalchemy.parents=research.base.alchemy,research.base.occult2,research.base.unlock
+research.entity.mtcalchemy.parents=research.base.alchemy,research.base.occult2,research.base.trunk
 
-research.entity.mtcspiritual.parents=research.base.alchemy,research.base.occult1,research.base.unlock
+research.entity.mtcspiritual.parents=research.base.alchemy,research.base.occult1,research.base.trunk
 research.entity.mtcspiritual.research=mtcalchemy
 
-research.entity.mtchenchanting.parents=research.base.alchemy,research.base.occult2,research.base.unlock
+research.entity.mtchenchanting.parents=research.base.alchemy,research.base.occult2,research.base.trunk
 research.entity.mtchenchanting.research=mtcspiritual
 
-research.entity.mtctransmutation.parents=research.base.alchemy,research.base.occult3,research.base.unlock
+research.entity.mtctransmutation.parents=research.base.alchemy,research.base.occult3,research.base.trunk
 research.entity.mtctransmutation.research=mtchenchanting
 
-research.entity.mtcelemental.parents=research.base.alchemy,research.base.occult4,research.base.unlock
+research.entity.mtcelemental.parents=research.base.alchemy,research.base.occult4,research.base.trunk
 research.entity.mtcelemental.research=mtctransmutation
 
 # Branch Dark
@@ -338,3 +340,11 @@ research.entity.mtctransmutationholy.research=mtctransmutation
 
 research.entity.mtcelementalholy.parents=research.base.alchemy,research.base.occult6b
 research.entity.mtcelementalholy.research=mtcelemental
+
+# ==================================================
+# Rituals
+# ==================================================
+
+# ==================================================
+# Magic
+# ==================================================
